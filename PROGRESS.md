@@ -30,3 +30,4 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 20 | Hollow & Hart | warm | orb (glass eye) | live |
 | 21 | Halden Steel | tech (steel) | blade | live |
 | 22 | Bright Side Events | saas (yellow) | smile | live |
+| 23 | Under & Co. | civic | arch | live |

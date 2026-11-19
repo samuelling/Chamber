@@ -1,0 +1,58 @@
+{
+ "slug": "under",
+ "name": "Under & Co.",
+ "word": "under",
+ "icon": "M-0.346 0.480L-0.346 -0.077L-0.346 -0.077L-0.341 -0.140L-0.329 -0.201L-0.308 -0.260L-0.280 -0.314L-0.244 -0.362L-0.203 -0.403L-0.157 -0.436L-0.107 -0.460L-0.054 -0.475L-0.000 -0.480L0.054 -0.475L0.107 -0.460L0.157 -0.436L0.203 -0.403L0.244 -0.362L0.280 -0.314L0.308 -0.260L0.329 -0.201L0.341 -0.140L0.346 -0.077L0.346 0.480Z",
+ "palette": {
+  "accent": "#1F4E79",
+  "bg": "#0F1216",
+  "ink": "#E6D2B4"
+ },
+ "words": [
+  "basement",
+  "cellar",
+  "hatch",
+  "floor",
+  "arch",
+  "dig",
+  "dungeon",
+  "cell",
+  "below",
+  "foundation"
+ ],
+ "lines": [
+  "Turn your basement into the best room in the house.",
+  "At least one floor deeper than drawn.",
+  "There is always a door.",
+  "The extra floor is included.",
+  "It cannot be filled.",
+  "We need another floor.",
+  "The guest room is ready.",
+  "Someone sweeps it.",
+  "Our logo is on the walls.",
+  "Still digging."
+ ],
+ "captions": [
+  "Floor −1, as found",
+  "Belmont, floor −2",
+  "Cell 14",
+  "Not ours",
+  "Under the rug"
+ ],
+ "images": [
+  "img/tunnel.jpg",
+  "img/cellar.jpg",
+  "img/vault.jpg",
+  "img/stairs.jpg"
+ ],
+ "who": {
+  "name": "Cell 14",
+  "lines": [
+   "are you the crew? good.",
+   "I came up through a hatch.",
+   "this page needs another floor.",
+   "we sweep. we keep things nice.",
+   "dig deeper."
+  ]
+ }
+}
