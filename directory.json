@@ -410,7 +410,7 @@
   "name": "Verity Strategy",
   "front": "Management consulting",
   "wave": 4,
-  "live": false,
+  "live": true,
   "path": "verity/"
  },
  {

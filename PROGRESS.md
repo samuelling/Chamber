@@ -57,3 +57,4 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 47 | Gristmill | warm (crust) | loaf | live |
 | 48 | Lodestar | saas (amber) | car | live |
 | 49 | Ascend | tech (bronze) | button | live |
+| 50 | Verity | editorial (mono) | rib | live |
