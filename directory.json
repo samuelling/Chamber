@@ -130,7 +130,7 @@
   "name": "Stride Orthotics",
   "front": "Custom insoles and gait analysis",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "stride/",
   "n": 15
  },
@@ -139,7 +139,7 @@
   "name": "Tenfold",
   "front": "Sock subscription",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "tenfold/",
   "n": 16
  },

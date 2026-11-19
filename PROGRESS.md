@@ -20,6 +20,7 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 10 | Tessellate Architects | brutal | stair | live |
 | 11 | Orchard Savings | warm | coin | live |
 | 12 | Polaris Earth Imaging | dashboard (dark) | face | live |
-| 13 | Tally | saas | receipt | spec written; photos: receipt, register, terminal, counter |
-| 14 | Vessel Health | saas | heart | spec written; photos: organs, heart, cooler, jars |
-| 15 | Stride Orthotics | clinical | foot | spec written; photos: cast, sole, last, prints |
+| 13 | Tally | saas | receipt | live |
+| 14 | Vessel Health | saas | heart | live |
+| 15 | Stride Orthotics | clinical | foot | live |
+| 16 | Tenfold | retail | toe | live |

@@ -1,0 +1,58 @@
+{
+ "slug": "tenfold",
+ "name": "Tenfold",
+ "word": "toe",
+ "icon": "M0.000 -0.480L0.042 -0.474L0.082 -0.458L0.115 -0.432L0.141 -0.398L0.158 -0.359L0.163 -0.317L0.163 0.317L0.158 0.359L0.141 0.398L0.115 0.432L0.082 0.458L0.042 0.474L0.000 0.480L0.000 0.480L-0.042 0.474L-0.082 0.458L-0.115 0.432L-0.141 0.398L-0.158 0.359L-0.163 0.317L-0.163 -0.317L-0.158 -0.359L-0.141 -0.398L-0.115 -0.432L-0.082 -0.458L-0.042 -0.474L-0.000 -0.480ZM0.115 -0.326L0.114 -0.310L0.110 -0.294L0.103 -0.278L0.093 -0.264L0.081 -0.252L0.068 -0.241L0.052 -0.232L0.036 -0.226L0.018 -0.222L0.000 -0.221L-0.018 -0.222L-0.036 -0.226L-0.052 -0.232L-0.068 -0.241L-0.081 -0.252L-0.093 -0.264L-0.103 -0.278L-0.110 -0.294L-0.114 -0.310L-0.115 -0.326L-0.114 -0.343L-0.110 -0.359L-0.103 -0.374L-0.093 -0.388L-0.081 -0.401L-0.068 -0.412L-0.052 -0.420L-0.036 -0.427L-0.018 -0.431L-0.000 -0.432L0.018 -0.431L0.036 -0.427L0.052 -0.420L0.068 -0.412L0.081 -0.401L0.093 -0.388L0.103 -0.374L0.110 -0.359L0.114 -0.343Z",
+ "palette": {
+  "accent": "#F2553C",
+  "bg": "#150E1C",
+  "ink": "#F3D1C2"
+ },
+ "words": [
+  "toe",
+  "sock",
+  "pocket",
+  "foot",
+  "count",
+  "knit",
+  "heel",
+  "yarn",
+  "stitch",
+  "pair"
+ ],
+ "lines": [
+  "Socks that know every toe.",
+  "Ten toes. Usually.",
+  "There’s always room for one more.",
+  "Recounts don’t go down.",
+  "Every toe counted.",
+  "They keep fitting.",
+  "Pausing doesn’t stop the count.",
+  "Toes may not be returned.",
+  "The socks are full.",
+  "Count them again."
+ ],
+ "captions": [
+  "Member 2,014, recount 22",
+  "Machine 41",
+  "Unclaimed. Full.",
+  "Returns line",
+  "Pockets: 12"
+ ],
+ "images": [
+  "img/toes.jpg",
+  "img/socks.jpg",
+  "img/machine.jpg",
+  "img/line.jpg"
+ ],
+ "who": {
+  "name": "Member 2,014",
+  "lines": [
+   "how many toes do you have? count again.",
+   "I walked here on a lot of toes.",
+   "these socks are too small. they’ll grow.",
+   "there’s room in this page for one more.",
+   "take your socks off tonight."
+  ]
+ }
+}
