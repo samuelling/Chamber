@@ -148,7 +148,7 @@
   "name": "Lacquer",
   "front": "Nail studios",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "lacquer/",
   "n": 17
  },

@@ -1,0 +1,58 @@
+{
+ "slug": "lacquer",
+ "name": "Lacquer",
+ "word": "nail",
+ "icon": "M-0.480 0.126L-0.478 0.107L-0.472 0.088L-0.464 0.068L-0.453 0.048L-0.438 0.028L-0.421 0.009L-0.402 -0.009L-0.380 -0.026L-0.356 -0.042L-0.330 -0.058L-0.303 -0.072L-0.273 -0.084L-0.242 -0.096L-0.210 -0.106L-0.177 -0.114L-0.143 -0.122L-0.108 -0.127L-0.072 -0.131L-0.036 -0.133L0.000 -0.134L0.036 -0.133L0.072 -0.131L0.108 -0.127L0.143 -0.122L0.177 -0.114L0.210 -0.106L0.242 -0.096L0.273 -0.084L0.303 -0.072L0.330 -0.058L0.356 -0.042L0.380 -0.026L0.402 -0.009L0.421 0.009L0.438 0.028L0.453 0.048L0.464 0.068L0.472 0.088L0.478 0.107L0.480 0.126L0.458 0.134L0.447 0.123L0.435 0.113L0.421 0.104L0.406 0.096L0.390 0.088L0.372 0.080L0.353 0.074L0.332 0.067L0.310 0.061L0.286 0.056L0.261 0.050L0.235 0.046L0.208 0.042L0.180 0.038L0.152 0.035L0.122 0.032L0.092 0.031L0.062 0.029L0.031 0.028L-0.000 0.028L-0.031 0.028L-0.062 0.029L-0.092 0.031L-0.122 0.032L-0.152 0.035L-0.180 0.038L-0.208 0.042L-0.235 0.046L-0.261 0.050L-0.286 0.056L-0.310 0.061L-0.332 0.067L-0.353 0.074L-0.372 0.080L-0.390 0.088L-0.406 0.096L-0.421 0.104L-0.435 0.113L-0.447 0.123L-0.458 0.134Z",
+ "palette": {
+  "accent": "#B3243E",
+  "bg": "#160D0F",
+  "ink": "#F1DCD5"
+ },
+ "words": [
+  "nail",
+  "clipping",
+  "cuticle",
+  "keratin",
+  "crescent",
+  "polish",
+  "file",
+  "manicure",
+  "talon",
+  "quick"
+ ],
+ "lines": [
+  "Nails, perfected.",
+  "Nothing wasted.",
+  "Every clipping, kept.",
+  "Laid on velvet, in order.",
+  "Please don’t count them.",
+  "Drawer 0001 opens on its own.",
+  "We grew a hand.",
+  "You keep cutting me off.",
+  "Drawers do not close.",
+  "Still growing."
+ ],
+ "captions": [
+  "Drawer 4,119, week 212",
+  "The colour wall",
+  "Collection in progress",
+  "Station 4, the silver dish",
+  "Fourth floor"
+ ],
+ "images": [
+  "img/clippings.jpg",
+  "img/polish.jpg",
+  "img/manicure.jpg",
+  "img/clipper.jpg"
+ ],
+ "who": {
+  "name": "Member",
+  "lines": [
+   "I haven’t cut them. look.",
+   "I came here through a drawer.",
+   "is there velvet here too?",
+   "something in this page is clicking.",
+   "don’t give them your clippings."
+  ]
+ }
+}
