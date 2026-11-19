@@ -1,0 +1,58 @@
+{
+ "slug": "brightwater",
+ "name": "Brightwater",
+ "word": "tear",
+ "icon": "M0.000 -0.480L0.001 -0.476L0.003 -0.465L0.009 -0.446L0.018 -0.421L0.031 -0.388L0.048 -0.350L0.068 -0.306L0.091 -0.257L0.115 -0.204L0.140 -0.148L0.165 -0.090L0.188 -0.030L0.208 0.030L0.224 0.090L0.234 0.148L0.239 0.204L0.236 0.257L0.227 0.306L0.211 0.350L0.187 0.388L0.158 0.421L0.124 0.446L0.085 0.465L0.043 0.476L0.000 0.480L-0.043 0.476L-0.085 0.465L-0.124 0.446L-0.158 0.421L-0.187 0.388L-0.211 0.350L-0.227 0.306L-0.236 0.257L-0.239 0.204L-0.234 0.148L-0.224 0.090L-0.208 0.030L-0.188 -0.030L-0.165 -0.090L-0.140 -0.148L-0.115 -0.204L-0.091 -0.257L-0.068 -0.306L-0.048 -0.350L-0.031 -0.388L-0.018 -0.421L-0.009 -0.446L-0.003 -0.465L-0.001 -0.476Z",
+ "palette": {
+  "accent": "#3FA0E0",
+  "bg": "#081420",
+  "ink": "#E6F2FA"
+ },
+ "words": [
+  "water",
+  "tear",
+  "drop",
+  "salt",
+  "source",
+  "deep",
+  "flow",
+  "pure",
+  "gentle",
+  "well"
+ ],
+ "lines": [
+  "Pure water, from the source.",
+  "Slight salinity is normal.",
+  "It passes.",
+  "It doesn’t stop.",
+  "Drink, it helps.",
+  "The Deep is at 94%.",
+  "Everything you cry, you drink again.",
+  "Don’t look at me.",
+  "We know which houses are sad.",
+  "Make it stop."
+ ],
+ "captions": [
+  "The Deep, 94%",
+  "Source, 44 gal/min",
+  "Deer Island, 03:00",
+  "Shaft 12",
+  "Enfield, under"
+ ],
+ "images": [
+  "img/eye.jpg",
+  "img/reservoir.jpg",
+  "img/lake.jpg",
+  "img/plant.jpg"
+ ],
+ "who": {
+  "name": "The Source",
+  "lines": [
+   "is this where the water goes?",
+   "I came up the pipes.",
+   "you’ve been crying. I can taste it.",
+   "everything here is so dry.",
+   "drink. please."
+  ]
+ }
+}

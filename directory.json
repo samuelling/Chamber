@@ -229,7 +229,7 @@
   "name": "Seatwell",
   "front": "Office furniture",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "seatwell/",
   "n": 26
  },
@@ -238,7 +238,7 @@
   "name": "Ember Waste Services",
   "front": "Commercial waste and recycling",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "ember/",
   "n": 27
  },
@@ -248,7 +248,7 @@
   "name": "Brightwater Utilities",
   "front": "Municipal water",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "brightwater/"
  },
  {

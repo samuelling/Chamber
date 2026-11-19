@@ -33,3 +33,6 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 23 | Under & Co. | civic | arch | live |
 | 24 | Cuffwell | dashboard (light, violet) | cuff | live |
 | 25 | Cling | brutal (ice) | film | live |
+| 26 | Seatwell | luxury (dark, rust) | chair | live |
+| 27 | Ember | civic | flame | live |
+| 28 | Brightwater | clinical | droplet | live |

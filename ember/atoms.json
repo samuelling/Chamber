@@ -1,0 +1,58 @@
+{
+ "slug": "ember",
+ "name": "Ember Environmental",
+ "word": "burn",
+ "icon": "M0.077 -0.480L0.108 -0.477L0.140 -0.470L0.171 -0.457L0.199 -0.439L0.220 -0.416L0.232 -0.388L0.234 -0.357L0.227 -0.321L0.212 -0.282L0.193 -0.240L0.176 -0.195L0.164 -0.148L0.161 -0.100L0.165 -0.050L0.175 -0.000L0.186 0.050L0.192 0.100L0.190 0.148L0.177 0.195L0.155 0.240L0.127 0.282L0.096 0.321L0.066 0.357L0.040 0.388L0.019 0.416L0.003 0.439L-0.008 0.457L-0.014 0.470L-0.017 0.477L-0.017 0.480L-0.017 0.477L-0.018 0.470L-0.019 0.457L-0.019 0.439L-0.019 0.416L-0.018 0.388L-0.016 0.357L-0.015 0.321L-0.015 0.282L-0.021 0.240L-0.034 0.195L-0.057 0.148L-0.089 0.100L-0.128 0.050L-0.167 0.000L-0.202 -0.050L-0.225 -0.100L-0.234 -0.148L-0.228 -0.195L-0.209 -0.240L-0.180 -0.282L-0.147 -0.321L-0.113 -0.357L-0.082 -0.388L-0.054 -0.416L-0.028 -0.439L-0.003 -0.457L0.021 -0.470L0.048 -0.477Z",
+ "palette": {
+  "accent": "#E8702E",
+  "bg": "#16100C",
+  "ink": "#FFE2C2"
+ },
+ "words": [
+  "waste",
+  "burn",
+  "ash",
+  "ember",
+  "cart",
+  "curb",
+  "pit",
+  "grate",
+  "warm",
+  "fire"
+ ],
+ "lines": [
+  "Turning waste into warmth.",
+  "Nothing goes to waste.",
+  "Nothing goes out.",
+  "The fire is managed.",
+  "We know what to take.",
+  "It remembers being yours.",
+  "Still warm.",
+  "Don’t come to Saugus to look for it.",
+  "The fire is getting hotter.",
+  "Let me come home."
+ ],
+ "captions": [
+  "Furnace 1",
+  "The pit, 02:00",
+  "Bay 9",
+  "Night zone",
+  "The bear, since 1983"
+ ],
+ "images": [
+  "img/pit.jpg",
+  "img/landfill.jpg",
+  "img/truck.jpg",
+  "img/dumpsters.jpg"
+ ],
+ "who": {
+  "name": "The bear",
+  "lines": [
+   "is this where I lived?",
+   "I came out of the grate.",
+   "you threw something away today. I can smell it.",
+   "it’s so cold here.",
+   "bring me home."
+  ]
+ }
+}
