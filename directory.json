@@ -211,7 +211,7 @@
   "name": "Cuffwell",
   "front": "Employee retention software",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "cuffwell/",
   "n": 24
  },

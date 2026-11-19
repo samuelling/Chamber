@@ -31,3 +31,4 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 21 | Halden Steel | tech (steel) | blade | live |
 | 22 | Bright Side Events | saas (yellow) | smile | live |
 | 23 | Under & Co. | civic | arch | live |
+| 24 | Cuffwell | dashboard (light, violet) | cuff | live |
