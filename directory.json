@@ -1,0 +1,452 @@
+[
+ {
+  "n": 1,
+  "slug": "mouthbreeder",
+  "name": "Corpora Meridian",
+  "front": "Enterprise value platform",
+  "wave": 1,
+  "live": true,
+  "path": "../MouthBreeder/"
+ },
+ {
+  "n": 2,
+  "slug": "kestrel",
+  "name": "Kestrel Capital",
+  "front": "Venture capital that \"incubates\"",
+  "wave": 1,
+  "live": true,
+  "path": "kestrel/"
+ },
+ {
+  "n": 3,
+  "slug": "lumen",
+  "name": "Lumen & Ledger",
+  "front": "Private wealth management",
+  "wave": 1,
+  "live": false,
+  "path": "lumen/"
+ },
+ {
+  "n": 4,
+  "slug": "driftwell",
+  "name": "Driftwell Cloud",
+  "front": "Cloud storage, five nines",
+  "wave": 1,
+  "live": false,
+  "path": "driftwell/"
+ },
+ {
+  "n": 5,
+  "slug": "northgate",
+  "name": "Northgate Freight",
+  "front": "Global logistics",
+  "wave": 1,
+  "live": false,
+  "path": "northgate/"
+ },
+ {
+  "n": 6,
+  "slug": "ossian",
+  "name": "Ossian Life",
+  "front": "Life insurance",
+  "wave": 1,
+  "live": false,
+  "path": "ossian/"
+ },
+ {
+  "n": 7,
+  "slug": "kinfolk",
+  "name": "Kinfolk Ancestry",
+  "front": "DNA ancestry kits",
+  "wave": 1,
+  "live": false,
+  "path": "kinfolk/"
+ },
+ {
+  "n": 8,
+  "slug": "fernhill",
+  "name": "Fernhill Realty",
+  "front": "Luxury real estate",
+  "wave": 1,
+  "live": false,
+  "path": "fernhill/"
+ },
+ {
+  "n": 9,
+  "slug": "saltmarsh",
+  "name": "Saltmarsh Therapeutics",
+  "front": "Biotech",
+  "wave": 1,
+  "live": false,
+  "path": "saltmarsh/"
+ },
+ {
+  "n": 10,
+  "slug": "tessellate",
+  "name": "Tessellate Architects",
+  "front": "Architecture practice",
+  "wave": 1,
+  "live": false,
+  "path": "tessellate/"
+ },
+ {
+  "n": 11,
+  "slug": "orchard",
+  "name": "Orchard Savings",
+  "front": "Retail bank",
+  "wave": 1,
+  "live": false,
+  "path": "orchard/"
+ },
+ {
+  "n": 12,
+  "slug": "polaris",
+  "name": "Polaris Earth Imaging",
+  "front": "Satellite imagery",
+  "wave": 1,
+  "live": false,
+  "path": "polaris/"
+ },
+ {
+  "n": 13,
+  "slug": "tally",
+  "name": "Tally",
+  "front": "Point-of-sale and payments",
+  "wave": 1,
+  "live": false,
+  "path": "tally/"
+ },
+ {
+  "slug": "vessel",
+  "name": "Vessel Health",
+  "front": "Health benefits platform",
+  "wave": 2,
+  "live": false,
+  "path": "vessel/",
+  "n": 14
+ },
+ {
+  "slug": "stride",
+  "name": "Stride Orthotics",
+  "front": "Custom insoles and gait analysis",
+  "wave": 2,
+  "live": false,
+  "path": "stride/",
+  "n": 15
+ },
+ {
+  "slug": "tenfold",
+  "name": "Tenfold",
+  "front": "Sock subscription",
+  "wave": 2,
+  "live": false,
+  "path": "tenfold/",
+  "n": 16
+ },
+ {
+  "slug": "lacquer",
+  "name": "Lacquer",
+  "front": "Nail studios",
+  "wave": 2,
+  "live": false,
+  "path": "lacquer/",
+  "n": 17
+ },
+ {
+  "slug": "cradle",
+  "name": "Cradle Cryobank",
+  "front": "Fertility clinic",
+  "wave": 2,
+  "live": false,
+  "path": "cradle/",
+  "n": 18
+ },
+ {
+  "slug": "lark",
+  "name": "Lark Labs",
+  "front": "At-home wellness tests",
+  "wave": 2,
+  "live": false,
+  "path": "lark/",
+  "n": 19
+ },
+ {
+  "slug": "hollow",
+  "name": "Hollow & Hart",
+  "front": "Interior design studio",
+  "wave": 2,
+  "live": false,
+  "path": "hollow/",
+  "n": 20
+ },
+ {
+  "slug": "halden",
+  "name": "Halden Steel",
+  "front": "Professional kitchen knives",
+  "wave": 2,
+  "live": false,
+  "path": "halden/",
+  "n": 21
+ },
+ {
+  "slug": "brightside",
+  "name": "Bright Side Events",
+  "front": "Corporate events and team building",
+  "wave": 2,
+  "live": false,
+  "path": "brightside/",
+  "n": 22
+ },
+ {
+  "slug": "under",
+  "name": "Under & Co.",
+  "front": "Basement finishing and waterproofing",
+  "wave": 2,
+  "live": false,
+  "path": "under/",
+  "n": 23
+ },
+ {
+  "slug": "cuffwell",
+  "name": "Cuffwell",
+  "front": "Employee retention software",
+  "wave": 2,
+  "live": false,
+  "path": "cuffwell/",
+  "n": 24
+ },
+ {
+  "slug": "cling",
+  "name": "Cling Packaging",
+  "front": "Vacuum and shrink packaging",
+  "wave": 2,
+  "live": false,
+  "path": "cling/",
+  "n": 25
+ },
+ {
+  "slug": "seatwell",
+  "name": "Seatwell",
+  "front": "Office furniture",
+  "wave": 2,
+  "live": false,
+  "path": "seatwell/",
+  "n": 26
+ },
+ {
+  "slug": "ember",
+  "name": "Ember Waste Services",
+  "front": "Commercial waste and recycling",
+  "wave": 2,
+  "live": false,
+  "path": "ember/",
+  "n": 27
+ },
+ {
+  "n": 28,
+  "slug": "brightwater",
+  "name": "Brightwater Utilities",
+  "front": "Municipal water",
+  "wave": 3,
+  "live": false,
+  "path": "brightwater/"
+ },
+ {
+  "n": 29,
+  "slug": "copperline",
+  "name": "Copperline Telecom",
+  "front": "Mobile carrier",
+  "wave": 3,
+  "live": false,
+  "path": "copperline/"
+ },
+ {
+  "n": 30,
+  "slug": "atlas",
+  "name": "Atlas Athletics",
+  "front": "Gym chain",
+  "wave": 3,
+  "live": false,
+  "path": "atlas/"
+ },
+ {
+  "n": 31,
+  "slug": "gilded",
+  "name": "Gilded Key Hotels",
+  "front": "Boutique hotels",
+  "wave": 3,
+  "live": false,
+  "path": "gilded/"
+ },
+ {
+  "n": 32,
+  "slug": "quillon",
+  "name": "Quillon & Vane LLP",
+  "front": "Corporate law",
+  "wave": 3,
+  "live": false,
+  "path": "quillon/"
+ },
+ {
+  "n": 33,
+  "slug": "harbor",
+  "name": "Harbor & Pine",
+  "front": "Coffee chain",
+  "wave": 3,
+  "live": false,
+  "path": "harbor/"
+ },
+ {
+  "n": 34,
+  "slug": "wren",
+  "name": "Wren & Whitlock",
+  "front": "Publishing house",
+  "wave": 3,
+  "live": false,
+  "path": "wren/"
+ },
+ {
+  "n": 35,
+  "slug": "cumulus",
+  "name": "Cumulus",
+  "front": "Weather app",
+  "wave": 3,
+  "live": false,
+  "path": "cumulus/"
+ },
+ {
+  "n": 36,
+  "slug": "sable",
+  "name": "Sable Home",
+  "front": "Smart security cameras",
+  "wave": 3,
+  "live": false,
+  "path": "sable/"
+ },
+ {
+  "n": 37,
+  "slug": "silicate",
+  "name": "Silicate Foundry",
+  "front": "Semiconductor fab",
+  "wave": 3,
+  "live": false,
+  "path": "silicate/"
+ },
+ {
+  "n": 38,
+  "slug": "aster",
+  "name": "Aster",
+  "front": "Dating app",
+  "wave": 3,
+  "live": false,
+  "path": "aster/"
+ },
+ {
+  "n": 39,
+  "slug": "northwind",
+  "name": "Northwind Air",
+  "front": "Airline",
+  "wave": 3,
+  "live": false,
+  "path": "northwind/"
+ },
+ {
+  "n": 40,
+  "slug": "thimble",
+  "name": "Thimble & Thread",
+  "front": "Bespoke tailoring",
+  "wave": 3,
+  "live": false,
+  "path": "thimble/"
+ },
+ {
+  "n": 41,
+  "slug": "whitmore",
+  "name": "Whitmore Records",
+  "front": "Secure shredding and archives",
+  "wave": 3,
+  "live": false,
+  "path": "whitmore/"
+ },
+ {
+  "n": 42,
+  "slug": "driftwood",
+  "name": "Driftwood Audio",
+  "front": "Music streaming",
+  "wave": 3,
+  "live": false,
+  "path": "driftwood/"
+ },
+ {
+  "n": 43,
+  "slug": "bloomfield",
+  "name": "Bloomfield",
+  "front": "Flower delivery",
+  "wave": 4,
+  "live": false,
+  "path": "bloomfield/"
+ },
+ {
+  "n": 44,
+  "slug": "cobalt",
+  "name": "Cobalt Ridge",
+  "front": "Critical-minerals mining",
+  "wave": 4,
+  "live": false,
+  "path": "cobalt/"
+ },
+ {
+  "n": 45,
+  "slug": "ironbark",
+  "name": "Ironbark Builders",
+  "front": "Construction",
+  "wave": 4,
+  "live": false,
+  "path": "ironbark/"
+ },
+ {
+  "n": 46,
+  "slug": "verity",
+  "name": "Verity Strategy",
+  "front": "Management consulting",
+  "wave": 4,
+  "live": false,
+  "path": "verity/"
+ },
+ {
+  "n": 47,
+  "slug": "clearview",
+  "name": "Clearview Optics",
+  "front": "Eyewear",
+  "wave": 4,
+  "live": false,
+  "path": "clearview/"
+ },
+ {
+  "n": 48,
+  "slug": "gristmill",
+  "name": "Gristmill",
+  "front": "Packaged bread",
+  "wave": 4,
+  "live": false,
+  "path": "gristmill/"
+ },
+ {
+  "n": 49,
+  "slug": "lodestar",
+  "name": "Lodestar Parking",
+  "front": "Parking garages",
+  "wave": 4,
+  "live": false,
+  "path": "lodestar/"
+ },
+ {
+  "n": 50,
+  "slug": "ascend",
+  "name": "Ascend Vertical",
+  "front": "Elevators",
+  "wave": 4,
+  "live": false,
+  "path": "ascend/"
+ }
+]

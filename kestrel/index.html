@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kestrel Capital · Patient capital for founders who hatch category leaders</title>
+<meta name="description" content="Kestrel Capital incubates seed and Series A founders through a 21-day residency at Kestrel House. Fund IV: $1.2B under incubation.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cpath d='M13 1.5C8.4 1.5 4.6 9 4.6 15.2a8.4 8.4 0 0 0 16.8 0C21.4 9 17.6 1.5 13 1.5Z' fill='%23C8642B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../engine/engine.css">
+<style>
+:root{
+  --bg:#F6F1E7;--text:#1D1A16;--muted:#6B6358;--accent:#C8642B;--accent-ink:#A44E1E;--on-accent:#fff;
+  --card:#FFFDF8;--stroke:rgba(29,26,22,.12);--header-bg:rgba(246,241,231,.86);--field:#fff;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;--display-weight:500;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --radius:14px;--voice:#F2C9A0;--bleed-accent:#9b2f2f;--good:#3D7A4E;--bad:#A23B2A;--warn:#B7791F;
+  --d3-bg:#1a140f;--d3-text:#EFE4D2;--d3-muted:#A8977F;--d3-accent:#E6A266;
+  --d4-bg:#0a0705;--d4-text:#EADFC9;--d4-muted:#8E806B;--d4-accent:#D79A5E;
+  --footer-bg:#EFE8DA;--cta-bg:#1D1A16;
+}
+body[data-depth="1"]{--bg:#F3EDE1}
+body[data-depth="2"]{--bg:#EEE5D5;--muted:#665B4D;--accent:#B8562A}
+/* hero */
+.hero{position:relative;padding:92px 0 72px;overflow:hidden}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5.4rem);max-width:13ch;margin-top:22px;letter-spacing:-0.035em}
+.hero h1 em{font-style:italic;color:var(--accent-ink)}
+.hero .lede{font-size:1.2rem;color:var(--muted);max-width:56ch;margin-top:24px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.hero-note{margin-top:22px;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero-art{position:relative}
+.hero-art .ph{border-radius:200px 200px 160px 160px / 260px 260px 150px 150px}
+.hero-art .badge{position:absolute;left:-26px;bottom:34px;background:var(--card);border:1px solid var(--stroke);border-radius:12px;padding:12px 16px;font-size:13px;box-shadow:0 18px 40px -22px rgba(0,0,0,.35)}
+.hero-art .badge b{display:block;font-family:var(--display);font-size:1.6rem;letter-spacing:-0.02em}
+.pill-link{display:inline-flex;gap:10px;align-items:center;font-size:13.5px;text-decoration:none;border:1px solid var(--stroke);border-radius:99px;padding:5px 14px 5px 6px;background:var(--card)}
+.pill-link b{background:var(--accent);color:var(--on-accent);border-radius:99px;padding:2px 9px;font-size:11px;letter-spacing:.06em}
+/* logos and ticker */
+.logos{display:flex;flex-wrap:wrap;gap:16px 40px;align-items:center;justify-content:space-between;padding:28px 0;border-top:1px solid var(--stroke);border-bottom:1px solid var(--stroke);font-family:var(--display);font-size:1.25rem;color:var(--muted)}
+.logos span{display:inline-flex;align-items:center;gap:8px}
+.logos i{width:12px;height:15px;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;background:currentColor;opacity:.6}
+/* charts */
+.chart-card{background:var(--card);border:1px solid var(--stroke);border-radius:var(--radius);padding:20px 22px}
+.chart-card h4{font-family:var(--body);font-size:14px;font-weight:600;letter-spacing:0;display:flex;justify-content:space-between;gap:12px;margin-bottom:12px}
+.chart-card h4 span{font-family:var(--mono);font-weight:400;font-size:12px;color:var(--muted)}
+.chart-card svg{width:100%;height:auto;display:block}
+.chart-card .axis{font-family:var(--mono);font-size:10.5px;fill:var(--muted)}
+.dash{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+/* portfolio */
+.co{display:flex;flex-direction:column;gap:10px}
+.co .mark{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--bg);border:1px solid var(--stroke);font-family:var(--display);font-size:1.2rem}
+.co .stage{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.co .stage.no{color:var(--bad)}
+.co .stage.in{color:var(--warn)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.filters button{font:inherit;font-size:13.5px;border:1px solid var(--stroke);background:var(--card);color:var(--text);border-radius:99px;padding:6px 14px;cursor:pointer}
+.filters button.on{background:var(--text);color:var(--bg)}
+/* team */
+.person .ph{border-radius:var(--radius)}
+.person h3{margin-top:14px;font-size:1.3rem}
+.person .role{font-family:var(--mono);font-size:12px;color:var(--accent-ink);margin-top:4px}
+.person p{color:var(--muted);font-size:15px;margin-top:8px}
+/* incubator */
+.gauge{display:flex;align-items:baseline;gap:10px;font-family:var(--display);font-size:clamp(3rem,7vw,5.6rem);letter-spacing:-0.04em;line-height:1}
+.gauge small{font-family:var(--mono);font-size:13px;letter-spacing:0;color:var(--muted)}
+.log{font-family:var(--mono);font-size:13px;color:var(--muted);margin-top:16px;min-height:130px}
+.log p{padding:4px 0;border-bottom:1px dashed var(--stroke)}
+.log b{color:var(--text);font-weight:500}
+/* a candle in the dark */
+.candle{position:relative;border-radius:var(--radius);overflow:hidden;background:#000}
+.candle .ph{margin:0}
+.candle::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at var(--cx,50%) var(--cy,45%),transparent 0 90px,rgba(0,0,0,.94) 180px)}
+.candle-note{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-top:10px}
+body.seen .hero-note{color:var(--accent-ink)}
+@media (max-width:900px){.hero-grid,.dash{grid-template-columns:1fr}.hero-art{max-width:420px}.hero-art .badge{left:12px}}
+</style>
+</head>
+<body data-depth="0">
+<main></main>
+<script src="site.js"></script>
+<script src="../engine/engine.js"></script>
+<script src="../engine/invisible-hands.js"></script>
+<script src="../engine/bridge.js"></script>
+</body>
+</html>

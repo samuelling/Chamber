@@ -1,0 +1,62 @@
+{
+ "slug": "kestrel",
+ "name": "Kestrel Capital",
+ "word": "egg",
+ "icon": "M0.000 -0.480L0.035 -0.477L0.069 -0.468L0.103 -0.453L0.137 -0.432L0.169 -0.406L0.201 -0.375L0.231 -0.339L0.259 -0.299L0.284 -0.255L0.307 -0.208L0.327 -0.159L0.344 -0.107L0.356 -0.054L0.365 -0.000L0.369 0.054L0.368 0.107L0.361 0.159L0.350 0.208L0.334 0.255L0.312 0.299L0.285 0.339L0.254 0.375L0.219 0.406L0.180 0.432L0.138 0.453L0.093 0.468L0.047 0.477L0.000 0.480L-0.047 0.477L-0.093 0.468L-0.138 0.453L-0.180 0.432L-0.219 0.406L-0.254 0.375L-0.285 0.339L-0.312 0.299L-0.334 0.255L-0.350 0.208L-0.361 0.159L-0.368 0.107L-0.369 0.054L-0.365 0.000L-0.356 -0.054L-0.344 -0.107L-0.327 -0.159L-0.307 -0.208L-0.284 -0.255L-0.259 -0.299L-0.231 -0.339L-0.201 -0.375L-0.169 -0.406L-0.137 -0.432L-0.103 -0.453L-0.069 -0.468L-0.035 -0.477Z",
+ "palette": {
+  "accent": "#C8642B",
+  "bg": "#1a140f",
+  "ink": "#E8D3B2"
+ },
+ "words": [
+  "egg",
+  "shell",
+  "yolk",
+  "clutch",
+  "brood",
+  "hatch",
+  "albumen",
+  "incubate",
+  "turn",
+  "warm"
+ ],
+ "lines": [
+  "Patient capital for founders who hatch.",
+  "Every company starts somewhere small and warm.",
+  "We turn every company three times a day.",
+  "Held up to the light. No change.",
+  "On day 21 they break through. Most of them.",
+  "Founders retained. Still warm.",
+  "Lockdown: the doors stay sealed.",
+  "Intake: other channels.",
+  "Knocking before day 21 is normal.",
+  "Bay 117 is not on the manifest.",
+  "Kept at 37.5 degrees.",
+  "It hasn’t been day 21 for a long time."
+ ],
+ "captions": [
+  "Bay 114 · day 412",
+  "The 2 a.m. turn",
+  "Intake, Monday",
+  "Candled. No change.",
+  "Cohort 12, as delivered"
+ ],
+ "images": [
+  "img/carton.jpg",
+  "img/pile.jpg",
+  "img/cracked.jpg",
+  "img/incubators.jpg",
+  "img/dozen.jpg",
+  "img/bowl.jpg"
+ ],
+ "who": {
+  "name": "Teo",
+  "lines": [
+   "it’s warm here too. is this another bay?",
+   "three, then two, then three. that’s me knocking.",
+   "they turned me and I came out somewhere else.",
+   "is this the outside? it looks like the inside.",
+   "if you see a lamp, hold me up to it."
+  ]
+ }
+}
