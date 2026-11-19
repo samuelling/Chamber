@@ -175,7 +175,7 @@
   "name": "Hollow & Hart",
   "front": "Interior design studio",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "hollow/",
   "n": 20
  },
@@ -184,7 +184,7 @@
   "name": "Halden Steel",
   "front": "Professional kitchen knives",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "halden/",
   "n": 21
  },

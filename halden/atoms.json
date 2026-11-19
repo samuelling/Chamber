@@ -1,0 +1,58 @@
+{
+ "slug": "halden",
+ "name": "Halden Steel",
+ "word": "edge",
+ "icon": "M-0.169 -0.065L0.078 -0.078L0.376 -0.065L0.480 -0.026L0.428 0.026L0.272 0.065L-0.169 0.065ZM-0.162 -0.117L-0.157 -0.116L-0.152 -0.114L-0.148 -0.111L-0.145 -0.107L-0.143 -0.102L-0.143 -0.097L-0.143 0.097L-0.143 0.102L-0.145 0.107L-0.148 0.111L-0.152 0.114L-0.157 0.116L-0.162 0.117L-0.188 0.117L-0.193 0.116L-0.198 0.114L-0.202 0.111L-0.205 0.107L-0.207 0.102L-0.208 0.097L-0.208 -0.097L-0.207 -0.102L-0.205 -0.107L-0.202 -0.111L-0.198 -0.114L-0.193 -0.116L-0.188 -0.117ZM-0.234 -0.058L-0.220 -0.057L-0.208 -0.051L-0.197 -0.043L-0.189 -0.032L-0.183 -0.020L-0.182 -0.006L-0.182 0.032L-0.183 0.046L-0.189 0.058L-0.197 0.069L-0.208 0.077L-0.220 0.083L-0.234 0.084L-0.428 0.084L-0.442 0.083L-0.454 0.077L-0.465 0.069L-0.473 0.058L-0.478 0.046L-0.480 0.032L-0.480 -0.006L-0.478 -0.020L-0.473 -0.032L-0.465 -0.043L-0.454 -0.051L-0.442 -0.057L-0.428 -0.058Z",
+ "palette": {
+  "accent": "#C9D1D9",
+  "bg": "#0A0A0B",
+  "ink": "#D8DDE2"
+ },
+ "words": [
+  "blade",
+  "edge",
+  "steel",
+  "hilt",
+  "whetstone",
+  "throat",
+  "sheath",
+  "bevel",
+  "point",
+  "tang"
+ ],
+ "lines": [
+  "Sharp enough to trust with your life.",
+  "Every blade tested by throat.",
+  "If it catches, it doesn’t ship.",
+  "It doesn’t hurt any more.",
+  "There’s no room left for hurting.",
+  "Twelve degrees.",
+  "The Long One is not for sale.",
+  "The testers don’t talk much.",
+  "It rings.",
+  "Slowly. Don’t catch."
+ ],
+ "captions": [
+  "Today’s rack",
+  "Passed. Wiped. Boxed.",
+  "Twelve degrees",
+  "Modelled on a tester",
+  "The final stone"
+ ],
+ "images": [
+  "img/rack.jpg",
+  "img/block.jpg",
+  "img/chef.jpg",
+  "img/whetstone.jpg"
+ ],
+ "who": {
+  "name": "Edwin",
+  "lines": [
+   "tap. tap tap.",
+   "I came up out of a throat.",
+   "is anything in this page sharp?",
+   "hold still. I’ll be gentle.",
+   "don’t try the test at home."
+  ]
+ }
+}

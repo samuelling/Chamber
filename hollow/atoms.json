@@ -1,0 +1,58 @@
+{
+ "slug": "hollow",
+ "name": "Hollow & Hart",
+ "word": "stay",
+ "icon": "M0.480 0.000L0.476 0.063L0.464 0.124L0.443 0.184L0.416 0.240L0.381 0.292L0.339 0.339L0.292 0.381L0.240 0.416L0.184 0.443L0.124 0.464L0.063 0.476L0.000 0.480L-0.063 0.476L-0.124 0.464L-0.184 0.443L-0.240 0.416L-0.292 0.381L-0.339 0.339L-0.381 0.292L-0.416 0.240L-0.443 0.184L-0.464 0.124L-0.476 0.063L-0.480 0.000L-0.476 -0.063L-0.464 -0.124L-0.443 -0.184L-0.416 -0.240L-0.381 -0.292L-0.339 -0.339L-0.292 -0.381L-0.240 -0.416L-0.184 -0.443L-0.124 -0.464L-0.063 -0.476L-0.000 -0.480L0.063 -0.476L0.124 -0.464L0.184 -0.443L0.240 -0.416L0.292 -0.381L0.339 -0.339L0.381 -0.292L0.416 -0.240L0.443 -0.184L0.464 -0.124L0.476 -0.063Z",
+ "palette": {
+  "accent": "#8A5A2B",
+  "bg": "#140F0B",
+  "ink": "#EFE6D6"
+ },
+ "words": [
+  "eye",
+  "glass",
+  "mount",
+  "pose",
+  "stay",
+  "still",
+  "keep",
+  "taxidermy",
+  "stare",
+  "heirloom"
+ ],
+ "lines": [
+  "Rooms that hold on to what you love.",
+  "Nothing that matters leaves the room.",
+  "We keep them with you.",
+  "She looks up when I come in.",
+  "Forever rooms are not photographed.",
+  "Sit with us. There’s a chair.",
+  "The eyes follow the lamp.",
+  "Human sizes on the bottom row.",
+  "Nobody moves. Nobody leaves.",
+  "Still watching."
+ ],
+ "captions": [
+  "The eye drawer",
+  "Concord. By the fire.",
+  "Tuesday. Under the sheet.",
+  "The morning room, Weston",
+  "Blue, for the spring"
+ ],
+ "images": [
+  "img/eyes.jpg",
+  "img/mount.jpg",
+  "img/deer.jpg",
+  "img/living.jpg"
+ ],
+ "who": {
+  "name": "Mrs Brandt",
+  "lines": [
+   "hold still. that’s it. lovely.",
+   "I came through a glass eye.",
+   "is there a chair in this page? there usually is.",
+   "you blink a lot. we don’t.",
+   "stay. it’s so peaceful."
+  ]
+ }
+}
