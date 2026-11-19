@@ -1,0 +1,58 @@
+{
+ "slug": "northwind",
+ "name": "Northwind Airways",
+ "word": "look",
+ "icon": "M0.069 -0.480L0.140 -0.471L0.206 -0.443L0.263 -0.400L0.306 -0.343L0.334 -0.277L0.343 -0.206L0.343 0.206L0.334 0.277L0.306 0.343L0.263 0.400L0.206 0.443L0.140 0.471L0.069 0.480L-0.069 0.480L-0.140 0.471L-0.206 0.443L-0.263 0.400L-0.306 0.343L-0.334 0.277L-0.343 0.206L-0.343 -0.206L-0.334 -0.277L-0.306 -0.343L-0.263 -0.400L-0.206 -0.443L-0.140 -0.471L-0.069 -0.480Z",
+ "palette": {
+  "accent": "#4A7AC8",
+  "bg": "#060B16",
+  "ink": "#E4ECF8"
+ },
+ "words": [
+  "window",
+  "flight",
+  "sky",
+  "eye",
+  "wing",
+  "seat",
+  "cruise",
+  "cloud",
+  "shade",
+  "look"
+ ],
+ "lines": [
+  "The window seat, always.",
+  "Please keep your shade open.",
+  "It’s looking.",
+  "Every flight. Every window.",
+  "It finds you.",
+  "Don’t blink.",
+  "Flight 41: boarding.",
+  "40 minutes out.",
+  "It’s looking at you now.",
+  "Close the shade."
+ ],
+ "captions": [
+  "Seat 3K",
+  "Flight 41",
+  "37,000 ft",
+  "Gate 41",
+  "Frame 41,018"
+ ],
+ "images": [
+  "img/eye.jpg",
+  "img/window.jpg",
+  "img/wing.jpg",
+  "img/iris.jpg"
+ ],
+ "who": {
+  "name": "41A",
+  "lines": [
+   "is this the ground?",
+   "I came in through the window.",
+   "you’re looking at me. it’s looking at you.",
+   "nobody here looks up.",
+   "don’t blink."
+  ]
+ }
+}

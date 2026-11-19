@@ -347,7 +347,7 @@
   "name": "Northwind Air",
   "front": "Airline",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "northwind/"
  },
  {
@@ -356,7 +356,7 @@
   "name": "Thimble & Thread",
   "front": "Bespoke tailoring",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "thimble/"
  },
  {
@@ -365,7 +365,7 @@
   "name": "Whitmore Records",
   "front": "Secure shredding and archives",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "whitmore/"
  },
  {

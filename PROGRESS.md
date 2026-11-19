@@ -46,3 +46,6 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 36 | Sable | dashboard (night green) | moth | live |
 | 37 | Silicate | tech (light, violet) | grain | live |
 | 38 | Aster | saas (coral) | hand | live |
+| 39 | Northwind | editorial (navy) | window | live |
+| 40 | Thimble | brutal (pink) | mannequin | live |
+| 41 | Whitmore | civic (grey) | strip | live |

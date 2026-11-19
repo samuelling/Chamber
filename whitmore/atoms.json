@@ -1,0 +1,58 @@
+{
+ "slug": "whitmore",
+ "name": "Whitmore Records",
+ "word": "gone",
+ "icon": "M0.058 -0.480L0.060 -0.480L0.062 -0.479L0.064 -0.477L0.066 -0.475L0.067 -0.473L0.067 -0.470L0.067 0.470L0.067 0.473L0.066 0.475L0.064 0.477L0.062 0.479L0.060 0.480L0.058 0.480L-0.058 0.480L-0.060 0.480L-0.062 0.479L-0.064 0.477L-0.066 0.475L-0.067 0.473L-0.067 0.470L-0.067 -0.470L-0.067 -0.473L-0.066 -0.475L-0.064 -0.477L-0.062 -0.479L-0.060 -0.480L-0.058 -0.480Z",
+ "palette": {
+  "accent": "#C84A4A",
+  "bg": "#0C0D0E",
+  "ink": "#ECEEEA"
+ },
+ "words": [
+  "shred",
+  "strip",
+  "file",
+  "box",
+  "record",
+  "destroy",
+  "certify",
+  "gone",
+  "cut",
+  "face"
+ ],
+ "lines": [
+  "Gone. Securely.",
+  "4 mm strips.",
+  "Certificate of destruction issued.",
+  "It is mostly true.",
+  "Within tolerance.",
+  "They lie down in order.",
+  "One more strip.",
+  "I came back.",
+  "Nothing is gone.",
+  "Put me back."
+ ],
+ "captions": [
+  "Aisle R",
+  "R-41",
+  "Truck 41",
+  "R-1998",
+  "Reassembly, 98%"
+ ],
+ "images": [
+  "img/strips.jpg",
+  "img/red.jpg",
+  "img/archive.jpg",
+  "img/teeth.jpg"
+ ],
+ "who": {
+  "name": "R-1998",
+  "lines": [
+   "is this the archive?",
+   "I came out of the bale.",
+   "you’re all in one piece. how?",
+   "everything here is so whole.",
+   "one more strip."
+  ]
+ }
+}

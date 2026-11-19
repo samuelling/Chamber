@@ -1,0 +1,58 @@
+{
+ "slug": "thimble",
+ "name": "Thimble",
+ "word": "form",
+ "icon": "M0.092 -0.369L0.091 -0.352L0.088 -0.335L0.082 -0.319L0.075 -0.304L0.065 -0.291L0.054 -0.280L0.042 -0.271L0.029 -0.264L0.014 -0.260L0.000 -0.258L-0.014 -0.260L-0.029 -0.264L-0.042 -0.271L-0.054 -0.280L-0.065 -0.291L-0.075 -0.304L-0.082 -0.319L-0.088 -0.335L-0.091 -0.352L-0.092 -0.369L-0.091 -0.387L-0.088 -0.403L-0.082 -0.420L-0.075 -0.434L-0.065 -0.448L-0.054 -0.459L-0.042 -0.468L-0.029 -0.475L-0.014 -0.479L-0.000 -0.480L0.014 -0.479L0.029 -0.475L0.042 -0.468L0.054 -0.459L0.065 -0.448L0.075 -0.434L0.082 -0.420L0.088 -0.403L0.091 -0.387ZM-0.037 -0.277L0.037 -0.277L0.037 -0.203L-0.037 -0.203ZM-0.222 -0.203L0.222 -0.203L0.148 0.018L0.185 0.277L-0.185 0.277L-0.148 0.018ZM-0.028 0.277L0.028 0.277L0.028 0.462L-0.028 0.462ZM0.129 0.443L0.134 0.444L0.138 0.446L0.142 0.448L0.145 0.452L0.147 0.457L0.148 0.462L0.148 0.462L0.147 0.466L0.145 0.471L0.142 0.475L0.138 0.478L0.134 0.479L0.129 0.480L-0.129 0.480L-0.134 0.479L-0.138 0.478L-0.142 0.475L-0.145 0.471L-0.147 0.466L-0.148 0.462L-0.148 0.462L-0.147 0.457L-0.145 0.452L-0.142 0.448L-0.138 0.446L-0.134 0.444L-0.129 0.443Z",
+ "palette": {
+  "accent": "#FF5C8A",
+  "bg": "#120A0C",
+  "ink": "#FFEAF0"
+ },
+ "words": [
+  "form",
+  "measure",
+  "fit",
+  "cut",
+  "stand",
+  "pose",
+  "shape",
+  "seam",
+  "cloth",
+  "still"
+ ],
+ "lines": [
+  "Made to measure. Exactly.",
+  "Your form is kept.",
+  "Stand still.",
+  "Point 140.",
+  "It stands better than you.",
+  "We’ll hold it for you.",
+  "You can let go now.",
+  "It turned its head.",
+  "Mostly coat.",
+  "Give it back."
+ ],
+ "captions": [
+  "Fitting 9, 1909",
+  "Point 140",
+  "Via della Spiga",
+  "New Orleans, 06:00",
+  "Window, 01:00"
+ ],
+ "images": [
+  "img/gowns.jpg",
+  "img/street.jpg",
+  "img/suits.jpg",
+  "img/balcony.jpg"
+ ],
+ "who": {
+  "name": "Fitting 9",
+  "lines": [
+   "are you being measured?",
+   "I stepped out of the window.",
+   "you’re slouching. let me.",
+   "everyone here stands so badly.",
+   "stand still."
+  ]
+ }
+}
