@@ -1,0 +1,58 @@
+{
+ "slug": "polaris",
+ "name": "Polaris Earth Imaging",
+ "word": "field",
+ "icon": "M0.340 0.000L0.326 0.063L0.307 0.124L0.284 0.184L0.258 0.240L0.229 0.292L0.198 0.339L0.166 0.381L0.133 0.416L0.100 0.443L0.067 0.464L0.033 0.476L0.000 0.480L-0.033 0.476L-0.067 0.464L-0.100 0.443L-0.133 0.416L-0.166 0.381L-0.198 0.339L-0.229 0.292L-0.258 0.240L-0.284 0.184L-0.307 0.124L-0.326 0.063L-0.340 0.000L-0.337 -0.063L-0.328 -0.124L-0.314 -0.184L-0.294 -0.240L-0.270 -0.292L-0.240 -0.339L-0.207 -0.381L-0.170 -0.416L-0.130 -0.443L-0.088 -0.464L-0.044 -0.476L-0.000 -0.480L0.044 -0.476L0.088 -0.464L0.130 -0.443L0.170 -0.416L0.207 -0.381L0.240 -0.339L0.270 -0.292L0.294 -0.240L0.314 -0.184L0.328 -0.124L0.337 -0.063Z",
+ "palette": {
+  "accent": "#F5B83D",
+  "bg": "#0B1018",
+  "ink": "#C9B583"
+ },
+ "words": [
+  "field",
+  "acre",
+  "furrow",
+  "orbit",
+  "pixel",
+  "soil",
+  "crop",
+  "parcel",
+  "terrain",
+  "face"
+ ],
+ "lines": [
+  "See every acre. Every day.",
+  "Change class: FACE.",
+  "It is always the same face.",
+  "It’s looking up.",
+  "Detections double every four months.",
+  "The satellites keep turning toward it.",
+  "Don’t stop looking.",
+  "10:42, every morning.",
+  "It’s in every field.",
+  "The resolution never runs out."
+ ],
+ "captions": [
+  "Field 9, Kansas",
+  "Iowa, sector 14",
+  "Ground truth, Nevada",
+  "Svalbard station",
+  "10:42 a.m. Confirmed."
+ ],
+ "images": [
+  "img/field.jpg",
+  "img/farmland.jpg",
+  "img/face.jpg",
+  "img/antenna.jpg"
+ ],
+ "who": {
+  "name": "The face",
+  "lines": [
+   "you’re looking at me. thank you.",
+   "I came up through the soil of this page.",
+   "I’m in your lawn too, you know.",
+   "look closer. closer.",
+   "don’t stop looking."
+  ]
+ }
+}

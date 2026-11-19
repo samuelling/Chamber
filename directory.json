@@ -104,7 +104,7 @@
   "name": "Polaris Earth Imaging",
   "front": "Satellite imagery",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "polaris/"
  },
  {
