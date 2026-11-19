@@ -52,3 +52,5 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 42 | Driftwood | retail (sand) | note | live |
 | 43 | Bloomfield | luxury (blush) | petal | live |
 | 44 | Cobalt | dashboard (deep blue) | crystal | live |
+| 45 | Ironbark | brutal (dark, safety yellow) | nest | live |
+| 46 | Clearview | clinical (teal) | lens | live |
