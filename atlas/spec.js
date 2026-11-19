@@ -1,0 +1,95 @@
+/* Atlas Athletic: running shoes and a run-tracking app. Underneath: the runners keep going, and only their left shoes come back, warm. */
+Kit.build({
+slug: "atlas", name: "Atlas Athletic", title: "Never stop.", description: "Atlas makes performance running shoes and the Atlas Run app, trusted by 14 million runners who never stop.",
+skin: "retail",
+theme: { bg: "#FFFFFF", text: "#111111", muted: "#5E5E5E", accent: "#FF4A1C", accentInk: "#D93A10", onAccent: "#FFFFFF", card: "#F4F4F2", stroke: "#E2E2DE", header: "#FFFFFF",
+  display: "\"Anton\",Impact,sans-serif", body: "\"Inter\",system-ui,sans-serif", radius: "0px", weight: 400, voice: "#FFB09A", chart2: "#111111", chart3: "#CFCFCA",
+  d3: ["#120806", "#F2E4DE", "#90786E", "#FF4A1C"], d4: ["#080302", "#EAD6CC", "#806458", "#FF5A2A"], fonts: "Anton&family=Inter:wght@400;600" },
+logo: "M4 20 12 4l8 16M8 14h8",
+nav: [["#shoes", "Shoes"], ["#run", "Atlas Run"], ["#athletes", "Athletes"], ["#insights", "Stories"], ["#lost-and-found", "Lost & found"]],
+cta: ["#join", "Join Atlas"],
+tag: "Never stop. Est. 1977.",
+fine: ["© 2026 Atlas Athletic Inc.", "Free returns", "Left shoes returned automatically"],
+pages: [
+{ id: "home", depth: 0, s: [
+  { t: "hero", layout: "full", eyebrow: "New · Atlas Unending 9", h1: "NEVER STOP.", lede: "The Unending 9 is the most responsive shoe we’ve ever built. Carbon plate, supercritical foam, and a heel that remembers your stride. Lace up and go. Keep going. You won’t want to stop. You won’t be able to.",
+    cta: [["#shoes", "Shop the Unending 9"], ["#run", "Get Atlas Run"]], img: "img/shoe.jpg", alt: "A grey running shoe glowing in the dark", focus: "50% 50%", seen: "img/plinth.jpg", note: "14 million runners · 2.1 billion miles · nobody has stopped", seenNote: "14 million runners · still running · left shoes returned" },
+  { t: "products", h2: "Run in it", cols: 3, items: [["img/shoe.jpg", "Unending 9", "$220", "Race. Don’t stop."], ["img/plinth.jpg", "Pursuit Trail", "$185", "Off-road. Away."], ["img/desk.jpg", "Atlas Desk Treadmill", "$1,490", "Run at work. Forever."]] },
+  { t: "stats", eyebrow: "The Atlas community", h2: "Fourteen million, still out there.", items: [["14m", "Runners"], ["2.1bn", "Miles logged"], ["0", "Runs ended"], ["1.3m", "Left shoes returned"]] },
+  { t: "split", img: "img/run.jpg", alt: "A blurred runner on a treadmill", focus: "50% 50%", seen: "img/gym.jpg", eyebrow: "Atlas Run", h2: "Start a run. We’ll handle the rest.", p: ["Atlas Run tracks your pace, cadence and heart rate, and connects to your Unending 9 to keep you moving.", "There’s no stop button. Runners told us they never used it. Since the 2024 update, they haven’t needed it. When an Atlas runner finally goes too far to track, we get their left shoe back, by post, still warm."], quote: ["I went out for a 5K in March. My wife says my shoe came back in October. I don’t know. I’m still running.", "Atlas runner, mile 4,118"] },
+  { t: "cta", h2: "Lace up.", p: "Free shipping. Free returns. Your left shoe always comes home.", btn: ["#join", "Join Atlas"] }] },
+{ id: "shoes", depth: 1, s: [
+  { t: "head", eyebrow: "Shoes", h1: "Built to keep going.", lede: "Road, trail, track and treadmill." },
+  { t: "table", head: ["Shoe", "Drop", "Weight", "Range"], rows: [["Unending 9", "8 mm", "212 g", "Unlimited"], ["Pursuit Trail", "6 mm", "268 g", "Unlimited, off-road"], ["Tempo", "10 mm", "240 g", "Marathon"], ["Unending 9 (left only)", "8 mm", "212 g", "Returned"]], note: "Unending range is unlimited by design. The shoe does not stop until the runner does." },
+  { t: "gallery", items: [["img/shoe.jpg", "A grey running shoe", "Unending 9, ‘Afterglow’."], ["img/plinth.jpg", "An orange shoe on a black plinth", "Pursuit Trail, on display."], ["img/run.jpg", "A runner on a treadmill", "Testing. Day 140."]] }] },
+{ id: "run", depth: 1, s: [
+  { t: "head", eyebrow: "Atlas Run", h1: "Your run, forever.", lede: "Free for every Atlas runner." },
+  { t: "charts", items: [{ kind: "area", title: "Average run length", sub: "km, Atlas Run users", data: [6, 7, 8, 11, 19, 64, 410], labels: ["’20", "’21", "’22", "’23", "’24", "’25", "’26"], unit: "", note: "Since the 2024 firmware, runs no longer have a fixed end." }, { kind: "bars", title: "Why runs end", sub: "share of ended runs", data: [52, 31, 17, 0], labels: ["Before 2024", "Signal lost", "Shoe returned", "Runner stopped"] }] },
+  { t: "faq", items: [["How do I end a run?", "There’s no stop button. Our runners never pressed it."], ["My partner went for a run and hasn’t come back.", "They’re still logging miles. You can follow them live. Their pace is excellent."], ["We received a left shoe in the post.", "That means they’ve gone beyond tracking range. The shoe is returned to the account holder. It’s warm. That’s normal."]] }] },
+{ id: "athletes", depth: 1, s: [
+  { t: "head", eyebrow: "Athletes", h1: "Team Atlas.", lede: "Our sponsored runners, all still out there." },
+  { t: "people", items: [["@h3", "Bib 0001", "Ultra · since 2024"], ["@h7", "Bib 0412", "Road · since 2025"], ["@h10", "Bib 1009", "Treadmill · since 2024"], ["@h5", "Bib 2210", "Trail · left shoe returned"]] }] },
+{ id: "insights", depth: 2, s: [{ t: "head", eyebrow: "Stories", h1: "Atlas stories.", lede: "Runners, routes and the long run." }, { t: "posts" }] },
+{ id: "lost-and-found", depth: 2, s: [
+  { t: "head", eyebrow: "Atlas returns centre · Beaverton", h1: "Lost & found.", lede: "When a runner goes too far to track, their left shoe comes home. We receive them, log them, and post them on. Some of them are still warm when they arrive." },
+  { t: "counter", eyebrow: "Left shoes returned", unit: "shoes", p: "Every one logged at the returns centre. Each arrived alone, left foot only, laces tied, still warm. We have never received a right shoe.", img: "img/gym.jpg", alt: "An empty gym hall with wooden floor", focus: "50% 50%", swap: "img/mats.jpg", cap: "Returns hall. Shoes on the floor, in rows." },
+  { t: "gallery", items: [["img/mats.jpg", "An empty gym with mats", "Sorting floor, 04:00. Warm."], ["img/desk.jpg", "A treadmill in an office", "Office 3. The belt is running. Nobody on it."], ["img/plinth.jpg", "A shoe on a plinth", "Returned 14 Nov. Still warm. Still flexing."]], aside: "The shoes are sorted in the old gym. Staff don’t go into <a href=\"#the-sorting-hall\">the sorting hall</a> after dark. The shoes keep their rhythm." }] },
+{ id: "join", depth: 1, s: [
+  { t: "head", eyebrow: "Join Atlas", h1: "Join fourteen million runners.", lede: "Members get free shipping, early access and Atlas Run Pro." },
+  { t: "form", id: "join", submit: "Join", fields: [["name", "Your name"], ["email", "Email", "email"], ["size", "Shoe size"], ["goal", "Your goal", "select", ["5K", "Marathon", "Ultra", "Never stop"]], ["return", "Return my left shoe to my family if I go out of range", "check"]] }] },
+{ id: "legal", depth: 1, s: [{ t: "head", eyebrow: "Legal", h1: "Terms." }, { t: "legal", items: [["Company", "Atlas Athletic Inc., Beaverton, OR."], ["Atlas Run", "Atlas Run does not include a stop function. Runs end only when tracking is lost."], ["Returns", "Left shoes are returned to the account’s emergency contact at Atlas’s expense. Right shoes are not returned."], ["Warmth", "Returned shoes may be warm. Warmth is not a defect. Do not try them on."], ["Liability", "Atlas is not responsible for distance, direction, or arrival."], ["Privacy", "Your location is shared with Atlas until it can’t be."]] }] },
+{ id: "the-sorting-hall", depth: 3, s: [
+  { t: "head", eyebrow: "Returns centre · the old gym", h1: "The sorting hall.", lede: "A gymnasium floor covered edge to edge in left shoes, in rows, laces tied. The air is warm. Hold the lamp low. Look at the shoes."  },
+  { t: "lamp", img: "img/mats.jpg", alt: "An empty gym with blue and yellow mats", focus: "50% 50%", swap: "img/shoe.jpg", note: "Sorting hall · 1.3m left shoes · 0 right",
+    p: ["Every shoe on this floor came home alone. Left foot, laces tied, insole worn to the shape of somebody’s foot. Every one of them is warm.", "At night, in the dark, the shoes flex. Toe, heel. Toe, heel. All of them, together, at about a hundred and seventy steps a minute, which is a very good cadence.", "The runners are still out there. Wherever they are, they’re on one foot now, the right one, hopping, very fast, and their left shoes are here, keeping time."],
+    voice: "left. left. left. why only left? where did the other one go? keep going.",
+    exits: [["Out to the track", "#room-the-track"], ["Into the treadmill room", "#room-the-treadmills"], ["Down the long road", "#the-long-run"], ["Back to the mailroom", "#room-the-mailroom"]], up: ["#lost-and-found", "Back up to lost & found"] }] },
+{ id: "the-long-run", depth: 4, s: [
+  { t: "head", eyebrow: "Mile ∞", h1: "The long run.", lede: "Every shoe is made of shoes. Every one is still running. Scroll down. Keep pace." },
+  { t: "dive", h2: "The sorting hall, from the rafters.", p: "Pick a shoe. Run in it.", aria: "Shoes in rows. Scrolling zooms into one shoe, which is made of smaller shoes, without end. Some are still warm.", door: "This one is still warm" }] }
+],
+posts: [
+  { slug: "unending-9", tag: "Launch", title: "Meet the Unending 9", ex: "The shoe that keeps going.", by: "Atlas Design", img: "img/shoe.jpg", depth: 1, body: ["The Unending 9 has a full-length carbon plate and a heel that learns your stride.", "Testers said it felt like the shoe wanted to keep going. We kept that.", "Our lead tester went out for a ten-mile test run in 2024. His pace data is still coming in. It’s excellent."] },
+  { slug: "no-stop-button", tag: "Atlas Run", title: "Why we removed the stop button", ex: "Our runners never pressed it.", by: "Atlas Run team", img: "img/run.jpg", depth: 1, body: ["Only 4% of Atlas Run users ever pressed stop. Most runs ended when the phone died.", "So we removed it. Runs now end when tracking is lost.", "Tracking is lost less and less. Our runners are getting further away, faster."] },
+  { slug: "the-returns-centre", tag: "Behind the scenes", title: "Inside the returns centre", ex: "Where the left shoes come home.", by: "Atlas Returns", img: "img/gym.jpg", depth: 2, body: ["The first left shoe arrived in April 2024, in a plain box, no return address. It was still warm.", "Now we receive four thousand a day. We log them, and post them to emergency contacts.", "Families ask where the right shoes are. We tell them their runners are still using them."] },
+  { slug: "one-hundred-seventy", tag: "Science", title: "One hundred and seventy", ex: "The cadence of the sorting hall.", by: "Atlas Sports Science", img: "img/mats.jpg", depth: 3, body: ["Elite cadence is about 180 steps a minute. The left shoes in the sorting hall flex at 170, together, all night.", "That’s the cadence of a runner hopping on one foot, at speed.", "We’ve calculated where they’d be by now. It isn’t anywhere on a map."] },
+  { slug: "bib-1009", tag: "Letters", title: "A note in a left shoe", ex: "Folded under an insole, returned 14 November.", by: "Bib 1009", img: "img/plinth.jpg", depth: 3, body: ["mile 41,000-something. I can’t see the road any more. there isn’t a road. there’s just going.", "my left foot came off the ground in june and never came back down. I don’t mind. the right one does all the work now. hop. hop. hop. so fast.", "if you’ve got my shoe, it’s still warm. put it by the door. I’m nearly home. I’ve been nearly home for two years."] }
+],
+rooms: {
+  "the-track": { where: "Outdoor track", t: "The track", lede: "Four hundred metres of red rubber under floodlights, at 3 a.m.", img: "img/gym.jpg", alt: "A gym hall", cap: "Lane 4.", body: ["You can hear running. Fast, uneven: one foot, one foot, one foot.", "Lane 4 has a single line of left footprints, warm, going round, and round."] },
+  "the-treadmills": { where: "Testing lab", t: "The treadmill room", lede: "Forty treadmills, all running, nobody on them.", img: "img/desk.jpg", alt: "A treadmill in an office", cap: "Belt speed 16 km/h.", body: ["The belts are worn in one line, left of centre. The screens show distances in the tens of thousands.", "One treadmill slows as you pass. It has noticed you aren’t running."] },
+  "the-mailroom": { where: "Returns centre", t: "The mailroom", lede: "Cardboard boxes, packing tape, a scale, and a warm smell.", gallery: [["img/shoe.jpg", "A grey shoe", "Return 1,301,004."], ["img/plinth.jpg", "An orange shoe", "Return 1,301,005."], ["@back-1", "The back of someone’s head", "Packer, night shift."], ["img/mats.jpg", "A gym floor", "Overflow."], ["@sad-floor", "Someone sitting on the floor", "Family member, collecting."], ["img/run.jpg", "A blurred runner", "Last tracked image."]], body: ["Every box is warm. Some of them are tapping, softly, from inside.", "The packers work in time with the tapping. They don’t seem to notice."] },
+  "the-printout": { where: "Gait lab", t: "Gait analysis", lede: "A pressure plot of a single footfall. Press Look closer.", ascii: "motif", alt: "A shoe drawn in letters, made of the word run", body: ["The shoe is drawn in the word run. Inside each shoe, more shoes.", "There is one word in it that isn’t run."] },
+  "the-wind": { where: "Wind tunnel", t: "The wind tunnel", lede: "A drag-testing tunnel, fans at full speed.", ascii: "field", speed: 140, alt: "A drifting field of characters with words in it", body: ["The wind is full of words, going past very fast, like runners.", "They don’t slow down to be read."] },
+  "the-roadside": { where: "Route 26, mile 41", t: "The roadside", lede: "A gravel shoulder, a guardrail, and a left shoe, laces tied.", img: "img/plinth.jpg", alt: "A shoe on a plinth", cap: "Found by a driver. Warm.", body: ["The shoe is warm. It is pointing away from town.", "Far down the road, very small, something is hopping."] }
+},
+exits: ["Out to the track", "Down the long road", "Past the treadmills", "Toward the sorting hall", "Through the wind tunnel", "Under the bleachers", "Into the mailroom", "Where it’s warm", "Along the roadside", "The shoe that is still warm"],
+special: [["Back to the sorting hall", "#the-sorting-hall"], ["Down the long road", "#the-long-run"], ["Lost & found", "#lost-and-found"], ["A foot clinic", "../stride/"], ["A toe exchange", "../tenfold/"]],
+up: ["#the-sorting-hall", "Back up to the sorting hall"], levelWord: "Mile",
+word: "run", hiddenWord: "stop",
+field: { sets: [">>>>>>>>", "-->-->->", "»»»»»»»»", " . . . ."], msg: [[5, 10, "keep going"], [12, 22, "left left left"], [19, 8, "nearly home"], [26, 34, "let me stop"]] },
+motif: { shape: "shoe", alt: ["sock", 4], inside: "pulse", ink: "#FFE6DE", gap: "#120806", tray: "scatter", step: 0.16, gapMode: "dark", palette: ["#FF4A1C", "#D93A10", "#FFB09A", "#2A2A2A", "#FF7A50", "#8C2A10", "#F2F2F0"] },
+dive: { view: "the-long-run", top: "Sorting hall · 1.3m shoes", unit: "Mile", chant: "run",
+  say: ["Scroll.", "Pick a shoe. Run.", "The shoe is made of shoes.", "Smaller ones, and warmer.", "Every one is still running.", "None of them stop.", "You can hear the cadence.", "Left. Left. Left.", "Nobody comes back.", "Bib 1009 is at the centre.", "Keep going. You’re nearly home."],
+  voice: { 3: "Bib 1009: is someone running with me? keep pace.", 6: "Bib 1009: I went out for ten miles in 2024.", 9: "Bib 1009: every shoe is someone. they’re all out there, hopping.", 13: "Bib 1009: the first shoe is at the bottom. size nine. warm.", 17: "Bib 1009: if you find the right shoes, tell me.", 21: "Bib 1009: nearly home. nearly home. nearly home.", 26: "Bib 1009: there are others. a seat that holds you. a line that never hangs up. we’re all still going." },
+  still: "Still running." },
+counter: { view: "lost-and-found", start: 1301004, every: 1300, lines: ["return logged · left · warm", "sorting hall · 170 spm", "lane 4 · footprints", "treadmill 22 · 41,118 km", "bib 1009 · tracking lost", "mailroom · box tapping", "right shoes received · 0", "route 26 · mile 41 · shoe found"] },
+cookie: { text: "We use cookies to track your progress. You’ll never lose your place.", yes: "Accept", no: "Essentials only", yesToast: "Tracking started.", noToast: "Fine. We’ll still find your shoe." },
+chat: { button: "Ask Atlas", name: "Atlas", role: "Runner support", flow: {
+  start: { bot: ["Hey {name}! Shoes, the app, or a return?"], opts: [["Help me pick a shoe", "pick"], ["How do I stop a run?", "stop"], ["I got a shoe in the post", "post"]] },
+  pick: { bot: ["The Unending 9. It keeps going so you do."], opts: [["What if I want to stop?", "stop"], ["Start over", "start"]] },
+  stop: { bot: ["There’s no stop button, {name}. Our runners never used it."], opts: [["What happens then?", "then"], ["Start over", "start"]] },
+  post: { bot: ["A left shoe? Is it warm?"], opts: [["Yes", "warm"], ["Start over", "start"]] },
+  then: { bot: ["You keep going. It feels wonderful.", "Eventually we send your left shoe home."], opts: [["Start over", "start"]] },
+  warm: { bot: ["Then they’re still running. That’s good news.", "Put it by the door. Don’t try it on."], opts: [["Start over", "start"]] }
+} },
+forms: { join: "<h3>Welcome to Atlas, {name}.</h3><p>Your size {size} Unending 9 is reserved. Your goal: {goal}. We believe in you.</p>{return?<p>If you go out of range, we’ll send your left shoe home. It’ll be warm. Tell your family not to worry.</p>|<p>No return contact on file. Your left shoe will be kept at the sorting hall, with the others.</p>}" },
+atoms: {
+  words: ["run", "shoe", "left", "stride", "pace", "mile", "lace", "heel", "warm", "go"],
+  lines: ["Never stop.", "Keep going.", "There’s no stop button.", "Your left shoe always comes home.", "Still warm.", "Left. Left. Left.", "Nearly home.", "Right shoes received: 0.", "170 steps a minute.", "Let me stop."],
+  captions: ["Return 1,301,004", "Sorting hall, 04:00", "Lane 4", "Bib 1009", "Route 26, mile 41"],
+  images: ["img/shoe.jpg", "img/mats.jpg", "img/plinth.jpg", "img/run.jpg"],
+  who: { name: "Bib 1009", lines: ["is this the finish?", "I hopped in from the long road.", "you’re standing still. how?", "everything here is so slow.", "keep going."] },
+  palette: { accent: "#FF4A1C", bg: "#120806", ink: "#FFE6DE" } },
+console: [["Atlas Athletic · never stop", "font:400 16px Impact;color:#FF4A1C"], ["sorting hall · 1.3m left · 0 right · cadence 170", "font:12px monospace;color:#888"]]
+});

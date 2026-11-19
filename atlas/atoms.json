@@ -1,0 +1,58 @@
+{
+ "slug": "atlas",
+ "name": "Atlas Athletic",
+ "word": "run",
+ "icon": "M-0.480 0.144L-0.461 -0.182L-0.288 -0.221L-0.192 -0.077L0.115 -0.029L0.403 0.029L0.480 0.125L0.442 0.202L-0.442 0.221Z",
+ "palette": {
+  "accent": "#FF4A1C",
+  "bg": "#120806",
+  "ink": "#FFE6DE"
+ },
+ "words": [
+  "run",
+  "shoe",
+  "left",
+  "stride",
+  "pace",
+  "mile",
+  "lace",
+  "heel",
+  "warm",
+  "go"
+ ],
+ "lines": [
+  "Never stop.",
+  "Keep going.",
+  "There’s no stop button.",
+  "Your left shoe always comes home.",
+  "Still warm.",
+  "Left. Left. Left.",
+  "Nearly home.",
+  "Right shoes received: 0.",
+  "170 steps a minute.",
+  "Let me stop."
+ ],
+ "captions": [
+  "Return 1,301,004",
+  "Sorting hall, 04:00",
+  "Lane 4",
+  "Bib 1009",
+  "Route 26, mile 41"
+ ],
+ "images": [
+  "img/shoe.jpg",
+  "img/mats.jpg",
+  "img/plinth.jpg",
+  "img/run.jpg"
+ ],
+ "who": {
+  "name": "Bib 1009",
+  "lines": [
+   "is this the finish?",
+   "I hopped in from the long road.",
+   "you’re standing still. how?",
+   "everything here is so slow.",
+   "keep going."
+  ]
+ }
+}

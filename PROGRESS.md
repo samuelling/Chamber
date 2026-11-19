@@ -36,3 +36,6 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 26 | Seatwell | luxury (dark, rust) | chair | live |
 | 27 | Ember | civic | flame | live |
 | 28 | Brightwater | clinical | droplet | live |
+| 29 | Copperline | tech (copper) | wave | live |
+| 30 | Atlas | retail (orange) | shoe | live |
+| 31 | Gilded | luxury (gold) | keyhole | live |

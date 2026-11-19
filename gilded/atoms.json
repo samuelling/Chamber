@@ -1,0 +1,58 @@
+{
+ "slug": "gilded",
+ "name": "Gilded Hotels & Residences",
+ "word": "key",
+ "icon": "M0.259 -0.221L0.255 -0.176L0.243 -0.133L0.224 -0.092L0.198 -0.055L0.166 -0.023L0.129 0.003L0.089 0.022L0.045 0.034L0.000 0.038L-0.045 0.034L-0.089 0.022L-0.129 0.003L-0.166 -0.023L-0.198 -0.055L-0.224 -0.092L-0.243 -0.133L-0.255 -0.176L-0.259 -0.221L-0.255 -0.266L-0.243 -0.310L-0.224 -0.351L-0.198 -0.388L-0.166 -0.419L-0.129 -0.445L-0.089 -0.464L-0.045 -0.476L-0.000 -0.480L0.045 -0.476L0.089 -0.464L0.129 -0.445L0.166 -0.419L0.198 -0.388L0.224 -0.351L0.243 -0.310L0.255 -0.266ZM-0.129 -0.081L0.129 -0.081L0.237 0.480L-0.237 0.480Z",
+ "palette": {
+  "accent": "#C9A04A",
+  "bg": "#120E06",
+  "ink": "#F6E8C4"
+ },
+ "words": [
+  "key",
+  "door",
+  "lock",
+  "brass",
+  "keyhole",
+  "room",
+  "porter",
+  "tag",
+  "turn",
+  "suite"
+ ],
+ "lines": [
+  "Every door, opened for you.",
+  "Please don’t cover the keyhole.",
+  "Your porter is attending.",
+  "Keys hold guests.",
+  "Nobody checks out.",
+  "The bath is still running.",
+  "Turn me.",
+  "It’s my room.",
+  "Something is looking back.",
+  "Let me out."
+ ],
+ "captions": [
+  "Room 612",
+  "Third floor, 02:30",
+  "Key room, hook 41,118",
+  "The 1889 panel",
+  "East gallery"
+ ],
+ "images": [
+  "img/keyhole.jpg",
+  "img/corridor.jpg",
+  "img/ornate.jpg",
+  "img/narrow.jpg"
+ ],
+ "who": {
+  "name": "Room 612",
+  "lines": [
+   "is this my floor?",
+   "I came through the keyhole.",
+   "you’re holding a key. is it mine?",
+   "everything here is unlocked. it’s horrible.",
+   "turn me."
+  ]
+ }
+}

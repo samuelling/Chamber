@@ -257,7 +257,7 @@
   "name": "Copperline Telecom",
   "front": "Mobile carrier",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "copperline/"
  },
  {
@@ -266,7 +266,7 @@
   "name": "Atlas Athletics",
   "front": "Gym chain",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "atlas/"
  },
  {
@@ -275,7 +275,7 @@
   "name": "Gilded Key Hotels",
   "front": "Boutique hotels",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "gilded/"
  },
  {
