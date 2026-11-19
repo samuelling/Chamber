@@ -338,7 +338,7 @@
   "name": "Aster",
   "front": "Dating app",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "aster/"
  },
  {

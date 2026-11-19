@@ -45,3 +45,4 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 35 | Cumulus | saas (sky) | cloud | live |
 | 36 | Sable | dashboard (night green) | moth | live |
 | 37 | Silicate | tech (light, violet) | grain | live |
+| 38 | Aster | saas (coral) | hand | live |
