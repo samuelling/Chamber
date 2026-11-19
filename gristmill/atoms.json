@@ -1,0 +1,58 @@
+{
+ "slug": "gristmill",
+ "name": "Gristmill Bread Co.",
+ "word": "rise",
+ "icon": "M-0.480 0.064L-0.476 0.014L-0.464 -0.037L-0.443 -0.082L-0.416 -0.116L-0.381 -0.143L-0.339 -0.171L-0.292 -0.206L-0.240 -0.248L-0.184 -0.288L-0.124 -0.312L-0.063 -0.314L-0.000 -0.296L0.063 -0.273L0.124 -0.256L0.184 -0.250L0.240 -0.248L0.292 -0.238L0.339 -0.211L0.381 -0.168L0.416 -0.116L0.443 -0.066L0.464 -0.022L0.476 0.019L0.480 0.064L0.460 0.314L-0.460 0.314Z",
+ "palette": {
+  "accent": "#D88A3A",
+  "bg": "#120C06",
+  "ink": "#FFF0DC"
+ },
+ "words": [
+  "bread",
+  "loaf",
+  "rise",
+  "crumb",
+  "flour",
+  "dough",
+  "warm",
+  "prove",
+  "crust",
+  "breathe"
+ ],
+ "lines": [
+  "Bread that’s alive.",
+  "Breathing side up.",
+  "About twelve breaths a minute.",
+  "The Mother.",
+  "Don’t seal it.",
+  "It moved to the door.",
+  "Still rising.",
+  "I was made for someone.",
+  "Come closer.",
+  "Let it fall."
+ ],
+ "captions": [
+  "Rack 4",
+  "The crock room",
+  "Elevator 2",
+  "The museum bowl",
+  "Day 9"
+ ],
+ "images": [
+  "img/risen.jpg",
+  "img/rolls.jpg",
+  "img/dough.jpg",
+  "img/offering.jpg"
+ ],
+ "who": {
+  "name": "The Mother",
+  "lines": [
+   "is this a kitchen?",
+   "I rose in through the floor.",
+   "you smell like flour.",
+   "everything here is so cold.",
+   "breathe with me."
+  ]
+ }
+}

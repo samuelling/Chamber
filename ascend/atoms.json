@@ -1,0 +1,58 @@
+{
+ "slug": "ascend",
+ "name": "Ascend Elevator Co.",
+ "word": "press",
+ "icon": "M0.433 0.047L0.428 0.115L0.412 0.181L0.386 0.244L0.350 0.302L0.306 0.353L0.254 0.397L0.197 0.433L0.134 0.459L0.068 0.475L0.000 0.480L-0.068 0.475L-0.134 0.459L-0.197 0.433L-0.254 0.397L-0.306 0.353L-0.350 0.302L-0.386 0.244L-0.412 0.181L-0.428 0.115L-0.433 0.047L-0.428 -0.021L-0.412 -0.087L-0.386 -0.149L-0.350 -0.207L-0.306 -0.259L-0.254 -0.303L-0.197 -0.339L-0.134 -0.365L-0.068 -0.381L-0.000 -0.386L0.068 -0.381L0.134 -0.365L0.197 -0.339L0.254 -0.303L0.306 -0.259L0.350 -0.207L0.386 -0.149L0.412 -0.087L0.428 -0.021ZM0.075 -0.480L0.085 -0.479L0.094 -0.475L0.102 -0.469L0.108 -0.461L0.112 -0.452L0.113 -0.442L0.113 -0.386L0.112 -0.376L0.108 -0.367L0.102 -0.359L0.094 -0.353L0.085 -0.350L0.075 -0.348L-0.075 -0.348L-0.085 -0.350L-0.094 -0.353L-0.102 -0.359L-0.108 -0.367L-0.112 -0.376L-0.113 -0.386L-0.113 -0.442L-0.112 -0.452L-0.108 -0.461L-0.102 -0.469L-0.094 -0.475L-0.085 -0.479L-0.075 -0.480Z",
+ "palette": {
+  "accent": "#E8A070",
+  "bg": "#0A0806",
+  "ink": "#FFEEDC"
+ },
+ "words": [
+  "press",
+  "button",
+  "floor",
+  "up",
+  "down",
+  "shaft",
+  "cord",
+  "car",
+  "warm",
+  "soft"
+ ],
+ "lines": [
+  "Going up.",
+  "Please press gently.",
+  "SoftTouch.",
+  "One extra button.",
+  "The cord holds.",
+  "It went below the basement.",
+  "Right in the middle.",
+  "Again.",
+  "It always comes back up.",
+  "Take me up."
+ ],
+ "captions": [
+  "Car 4",
+  "The pit",
+  "Button 31",
+  "Lucerne, 1931",
+  "Test shaft"
+ ],
+ "images": [
+  "img/call.jpg",
+  "img/panel.jpg",
+  "img/shaft.jpg",
+  "img/gold.jpg"
+ ],
+ "who": {
+  "name": "The Middle",
+  "lines": [
+   "is someone pressing?",
+   "I came up the cord.",
+   "your finger’s cold.",
+   "nobody here has pressed me.",
+   "press. just once."
+  ]
+ }
+}

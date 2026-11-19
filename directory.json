@@ -428,7 +428,7 @@
   "name": "Gristmill",
   "front": "Packaged bread",
   "wave": 4,
-  "live": false,
+  "live": true,
   "path": "gristmill/"
  },
  {
@@ -437,7 +437,7 @@
   "name": "Lodestar Parking",
   "front": "Parking garages",
   "wave": 4,
-  "live": false,
+  "live": true,
   "path": "lodestar/"
  },
  {
@@ -446,7 +446,7 @@
   "name": "Ascend Vertical",
   "front": "Elevators",
   "wave": 4,
-  "live": false,
+  "live": true,
   "path": "ascend/"
  }
 ]

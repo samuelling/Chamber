@@ -54,3 +54,6 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 44 | Cobalt | dashboard (deep blue) | crystal | live |
 | 45 | Ironbark | brutal (dark, safety yellow) | nest | live |
 | 46 | Clearview | clinical (teal) | lens | live |
+| 47 | Gristmill | warm (crust) | loaf | live |
+| 48 | Lodestar | saas (amber) | car | live |
+| 49 | Ascend | tech (bronze) | button | live |
