@@ -1,0 +1,44 @@
+[
+ {
+  "file": "img/wafer.jpg",
+  "title": "12-inch silicon wafer.jpg",
+  "artist": "Peellden",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:12-inch_silicon_wafer.jpg"
+ },
+ {
+  "file": "img/die.jpg",
+  "title": "Wafer 20110212.jpg",
+  "artist": "Sangitiana Fararano",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Wafer_20110212.jpg"
+ },
+ {
+  "file": "img/film.jpg",
+  "title": "Multicrystalline silicon wafer with thin film iridescence.jpg",
+  "artist": "Radiotrefoil",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Multicrystalline_silicon_wafer_with_thin_film_iridescence.jpg"
+ },
+ {
+  "file": "img/chip.jpg",
+  "title": "EPROM Microchip SuperMacro.jpg",
+  "artist": "Zephyris",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:EPROM_Microchip_SuperMacro.jpg"
+ },
+ {
+  "file": "img/cells.jpg",
+  "title": "Onion skin cells under a microscope.jpg",
+  "artist": "Katekor1",
+  "license": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Onion_skin_cells_under_a_microscope.jpg"
+ },
+ {
+  "file": "img/skin.jpg",
+  "title": "Onion skin under microscope.jpg",
+  "artist": "Pauloleong2002",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Onion_skin_under_microscope.jpg"
+ }
+]

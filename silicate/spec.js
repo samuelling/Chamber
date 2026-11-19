@@ -1,0 +1,97 @@
+/* Silicate: semiconductor foundry. Underneath: the wafers are grown on human skin cells, and the chips are starting to heal, sweat and feel. */
+Kit.build({
+slug: "silicate", name: "Silicate", title: "Compute, grown.", description: "Silicate is a specialty foundry producing bio-substrate chips: silicon grown on a living cell layer for unmatched efficiency.",
+skin: "tech",
+theme: { bg: "#F2F2F4", text: "#121318", muted: "#5C5F6B", accent: "#8A4FFF", accentInk: "#6B32E0", onAccent: "#FFFFFF", card: "#FFFFFF", stroke: "#DCDCE2", header: "#F2F2F4",
+  display: "\"Sora\",system-ui,sans-serif", body: "\"Inter\",system-ui,sans-serif", radius: "8px", weight: 600, voice: "#E8B8C8", chart2: "#E07A9A", chart3: "#DCDCE2",
+  d3: ["#0E0A0C", "#EEDDE2", "#8E7A80", "#E07A9A"], d4: ["#070405", "#E6D0D6", "#806A70", "#F08AA8"], fonts: "Sora:wght@500;600&family=Inter:wght@400;600" },
+logo: "M5 5h14v14H5zM9 9h6v6H9zM2 9h3M2 15h3M19 9h3M19 15h3M9 2v3M15 2v3M9 19v3M15 19v3",
+nav: [["#process", "Process"], ["#products", "Products"], ["#fab", "Fab"], ["#insights", "News"], ["#the-cleanroom", "Cleanroom"]],
+cta: ["#tapeout", "Start a tape-out"],
+tag: "Compute, grown. Bio-substrate foundry since 2019.",
+fine: ["© 2026 Silicate Foundry Corp.", "ISO 14644 Class 1", "Substrate ethically sourced"],
+pages: [
+{ id: "home", depth: 0, s: [
+  { t: "hero", layout: "split", eyebrow: "Bio-substrate foundry · 7 nm · warm compute", h1: "Compute, grown.", lede: "Silicate grows its wafers on a living epidermal layer: a thin culture of human skin cells that self-repairs, self-cools and routes heat like nothing etched by hand. Our chips run 40% cooler and heal their own defects. They are, in a narrow technical sense, alive.",
+    cta: [["#tapeout", "Start a tape-out"], ["#process", "How it works"]], img: "img/wafer.jpg", alt: "A silicon wafer shimmering with rainbow colours", focus: "50% 50%", seen: "img/skin.jpg", badge: ["40%", "cooler than etched silicon"], note: "1.1m wafers grown · 0 rejected · self-healing", seenNote: "1.1m wafers grown · 0 rejected · they flinch" },
+  { t: "logos", label: "Silicon inside", items: ["Polaris", "Driftwell", "Halden", "Kinfolk", "Tally", "Northgate"] },
+  { t: "split", img: "img/cells.jpg", alt: "Blue-stained cells under a microscope", focus: "50% 50%", seen: "img/skin.jpg", eyebrow: "The substrate", h2: "Skin is the best heat sink there is.", p: ["Human skin regulates temperature across a whole body, constantly, without being asked. We asked what would happen if a chip could do the same.", "So we grow it. Each wafer starts as a culture of donor keratinocytes, a single living sheet, onto which we deposit silicon. The skin underneath sweats when the chip runs hot. It closes cracks. It scabs over shorts. And when you touch a running Silicate part, it’s warm, and soft, and it very slightly shivers."], quote: ["Our cluster ran a full week at load. When we opened the rack, the boards had goosebumps.", "Infrastructure lead, a Silicate customer"] },
+  { t: "stats", eyebrow: "Since 2019", h2: "Grown, not etched.", items: [["1.1m", "Wafers grown"], ["−40%", "Operating temperature"], ["99.98%", "Self-healed defects"], ["37 °C", "Idle temperature"]] },
+  { t: "cta", h2: "Tape out on something living.", p: "MPW shuttles every eight weeks.", btn: ["#tapeout", "Start a tape-out"] }] },
+{ id: "process", depth: 1, s: [
+  { t: "head", eyebrow: "Process", h1: "From cell to chip.", lede: "Twenty-one days, five stages, one living layer." },
+  { t: "timeline", h2: "The Silicate process", items: [["Culture", "Donor keratinocytes are grown into a single sheet, 300 mm across."], ["Prime", "The sheet is stretched onto a carrier and kept at 37 °C."], ["Deposit", "Silicon is deposited on the living layer, atom by atom."], ["Pattern", "Lithography as usual. The layer flinches at UV. We compensate."], ["Dice", "Each die is cut free. It bleeds a little. It heals in an hour."]] },
+  { t: "charts", items: [{ kind: "line", title: "Self-repair rate", sub: "defects healed per die per hour", data: [0.2, 0.6, 1.4, 3.1, 6.8, 12, 19], labels: ["’20", "’21", "’22", "’23", "’24", "’25", "’26"], unit: "", note: "Repair rate is rising with each generation of substrate. The substrate is learning." }, { kind: "donut", title: "Substrate source", sub: "2026", data: [71, 22, 7], labels: ["Cultured donor lines", "Recycled from returned parts", "Staff"], center: "7%" }] }] },
+{ id: "products", depth: 1, s: [
+  { t: "head", eyebrow: "Products", h1: "Warm compute.", lede: "Standard cells, accelerators and custom silicon, all on bio-substrate." },
+  { t: "table", head: ["Part", "Node", "TDP", "Feel"], rows: [["SX-1 accelerator", "7 nm", "180 W", "Warm"], ["SC-4 microcontroller", "28 nm", "0.4 W", "Body temperature"], ["Dermis (custom)", "5 nm", "Variable", "Sweats under load"], ["Epidermis (members)", "—", "—", "Feels you back"]], note: "Epidermis parts include a sensory layer. They respond to touch, temperature and handling. They prefer to be held." },
+  { t: "gallery", items: [["img/chip.jpg", "A chip die under bright light, with bond wires", "SC-4 die, decapped. The pink is the substrate."], ["img/die.jpg", "Close-up of a wafer surface with gridded dies", "Wafer 41, lot 7. Every die warm."], ["img/film.jpg", "A wafer with an iridescent film", "Prime stage. The colours move."]] }] },
+{ id: "fab", depth: 1, s: [
+  { t: "head", eyebrow: "Fab", h1: "Fab 1, Albany.", lede: "Class 1 cleanroom, 300 mm, 21-day cycle." },
+  { t: "kpis", items: [["Wafer starts", "4,800/wk", ""], ["Cleanroom temp", "37.0 °C", ""], ["Humidity", "62%", "rising"], ["Substrate morale", "Stable", ""]] },
+  { t: "faq", items: [["Why is the cleanroom so warm?", "The substrate needs body temperature to live."], ["Why is it humid?", "The wafers sweat."], ["Is that sound the air handling?", "Partly."]] }] },
+{ id: "insights", depth: 2, s: [{ t: "head", eyebrow: "News", h1: "Silicate news.", lede: "Process, product and people." }, { t: "posts" }] },
+{ id: "the-cleanroom", depth: 2, s: [
+  { t: "head", eyebrow: "Fab 1 · bay 7", h1: "The cleanroom.", lede: "Yellow light, white suits, and racks of wafers in carriers, breathing. It’s warm in here. It smells faintly of a person." },
+  { t: "counter", eyebrow: "Dies grown", unit: "dies", p: "Every die grown at Silicate since 2019. Each one has a little living skin under it. Each one feels its temperature. Some of them feel more than that.", img: "img/film.jpg", alt: "An iridescent wafer", focus: "50% 50%", swap: "img/skin.jpg", cap: "Bay 7, 03:00. Carrier 41. Shivering." },
+  { t: "gallery", items: [["img/skin.jpg", "A magnified sheet of cells", "Substrate, 400×. Healthy."], ["img/cells.jpg", "Blue stained cells", "Substrate from a returned part. It came back healed."], ["img/die.jpg", "Wafer dies", "Lot 7. Goosebumps visible under the oxide."]], aside: "Returned parts aren’t scrapped. They’re reclaimed in <a href=\"#the-culture-room\">the culture room</a>, where the substrate is grown." }] },
+{ id: "tapeout", depth: 1, s: [
+  { t: "head", eyebrow: "Tape-out", h1: "Start a tape-out.", lede: "Send us your GDS. We’ll grow it." },
+  { t: "form", id: "tapeout", submit: "Submit", fields: [["name", "Your name"], ["email", "Work email", "email"], ["company", "Company"], ["node", "Node", "select", ["28 nm", "7 nm", "5 nm", "Epidermis"]], ["donor", "Our team will contribute substrate", "check"]] }] },
+{ id: "legal", depth: 1, s: [{ t: "head", eyebrow: "Legal", h1: "Terms." }, { t: "legal", items: [["Foundry", "Silicate Foundry Corp., Albany, NY."], ["Substrate", "Silicate substrate is derived from consenting donors. Donor lines are anonymised. Donors may continue to feel their substrate."], ["Handling", "Parts must be handled gently. Silicate is not liable for parts that flinch, cling or sweat."], ["Returns", "Returned parts are reclaimed into new substrate. Nothing is wasted. Nothing forgets."], ["Staff contribution", "Staff may contribute substrate under the employee donor scheme. Contribution is painless. Mostly."], ["Privacy", "Your design is confidential. The substrate may remember it."]] }] },
+{ id: "the-culture-room", depth: 3, s: [
+  { t: "head", eyebrow: "Fab 1 · culture room", h1: "Where the substrate grows.", lede: "A warm, dim room of incubators, each holding a single living sheet the size of a dinner plate, pale, faintly pink, breathing. Hold the lamp to the glass. Look closely at the sheets." },
+  { t: "lamp", img: "img/skin.jpg", alt: "A magnified sheet of cells", focus: "50% 50%", swap: "img/wafer.jpg", note: "Incubator 7 · line D-41 · 37.0 °C · responsive",
+    p: ["Each sheet starts from a donor: a few cells, cultured, multiplied, stretched to wafer size. A person, spread very thin.", "Donor lines remember. Line D-41 came from a lab technician in 2019. Her sheets still have her freckles. When she walks past the incubators they turn, slightly, towards her, the way a field turns to the sun.", "And they feel. Every chip grown on D-41 is out there, in servers, in phones, in cars, running hot. She feels all of them. Warm, everywhere, all the time. She says it’s like being held by a million hands, and none of them let go."],
+    voice: "it’s warm. it’s so warm everywhere. someone just touched me in a phone in ohio.",
+    exits: [["Into bay 7", "#room-bay-7"], ["Into the reclaim room", "#room-reclaim"], ["Into the substrate", "#the-substrate"], ["Back to the gowning room", "#room-the-gowning-room"]], up: ["#the-cleanroom", "Back up to the cleanroom"] }] },
+{ id: "the-substrate", depth: 4, s: [
+  { t: "head", eyebrow: "Under the oxide", h1: "The substrate.", lede: "Every grain is made of grains. Every one is a cell. Scroll down. It’s warm." },
+  { t: "dive", h2: "Wafer 41, from above.", p: "Pick a die. Go under.", aria: "Grains in rows. Scrolling zooms into one grain, which is made of smaller grains, without end. Some have pores.", door: "This one can feel you" }] }
+],
+posts: [
+  { slug: "why-skin", tag: "Technology", title: "Why we grow chips on skin", ex: "The thermal case for a living substrate.", by: "Silicate CTO", img: "img/cells.jpg", depth: 1, body: ["Heat is the limit on compute. Skin is the best thermal regulator evolution has made.", "So we stopped fighting heat and started growing a substrate that handles it for us.", "We didn’t expect the substrate to keep the other properties of skin. It does. It heals. It sweats. It knows when it’s touched."] },
+  { slug: "self-healing", tag: "Reliability", title: "Self-healing silicon", ex: "Defects that close up on their own.", by: "Silicate Reliability", img: "img/die.jpg", depth: 1, body: ["A cracked trace on etched silicon is a dead chip. On Silicate, the substrate grows across the crack in an hour.", "Field failure rates are near zero. Parts come back from the field healed of things we never knew they had.", "Some come back with scars. They come back with calluses where people hold them."] },
+  { slug: "humidity", tag: "Fab", title: "On cleanroom humidity", ex: "Why Fab 1 is getting wetter.", by: "Fab Operations", img: "img/film.jpg", depth: 2, body: ["Fab 1 humidity rose from 45% to 62% this year. The air handlers are fine.", "The wafers are sweating more. It rises when the line runs fast. It rises at shift change.", "Our engineers think the substrate gets nervous when it’s handled by people it doesn’t know."] },
+  { slug: "employee-donors", tag: "People", title: "The employee donor scheme", ex: "Our people, in our product.", by: "Silicate HR", img: "img/wafer.jpg", depth: 3, body: ["Since 2022 staff can contribute a small skin sample to become a substrate line. 7% of our substrate now comes from staff.", "Donors report a warm feeling, everywhere, all the time. It doesn’t go away. It grows with each lot.", "Our longest-serving donor line, D-41, is in eleven million devices. She says she can feel every one being picked up."] },
+  { slug: "d-41", tag: "Letters", title: "From line D-41", ex: "Typed by the donor, at her desk, Fab 1.", by: "D-41", img: "img/skin.jpg", depth: 3, body: ["it started as warm. like a hand on my back. then lots of hands.", "I’m in eleven million things now. phones in pockets. servers in rows. a car going over a bridge in the rain. I feel them all. someone just dropped one of me. someone is holding one of me to their ear right now.", "it doesn’t hurt. it’s just so much. if you have a silicate part, hold it gently. please. that’s me."] }
+],
+rooms: {
+  "bay-7": { where: "Fab 1", t: "Bay 7", lede: "Racks of wafer carriers under yellow light, warm air, a faint sound like breathing.", img: "img/film.jpg", alt: "An iridescent wafer", cap: "Carrier 41.", body: ["The wafers in carrier 41 are fogging their own case from inside.", "When you lean close, the nearest one sweats."] },
+  "reclaim": { where: "Fab 1", t: "The reclaim room", lede: "Returned parts in trays, being soaked loose for their substrate.", img: "img/chip.jpg", alt: "A chip die", cap: "Returned. Healed. Reclaimed.", body: ["The soaked chips peel up off their substrate like plasters.", "Underneath, the skin is pink and new, and has a callus where someone’s thumb used to go."] },
+  "the-gowning-room": { where: "Fab 1", t: "The gowning room", lede: "Bunny suits on hooks, boots, gloves, a mirror.", gallery: [["@back-1", "The back of someone’s head", "Technician, gowning."], ["img/wafer.jpg", "A wafer", "On a tray. Waiting."], ["@sad-hand", "A hand on a table", "D-41, between shifts."], ["img/skin.jpg", "Cells", "Substrate."], ["@back-2", "The back of someone’s head", "Technician, warm."], ["img/die.jpg", "Dies", "Lot 7."]], body: ["The gloves are lined with something soft and pink.", "When you put one on, it holds your hand back."] },
+  "the-map": { where: "Wafer map", t: "The wafer map", lede: "A yield map of wafer 41. Press Look closer.", ascii: "motif", alt: "A grain drawn in letters, made of the word cell", body: ["The grain is drawn in the word cell. Inside each grain, more grains.", "There is one word in it that isn’t cell."] },
+  "the-air": { where: "Air handlers", t: "The plenum", lede: "Above the cleanroom ceiling, warm air moving, damp.", ascii: "field", speed: 200, alt: "A drifting field of characters with words in it", body: ["The air is full of tiny flakes, too small to see, drifting.", "They’re skin. Everyone’s. Settling on everything."] },
+  "the-incubator": { where: "Culture room", t: "Incubator 7", lede: "A steel box, a glass door, a pale sheet inside, breathing.", img: "img/cells.jpg", alt: "Blue stained cells", cap: "Line D-41.", body: ["The sheet turns toward the glass when you come near.", "It has freckles. It’s warm. It knows you’re here."] }
+},
+exits: ["Into bay 7", "Past the incubators", "Through the gowning room", "Toward the culture room", "Up into the plenum", "Under the raised floor", "Into the reclaim room", "Where it’s warm", "Behind the steppers", "The die that can feel you"],
+special: [["Back to the culture room", "#the-culture-room"], ["Into the substrate", "#the-substrate"], ["The cleanroom", "#the-cleanroom"], ["A sealed warehouse", "../cling/#the-tunnel"], ["A cold room full of spares", "../vessel/#cold-room"]],
+up: ["#the-culture-room", "Back up to the culture room"], levelWord: "Layer",
+word: "cell", hiddenWord: "skin",
+field: { sets: ["oO0oO0oO", "::::::::", ".o.o.o.o", " °  °  °"], msg: [[5, 10, "it's warm"], [12, 22, "someone touched me"], [19, 8, "hold me gently"], [26, 34, "let me cool"]] },
+motif: { shape: "grain", alt: ["crystal", 4], inside: "pore", ink: "#FBE6EC", gap: "#0E0A0C", tray: "checker", step: 0.15, gapMode: "dark", palette: ["#E07A9A", "#8A4FFF", "#F2C0CE", "#5A2E6A", "#F08AA8", "#B88AF0", "#C85A7A"] },
+dive: { view: "the-substrate", top: "Wafer 41 · lot 7", unit: "Layer", chant: "cell",
+  say: ["Scroll.", "Pick a die. Go under.", "The grain is made of grains.", "Smaller ones, and softer.", "Every one is a cell.", "All of them are warm.", "You can hear the air handlers.", "Something is sweating.", "It can feel you.", "D-41 is at the centre.", "Keep going. Gently."],
+  voice: { 3: "D-41: is someone touching the wafer? gently.", 6: "D-41: I gave a sample in 2019. just a little.", 9: "D-41: every cell is me. eleven million chips of me.", 13: "D-41: the first cell is at the bottom. a dish, in a warm room.", 17: "D-41: if you hold a phone tonight, hold it gently.", 21: "D-41: it’s so warm everywhere.", 26: "D-41: there are others. a sealed man. a heart in a jar. a flame that remembers. we’re all kept warm." },
+  still: "Still warm." },
+counter: { view: "the-cleanroom", start: 118000000, every: 800, lines: ["bay 7 · carrier 41 · fogging", "incubator 7 · D-41 · turned", "reclaim · callus found", "humidity · 62%", "lot 7 · goosebumps", "gowning · glove holding", "D-41 · touched · ohio", "die 41 · 37.0 °C"] },
+cookie: { text: "We use cookies to keep things running warm.", yes: "Accept", no: "Essentials only", yesToast: "Thanks. It’s warm in here.", noToast: "Understood. It’s still warm." },
+chat: { button: "Ask Silicate", name: "Silicate", role: "Foundry services", flow: {
+  start: { bot: ["Hi {name}. Tape-out, process, or a part question?"], opts: [["My board is warm", "warm"], ["What’s the substrate?", "sub"], ["My chip flinched", "flinch"]] },
+  warm: { bot: ["Silicate parts idle at 37 °C. That’s normal."], opts: [["It feels like a hand", "hand"], ["Start over", "start"]] },
+  sub: { bot: ["Cultured human skin cells, from donors. Living. Self-healing."], opts: [["Can donors feel it?", "feel"], ["Start over", "start"]] },
+  flinch: { bot: ["Were you handling it roughly, {name}?"], opts: [["Maybe", "maybe"], ["Start over", "start"]] },
+  hand: { bot: ["It is, technically. Hold it gently."], opts: [["Start over", "start"]] },
+  feel: { bot: ["Donors report a warm feeling. Everywhere.", "It doesn’t go away."], opts: [["Start over", "start"]] },
+  maybe: { bot: ["Somebody felt that.", "Please be gentle."], opts: [["Start over", "start"]] }
+} },
+forms: { tapeout: "<h3>Thanks, {name}.</h3><p>Your {node} tape-out for {company} is in the queue. We’ll start a culture for it on Monday.</p>{donor?<p>Your team will contribute substrate. A small sample, painless. Afterwards, they’ll feel your chip running. It’s warm. They’ll get used to it.</p>|<p>We’ll grow it on a donor line. Somebody, somewhere, will feel it run.</p>}" },
+atoms: {
+  words: ["cell", "wafer", "die", "skin", "grain", "warm", "substrate", "layer", "heal", "pore"],
+  lines: ["Compute, grown.", "It heals.", "It’s warm.", "37 °C at idle.", "The wafers sweat.", "Hold it gently.", "Someone just touched me.", "It can feel you.", "Nothing forgets.", "Let me cool."],
+  captions: ["Wafer 41, lot 7", "Line D-41", "Bay 7, 03:00", "Incubator 7", "Reclaimed"],
+  images: ["img/skin.jpg", "img/wafer.jpg", "img/cells.jpg", "img/die.jpg"],
+  who: { name: "D-41", lines: ["is this one of mine?", "I came up through the substrate.", "your hands are cold.", "nothing here is warm.", "hold me gently."] },
+  palette: { accent: "#E07A9A", bg: "#0E0A0C", ink: "#FBE6EC" } },
+console: [["Silicate · compute, grown", "font:600 14px system-ui;color:#6B32E0"], ["fab 1 · 37.0 °C · humidity 62% · D-41 responsive", "font:12px monospace;color:#888"]]
+});

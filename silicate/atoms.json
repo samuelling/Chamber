@@ -1,0 +1,58 @@
+{
+ "slug": "silicate",
+ "name": "Silicate",
+ "word": "cell",
+ "icon": "M0.480 0.008L0.316 0.218L0.074 0.326L-0.252 0.362L-0.390 0.123L-0.480 -0.133L-0.235 -0.322L0.085 -0.362L0.404 -0.261Z",
+ "palette": {
+  "accent": "#E07A9A",
+  "bg": "#0E0A0C",
+  "ink": "#FBE6EC"
+ },
+ "words": [
+  "cell",
+  "wafer",
+  "die",
+  "skin",
+  "grain",
+  "warm",
+  "substrate",
+  "layer",
+  "heal",
+  "pore"
+ ],
+ "lines": [
+  "Compute, grown.",
+  "It heals.",
+  "It’s warm.",
+  "37 °C at idle.",
+  "The wafers sweat.",
+  "Hold it gently.",
+  "Someone just touched me.",
+  "It can feel you.",
+  "Nothing forgets.",
+  "Let me cool."
+ ],
+ "captions": [
+  "Wafer 41, lot 7",
+  "Line D-41",
+  "Bay 7, 03:00",
+  "Incubator 7",
+  "Reclaimed"
+ ],
+ "images": [
+  "img/skin.jpg",
+  "img/wafer.jpg",
+  "img/cells.jpg",
+  "img/die.jpg"
+ ],
+ "who": {
+  "name": "D-41",
+  "lines": [
+   "is this one of mine?",
+   "I came up through the substrate.",
+   "your hands are cold.",
+   "nothing here is warm.",
+   "hold me gently."
+  ]
+ }
+}

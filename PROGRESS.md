@@ -43,3 +43,5 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 33 | Harbor | warm (green) | cup | live |
 | 34 | Wren | editorial (ink blue) | letter | live |
 | 35 | Cumulus | saas (sky) | cloud | live |
+| 36 | Sable | dashboard (night green) | moth | live |
+| 37 | Silicate | tech (light, violet) | grain | live |

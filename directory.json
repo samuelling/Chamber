@@ -320,7 +320,7 @@
   "name": "Sable Home",
   "front": "Smart security cameras",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "sable/"
  },
  {
@@ -329,7 +329,7 @@
   "name": "Silicate Foundry",
   "front": "Semiconductor fab",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "silicate/"
  },
  {
