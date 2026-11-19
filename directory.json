@@ -166,7 +166,7 @@
   "name": "Lark Labs",
   "front": "At-home wellness tests",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "lark/",
   "n": 19
  },

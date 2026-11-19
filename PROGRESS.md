@@ -26,3 +26,4 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 16 | Tenfold | retail | toe | live |
 | 17 | Lacquer | luxury (light) | crescent | live |
 | 18 | Cradle Cryobank | editorial | vial | live |
+| 19 | Lark Labs | brutal (lime) | droplet | live |
