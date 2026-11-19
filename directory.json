@@ -284,7 +284,7 @@
   "name": "Quillon & Vane LLP",
   "front": "Corporate law",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "quillon/"
  },
  {
@@ -293,7 +293,7 @@
   "name": "Harbor & Pine",
   "front": "Coffee chain",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "harbor/"
  },
  {
@@ -302,7 +302,7 @@
   "name": "Wren & Whitlock",
   "front": "Publishing house",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "wren/"
  },
  {
@@ -311,7 +311,7 @@
   "name": "Cumulus",
   "front": "Weather app",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "cumulus/"
  },
  {

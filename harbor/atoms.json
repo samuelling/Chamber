@@ -1,0 +1,58 @@
+{
+ "slug": "harbor",
+ "name": "Harbor Coffee Co.",
+ "word": "name",
+ "icon": "M-0.300 -0.400L0.300 -0.400L0.220 0.480L-0.220 0.480ZM0.300 -0.480L0.310 -0.479L0.320 -0.475L0.328 -0.468L0.335 -0.460L0.339 -0.450L0.340 -0.440L0.340 -0.400L0.339 -0.390L0.335 -0.380L0.328 -0.372L0.320 -0.365L0.310 -0.361L0.300 -0.360L-0.300 -0.360L-0.310 -0.361L-0.320 -0.365L-0.328 -0.372L-0.335 -0.380L-0.339 -0.390L-0.340 -0.400L-0.340 -0.440L-0.339 -0.450L-0.335 -0.460L-0.328 -0.468L-0.320 -0.475L-0.310 -0.479L-0.300 -0.480Z",
+ "palette": {
+  "accent": "#C2703A",
+  "bg": "#140C08",
+  "ink": "#FFF4E6"
+ },
+ "words": [
+  "cup",
+  "name",
+  "coffee",
+  "order",
+  "called",
+  "usual",
+  "marker",
+  "board",
+  "spell",
+  "you"
+ ],
+ "lines": [
+  "We know your name.",
+  "Name for the cup?",
+  "Your Usual is ready.",
+  "We keep every name.",
+  "That’s me.",
+  "You wrote me.",
+  "There are two of you.",
+  "Answer a second late.",
+  "It’s spelled wrong.",
+  "Say it right."
+ ],
+ "captions": [
+  "Jonh, 2017",
+  "Fort Point, 05:40",
+  "The board",
+  "‘Mihcael’",
+  "Kathryne"
+ ],
+ "images": [
+  "img/smile.jpg",
+  "img/store.jpg",
+  "img/beach.jpg",
+  "../engine/img/team-sofa.jpg"
+ ],
+ "who": {
+  "name": "Jonh",
+  "lines": [
+   "is this my order?",
+   "I came off the board.",
+   "you look like someone I’m meant to be.",
+   "nobody here has called me.",
+   "say my name."
+  ]
+ }
+}

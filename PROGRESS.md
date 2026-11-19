@@ -39,3 +39,7 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 29 | Copperline | tech (copper) | wave | live |
 | 30 | Atlas | retail (orange) | shoe | live |
 | 31 | Gilded | luxury (gold) | keyhole | live |
+| 32 | Quillon | legal | signature | live |
+| 33 | Harbor | warm (green) | cup | live |
+| 34 | Wren | editorial (ink blue) | letter | live |
+| 35 | Cumulus | saas (sky) | cloud | live |

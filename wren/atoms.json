@@ -1,0 +1,58 @@
+{
+ "slug": "wren",
+ "name": "Wren Press",
+ "word": "read",
+ "icon": "M0.451 -0.307L0.459 -0.306L0.466 -0.303L0.472 -0.299L0.476 -0.293L0.479 -0.286L0.480 -0.278L0.480 0.278L0.479 0.286L0.476 0.293L0.472 0.299L0.466 0.303L0.459 0.306L0.451 0.307L-0.451 0.307L-0.459 0.306L-0.466 0.303L-0.472 0.299L-0.476 0.293L-0.479 0.286L-0.480 0.278L-0.480 -0.278L-0.479 -0.286L-0.476 -0.293L-0.472 -0.299L-0.466 -0.303L-0.459 -0.306L-0.451 -0.307Z",
+ "palette": {
+  "accent": "#6C88C0",
+  "bg": "#0E0D0B",
+  "ink": "#EDE6D6"
+ },
+ "words": [
+  "read",
+  "page",
+  "margin",
+  "note",
+  "pencil",
+  "line",
+  "book",
+  "spine",
+  "ink",
+  "word"
+ ],
+ "lines": [
+  "Read together.",
+  "You’re never reading alone.",
+  "I’ll read with you.",
+  "Don’t look up.",
+  "Keep reading.",
+  "The margin is full.",
+  "She’s reading this.",
+  "I’m right here.",
+  "It’s about you.",
+  "Close the book."
+ ],
+ "captions": [
+  "Wren No. 1, 1921",
+  "Aisle 9",
+  "Page 41",
+  "The reading room",
+  "Returned, 1964"
+ ],
+ "images": [
+  "img/margin.jpg",
+  "img/stacks.jpg",
+  "img/reading.jpg",
+  "img/margin2.jpg"
+ ],
+ "who": {
+  "name": "The Annotator",
+  "lines": [
+   "what are you reading?",
+   "I came out of the margin.",
+   "you’re not reading anything. that’s unusual.",
+   "everything here is unannotated.",
+   "keep reading."
+  ]
+ }
+}
