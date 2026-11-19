@@ -1,0 +1,58 @@
+{
+ "slug": "cobalt",
+ "name": "Cobalt Minerals",
+ "word": "stone",
+ "icon": "M0.000 -0.480L0.211 -0.192L0.211 0.307L0.000 0.480L-0.211 0.307L-0.211 -0.192Z",
+ "palette": {
+  "accent": "#3A8DFF",
+  "bg": "#05080C",
+  "ink": "#DCE8F8"
+ },
+ "words": [
+  "stone",
+  "crystal",
+  "ore",
+  "seam",
+  "drift",
+  "geode",
+  "facet",
+  "pit",
+  "deep",
+  "eye"
+ ],
+ "lines": [
+  "What the world is made of.",
+  "Sold uncut.",
+  "It turned to face Pit 4.",
+  "The eye.",
+  "Every geode is looking.",
+  "Come down further.",
+  "Don’t open it facing you.",
+  "The Seam is not ore.",
+  "I can see you.",
+  "Close your eye."
+ ],
+ "captions": [
+  "Drive 4-41",
+  "Pit 4",
+  "Sample 2,201",
+  "The Seam",
+  "Geneva cabinet"
+ ],
+ "images": [
+  "img/geode.jpg",
+  "img/terraces.jpg",
+  "img/tunnel.jpg",
+  "img/bismuth.jpg"
+ ],
+ "who": {
+  "name": "The Seam",
+  "lines": [
+   "is this the surface?",
+   "I came up in a stone.",
+   "you’re looking at me. good.",
+   "it’s so bright up here.",
+   "come down."
+  ]
+ }
+}

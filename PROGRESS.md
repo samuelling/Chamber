@@ -50,3 +50,5 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 40 | Thimble | brutal (pink) | mannequin | live |
 | 41 | Whitmore | civic (grey) | strip | live |
 | 42 | Driftwood | retail (sand) | note | live |
+| 43 | Bloomfield | luxury (blush) | petal | live |
+| 44 | Cobalt | dashboard (deep blue) | crystal | live |
