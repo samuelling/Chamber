@@ -220,7 +220,7 @@
   "name": "Cling Packaging",
   "front": "Vacuum and shrink packaging",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "cling/",
   "n": 25
  },
