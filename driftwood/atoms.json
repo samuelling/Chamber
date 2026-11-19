@@ -1,0 +1,58 @@
+{
+ "slug": "driftwood",
+ "name": "Driftwood Audio",
+ "word": "hum",
+ "icon": "M0.027 0.283L0.033 0.301L0.034 0.321L0.031 0.341L0.025 0.361L0.014 0.382L0.000 0.401L-0.017 0.419L-0.037 0.436L-0.060 0.450L-0.084 0.462L-0.109 0.471L-0.135 0.477L-0.161 0.480L-0.186 0.480L-0.210 0.476L-0.232 0.470L-0.251 0.460L-0.267 0.448L-0.280 0.434L-0.290 0.417L-0.295 0.399L-0.297 0.379L-0.294 0.359L-0.287 0.338L-0.277 0.318L-0.263 0.299L-0.245 0.281L-0.225 0.264L-0.203 0.250L-0.179 0.238L-0.153 0.229L-0.127 0.223L-0.102 0.220L-0.076 0.220L-0.053 0.223L-0.031 0.230L-0.012 0.239L0.005 0.252L0.018 0.266ZM0.010 -0.480L0.071 -0.480L0.071 0.330L0.010 0.330ZM0.082 -0.479L0.100 -0.439L0.118 -0.402L0.136 -0.369L0.152 -0.343L0.167 -0.325L0.177 -0.316L0.182 -0.314L0.183 -0.313L0.188 -0.315L0.199 -0.322L0.213 -0.335L0.230 -0.352L0.297 -0.290L0.276 -0.269L0.254 -0.250L0.228 -0.233L0.195 -0.223L0.159 -0.225L0.127 -0.240L0.100 -0.263L0.078 -0.291L0.057 -0.324L0.037 -0.361L0.018 -0.400L-0.001 -0.441Z",
+ "palette": {
+  "accent": "#C8A06A",
+  "bg": "#0E0C0A",
+  "ink": "#F2E8D8"
+ },
+ "words": [
+  "hum",
+  "quiet",
+  "silence",
+  "note",
+  "breath",
+  "lullaby",
+  "ear",
+  "low",
+  "warm",
+  "shh"
+ ],
+ "lines": [
+  "Hear nothing. Almost.",
+  "The hum is a feature.",
+  "Mm-mm-mmm.",
+  "Shh.",
+  "It’s under everything.",
+  "It comes when it’s quiet.",
+  "Thirty centimetres, left.",
+  "Keep a little noise on.",
+  "Nearly close enough.",
+  "Turn it up."
+ ],
+ "captions": [
+  "Chamber, −9 dB",
+  "110 Hz",
+  "Booth 2",
+  "1908 cylinder",
+  "Test bench 4"
+ ],
+ "images": [
+  "img/phones.jpg",
+  "img/lp.jpg",
+  "img/wall.jpg",
+  "img/crates.jpg"
+ ],
+ "who": {
+  "name": "The Hummer",
+  "lines": [
+   "is it quiet here?",
+   "I came in through the silence.",
+   "you’re so loud. shh.",
+   "everything here is noise.",
+   "mm-mm-mmm."
+  ]
+ }
+}

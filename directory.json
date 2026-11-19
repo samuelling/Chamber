@@ -374,7 +374,7 @@
   "name": "Driftwood Audio",
   "front": "Music streaming",
   "wave": 3,
-  "live": false,
+  "live": true,
   "path": "driftwood/"
  },
  {
