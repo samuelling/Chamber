@@ -1,0 +1,58 @@
+{
+ "slug": "tally",
+ "name": "Tally",
+ "word": "paid",
+ "icon": "M-0.285 -0.480L0.285 -0.480L0.285 0.432L0.228 0.480L0.171 0.432L0.114 0.480L0.057 0.432L0.000 0.480L-0.057 0.432L-0.114 0.480L-0.171 0.432L-0.228 0.480L-0.285 0.432L-0.285 0.432Z",
+ "palette": {
+  "accent": "#12B76A",
+  "bg": "#0A120D",
+  "ink": "#F4F1EA"
+ },
+ "words": [
+  "receipt",
+  "paid",
+  "settled",
+  "total",
+  "line item",
+  "balance",
+  "tab",
+  "change",
+  "invoice",
+  "tally"
+ ],
+ "lines": [
+  "Every sale, accounted for.",
+  "A receipt for everything.",
+  "Settled.",
+  "Total Receipts can’t be turned off.",
+  "Every receipt is final.",
+  "I didn’t buy this.",
+  "Balance due.",
+  "The Ledger is always right.",
+  "No refunds on settled lines.",
+  "Still printing."
+ ],
+ "captions": [
+  "Receipt 1,904,212",
+  "Register 0",
+  "8:14 a.m.",
+  "Approved. Settled.",
+  "41 metres and printing"
+ ],
+ "images": [
+  "img/receipt.jpg",
+  "img/register.jpg",
+  "img/terminal.jpg",
+  "img/counter.jpg"
+ ],
+ "who": {
+  "name": "Customer",
+  "lines": [
+   "is this on my receipt too?",
+   "I came out of the printer.",
+   "everything here has a price. settled.",
+   "what’s the balance due?",
+   "don’t tap anything."
+  ]
+ }
+}

@@ -113,7 +113,7 @@
   "name": "Tally",
   "front": "Point-of-sale and payments",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "tally/"
  },
  {
@@ -121,7 +121,7 @@
   "name": "Vessel Health",
   "front": "Health benefits platform",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "vessel/",
   "n": 14
  },
