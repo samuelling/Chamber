@@ -1,0 +1,58 @@
+{
+ "slug": "tessellate",
+ "name": "Tessellate Architects",
+ "word": "down",
+ "icon": "M-0.480 0.480L-0.480 0.288L-0.288 0.288L-0.288 0.096L-0.096 0.096L-0.096 -0.096L0.096 -0.096L0.096 -0.288L0.288 -0.288L0.288 -0.480L0.480 -0.480L0.480 0.480Z",
+ "palette": {
+  "accent": "#E5322B",
+  "bg": "#141210",
+  "ink": "#EDE4D3"
+ },
+ "words": [
+  "stair",
+  "step",
+  "rib",
+  "spine",
+  "vertebra",
+  "flight",
+  "landing",
+  "marrow",
+  "bone",
+  "descent"
+ ],
+ "lines": [
+  "Buildings with a backbone.",
+  "Every building has a spine.",
+  "There is no up.",
+  "The stair continues below the basement.",
+  "The rope ran out at 41.",
+  "Nobody has found the bottom.",
+  "The column is breathing.",
+  "Last drawn flight.",
+  "Keep going down.",
+  "It’s still growing."
+ ],
+ "captions": [
+  "Flight 41",
+  "Rib 7, left side",
+  "Last drawn flight",
+  "Vertebra House",
+  "Scale 1:200. Heart rate 12"
+ ],
+ "images": [
+  "img/spiral.jpg",
+  "img/ribs.jpg",
+  "img/concrete-stair.jpg",
+  "img/model.jpg"
+ ],
+ "who": {
+  "name": "Paolo",
+  "lines": [
+   "is this a landing? I haven’t seen one in hundreds of flights.",
+   "I came down a stair and out of this page.",
+   "which way is up here?",
+   "there are ribs behind this wall too.",
+   "keep a light at the top for me."
+  ]
+ }
+}

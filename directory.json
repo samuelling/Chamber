@@ -86,7 +86,7 @@
   "name": "Tessellate Architects",
   "front": "Architecture practice",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "tessellate/"
  },
  {
@@ -95,7 +95,7 @@
   "name": "Orchard Savings",
   "front": "Retail bank",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "orchard/"
  },
  {

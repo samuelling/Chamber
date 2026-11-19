@@ -16,6 +16,8 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 6 | Ossian Life | saas | clock | live |
 | 7 | Kinfolk Ancestry | retail | fingerprint | live |
 | 8 | Fernhill Realty | editorial | plan | live |
-| 9 | Saltmarsh Therapeutics | clinical | fly | spec written; photos: fly, flies, vials, fruit, lab |
-| 10 | Tessellate Architects | brutal | stair | spec written; photos: spiral, concrete-stair, ribs, model |
-| 11 | Orchard Savings | warm | coin | spec written; photos: pillow, coins, piggy, branch |
+| 9 | Saltmarsh Therapeutics | clinical | fly | live |
+| 10 | Tessellate Architects | brutal | stair | live |
+| 11 | Orchard Savings | warm | coin | live |
+| 12 | Polaris Earth Imaging | dashboard (dark) | face | spec written; photos: farmland, field, face, antenna |
+| 13 | Tally | saas | receipt | spec written; photos: receipt, register, terminal, counter |
