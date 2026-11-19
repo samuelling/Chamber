@@ -1,0 +1,60 @@
+{
+ "slug": "kinfolk",
+ "name": "Kinfolk Ancestry",
+ "word": "kin",
+ "icon": "M0.340 0.000L0.333 0.063L0.320 0.124L0.302 0.184L0.280 0.240L0.253 0.292L0.223 0.339L0.191 0.381L0.155 0.416L0.118 0.443L0.079 0.464L0.040 0.476L0.000 0.480L-0.040 0.476L-0.079 0.464L-0.118 0.443L-0.155 0.416L-0.191 0.381L-0.223 0.339L-0.253 0.292L-0.280 0.240L-0.302 0.184L-0.320 0.124L-0.333 0.063L-0.340 0.000L-0.341 -0.063L-0.337 -0.124L-0.326 -0.184L-0.309 -0.240L-0.286 -0.292L-0.257 -0.339L-0.223 -0.381L-0.185 -0.416L-0.142 -0.443L-0.096 -0.464L-0.049 -0.476L-0.000 -0.480L0.049 -0.476L0.096 -0.464L0.142 -0.443L0.185 -0.416L0.223 -0.381L0.257 -0.339L0.286 -0.292L0.309 -0.240L0.326 -0.184L0.337 -0.124L0.341 -0.063Z",
+ "palette": {
+  "accent": "#E2725B",
+  "bg": "#1A1210",
+  "ink": "#F1D6C8"
+ },
+ "words": [
+  "kin",
+  "cousin",
+  "family",
+  "ancestor",
+  "thumb",
+  "print",
+  "ridge",
+  "whorl",
+  "relative",
+  "bloodline"
+ ],
+ "lines": [
+  "Find your people. All of them.",
+  "Everyone is somebody’s cousin.",
+  "100% related.",
+  "Press until the card is warm.",
+  "Your print may change after testing.",
+  "You cannot be removed from the Tree.",
+  "Every card matches the Founder.",
+  "He’s at the head of the table.",
+  "You have my thumb.",
+  "Give it back."
+ ],
+ "captions": [
+  "Card 9,104,228",
+  "The Founder print, 40×",
+  "Drawer 1",
+  "Thumb to thumb",
+  "Twelve members, one pattern"
+ ],
+ "images": [
+  "img/print.jpg",
+  "img/print2.jpg",
+  "img/gel.jpg",
+  "img/album.jpg",
+  "img/lab.jpg",
+  "img/swab.jpg"
+ ],
+ "who": {
+  "name": "Signe",
+  "lines": [
+   "is this another branch? it’s very quiet.",
+   "look at your thumb. is it yours?",
+   "I came here along a ridge.",
+   "everyone here is family. you too.",
+   "if you see him, don’t shake his hand."
+  ]
+ }
+}

@@ -99,3 +99,4 @@
 /* warm: hospitality, earthy and photo-led */
 .skin-warm .card,.skin-warm .chart-card,.skin-warm .kpi{border-radius:18px;border:0;background:color-mix(in srgb,var(--accent) 7%,var(--card))}
 .skin-warm .ph{border-radius:22px}.skin-warm .btn{border-radius:14px}.skin-warm .hero h1{font-weight:500}
+.hero-text .pill-link{display:flex;width:max-content;max-width:100%;margin-bottom:18px}

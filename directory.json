@@ -59,7 +59,7 @@
   "name": "Kinfolk Ancestry",
   "front": "DNA ancestry kits",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "kinfolk/"
  },
  {
