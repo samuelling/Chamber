@@ -31,7 +31,7 @@ Only numbers from 0 to 1 travel. Each member exposes `source`, `bleed`, `motif`,
 
 - **Alone:** members open in tabs of the same browser find each other over a BroadcastChannel and drive each other with slow LFOs.
 - **The console:** the front door's patch bay sends to any member open in the same browser, with its own LFO.
-- **A room:** with an Invisible Hands relay configured, members join rooms over the internet (`?room=<code>`). No relay is deployed yet.
+- **A room:** members join rooms over the internet through the Invisible Hands relay at `wss://invisible-hands.samuelling.workers.dev` (start one from any Network panel, or open a member with `?room=<code>`).
 
 Every member has a Network switch (footer link, or the chip that appears when something is leaning on the page) that stops remote control and puts the page back.
 
