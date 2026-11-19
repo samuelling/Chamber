@@ -1,0 +1,58 @@
+{
+ "slug": "cradle",
+ "name": "Cradle Cryobank",
+ "word": "his",
+ "icon": "M0.010 -0.382L0.038 -0.378L0.064 -0.368L0.086 -0.350L0.103 -0.328L0.114 -0.302L0.118 -0.274L0.118 0.372L0.114 0.400L0.103 0.426L0.086 0.448L0.064 0.466L0.038 0.476L0.010 0.480L-0.010 0.480L-0.038 0.476L-0.064 0.466L-0.086 0.448L-0.103 0.426L-0.114 0.400L-0.118 0.372L-0.118 -0.274L-0.114 -0.302L-0.103 -0.328L-0.086 -0.350L-0.064 -0.368L-0.038 -0.378L-0.010 -0.382ZM0.127 -0.480L0.135 -0.479L0.142 -0.476L0.148 -0.471L0.153 -0.465L0.156 -0.458L0.157 -0.451L0.157 -0.392L0.156 -0.384L0.153 -0.377L0.148 -0.371L0.142 -0.366L0.135 -0.363L0.127 -0.362L-0.127 -0.362L-0.135 -0.363L-0.142 -0.366L-0.148 -0.371L-0.153 -0.377L-0.156 -0.384L-0.157 -0.392L-0.157 -0.451L-0.156 -0.458L-0.153 -0.465L-0.148 -0.471L-0.142 -0.476L-0.135 -0.479L-0.127 -0.480Z",
+ "palette": {
+  "accent": "#6A5ACD",
+  "bg": "#0F0D14",
+  "ink": "#E4E0EE"
+ },
+ "words": [
+  "donor",
+  "vial",
+  "frost",
+  "likeness",
+  "sibling",
+  "resemblance",
+  "catalogue",
+  "grey eyes",
+  "cradle",
+  "heir"
+ ],
+ "lines": [
+  "Every family begins somewhere.",
+  "3,400 donors. One face.",
+  "Every donor has grey eyes.",
+  "Kept at −196°C.",
+  "All samples are siblings.",
+  "The children look so familiar.",
+  "He’s in the chair.",
+  "Same face, every age.",
+  "I want to go home.",
+  "Still waiting."
+ ],
+ "captions": [
+  "Tank 41",
+  "Donor 1101",
+  "Bench 2, one set of hands",
+  "The vault at 3 a.m.",
+  "Sample QC"
+ ],
+ "images": [
+  "img/tank.jpg",
+  "img/dewar.jpg",
+  "img/cells.jpg",
+  "img/pipette.jpg"
+ ],
+ "who": {
+  "name": "The donor",
+  "lines": [
+   "do you have grey eyes? look.",
+   "I came through the frost on a vial.",
+   "everyone here looks a bit like me.",
+   "I just wanted to be remembered.",
+   "tell them I’m sorry."
+  ]
+ }
+}

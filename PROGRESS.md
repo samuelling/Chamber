@@ -24,3 +24,5 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 14 | Vessel Health | saas | heart | live |
 | 15 | Stride Orthotics | clinical | foot | live |
 | 16 | Tenfold | retail | toe | live |
+| 17 | Lacquer | luxury (light) | crescent | live |
+| 18 | Cradle Cryobank | editorial | vial | live |

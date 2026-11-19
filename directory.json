@@ -157,7 +157,7 @@
   "name": "Cradle Cryobank",
   "front": "Fertility clinic",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "cradle/",
   "n": 18
  },
