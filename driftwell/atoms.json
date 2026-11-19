@@ -1,0 +1,60 @@
+{
+ "slug": "driftwell",
+ "name": "Driftwell Cloud",
+ "word": "sleep",
+ "icon": "M0.307 -0.173L0.352 -0.167L0.394 -0.150L0.429 -0.122L0.457 -0.086L0.474 -0.045L0.480 0.000L0.480 0.000L0.474 0.045L0.457 0.086L0.429 0.122L0.394 0.150L0.352 0.167L0.307 0.173L-0.307 0.173L-0.352 0.167L-0.394 0.150L-0.429 0.122L-0.457 0.086L-0.474 0.045L-0.480 0.000L-0.480 0.000L-0.474 -0.045L-0.457 -0.086L-0.429 -0.122L-0.394 -0.150L-0.352 -0.167L-0.307 -0.173Z",
+ "palette": {
+  "accent": "#5EEAD4",
+  "bg": "#070B14",
+  "ink": "#CDE7E2"
+ },
+ "words": [
+  "sleep",
+  "dream",
+  "pillow",
+  "rest",
+  "breath",
+  "night",
+  "pod",
+  "bed",
+  "slumber",
+  "drowse"
+ ],
+ "lines": [
+  "Storage that never sleeps.",
+  "All systems dreaming.",
+  "Retrieval when it wakes.",
+  "Held at 36.4°C.",
+  "Don’t wake them.",
+  "Fed nightly at 02:00.",
+  "Sleepers are retained.",
+  "Every key is a breath.",
+  "It hasn’t been morning for years.",
+  "Content was dreamt."
+ ],
+ "captions": [
+  "Hall C · row 4",
+  "Pod 162",
+  "Overflow, density 4.1",
+  "The 02:00 feed",
+  "Do not wake"
+ ],
+ "images": [
+  "img/ward.jpg",
+  "img/pods.jpg",
+  "img/pod.jpg",
+  "img/pile.jpg",
+  "img/corridor.jpg",
+  "img/racks.jpg"
+ ],
+ "who": {
+  "name": "Pod 162",
+  "lines": [
+   "is this a dream? it’s brighter than mine.",
+   "I’m holding a wedding. is that what you’re holding?",
+   "I rolled over and came out here.",
+   "it’s too loud to sleep in this one.",
+   "please don’t wake me. not yet."
+  ]
+ }
+}

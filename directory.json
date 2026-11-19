@@ -23,7 +23,7 @@
   "name": "Lumen & Ledger",
   "front": "Private wealth management",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "lumen/"
  },
  {
@@ -32,7 +32,7 @@
   "name": "Driftwell Cloud",
   "front": "Cloud storage, five nines",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "driftwell/"
  },
  {

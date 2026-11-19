@@ -340,7 +340,7 @@ function makeDive(){
     cells.forEach(function(q, k){ q.f = 0.74 + r() * 0.26; var e = (q.x - tx) * (q.x - tx) + (q.y - ty) * (q.y - ty); if (e < bd){ bd = e; best = k; } });
     var tc = cells.splice(best, 1)[0]; tc.r = Math.atan2(Math.sin(tc.r), Math.cos(tc.r)); tc.f = 1; cells.push(tc);
     var colr = colOf(n), lum = colr[0] * 0.3 + colr[1] * 0.6 + colr[2] * 0.1;
-    var gap = n === 0 ? S.motif.trayGap : lum > 100 ? [colr[0] * 0.5, colr[1] * 0.45, colr[2] * 0.43] : [colr[0] * 0.3 + 170, colr[1] * 0.3 + 158, colr[2] * 0.3 + 146];
+    var gap = n === 0 ? S.motif.trayGap : (S.motif.gapMode === "dark" || (S.motif.gapMode !== "light" && lum > 100)) ? [colr[0] * 0.5, colr[1] * 0.45, colr[2] * 0.43] : [colr[0] * 0.3 + 170, colr[1] * 0.3 + 158, colr[2] * 0.3 + 146];
     return (levels[n] = { n: n, shape: sh, cells: cells, target: tc, col: colr, gapCss: rgb(gap), sprite: null, solid: null });
   }
   function sprites(lv){
@@ -423,8 +423,8 @@ function makeDive(){
     raf = 0; if (!on || pinned) return;
     if (!W) size();
     var p = -(track.getBoundingClientRect().top - HEAD) / LVL;
-    if (p > 9){ window.scrollBy(0, -6 * LVL); base += 6; p -= 6; }
-    else if (p < 2 && base > 0){ window.scrollBy(0, 6 * LVL); base -= 6; p += 6; }
+    if (p > 9){ window.scrollBy({ top: -6 * LVL, behavior: "instant" }); base += 6; p -= 6; }
+    else if (p < 2 && base > 0){ window.scrollBy({ top: 6 * LVL, behavior: "instant" }); base -= 6; p += 6; }
     want = base + Math.max(0, Math.min(SPAN - 0.01, p));
     cur += (want - cur) * (reduced ? 1 : 0.22);
     if (Math.abs(want - cur) < 0.0004) cur = want;
@@ -434,7 +434,7 @@ function makeDive(){
   function kick(){ if (on && !raf) raf = requestAnimationFrame(frame); var y = window.scrollY; speed = speed * 0.8 + Math.min(1, Math.abs(y - lastY) / 400) * 0.2; lastY = y; }
   window.addEventListener("scroll", kick, { passive: true });
   window.addEventListener("resize", function(){ if (on){ size(); kick(); } });
-  $("#dive-out").addEventListener("click", function(){ base = 0; cur = want = 0; shown = -1; window.scrollTo(0, 0); });
+  $("#dive-out").addEventListener("click", function(){ base = 0; cur = want = 0; shown = -1; window.scrollTo({ top: 0, behavior: "instant" }); });
   return {
     start: function(){ on = true; pinned = false; size(); kick(); },
     stop: function(){ on = false; },

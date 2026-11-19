@@ -1,0 +1,58 @@
+[
+ {
+  "file": "img/corridor.jpg",
+  "title": "Racks Amravati Data Center.jpg",
+  "artist": "PiDatacenters",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Racks_Amravati_Data_Center.jpg"
+ },
+ {
+  "file": "img/corridor-tall.jpg",
+  "title": "Racks Amravati Data Center.jpg",
+  "artist": "PiDatacenters",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Racks_Amravati_Data_Center.jpg"
+ },
+ {
+  "file": "img/racks.jpg",
+  "title": "Datacenter Server Racks (22370909788).jpg",
+  "artist": "Carl Lender from Sunrise, USA",
+  "license": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg"
+ },
+ {
+  "file": "img/rear.jpg",
+  "title": "Rear of rack at NERSC data center - closeup.jpg",
+  "artist": "Derrick Coetzee from Berkeley, CA, USA",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg"
+ },
+ {
+  "file": "img/pods.jpg",
+  "title": "August 2007 capsule hotel in Osaka 3.jpg",
+  "artist": "Syced",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:August_2007_capsule_hotel_in_Osaka_3.jpg"
+ },
+ {
+  "file": "img/pod.jpg",
+  "title": "August 2007 capsule hotel in Osaka.jpg",
+  "artist": "Syced",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:August_2007_capsule_hotel_in_Osaka.jpg"
+ },
+ {
+  "file": "img/ward.jpg",
+  "title": "Empty Beds in Ward of Hospital, Minneapolis Health Department.jpg",
+  "artist": "City of Minneapolis Archives",
+  "license": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Empty_Beds_in_Ward_of_Hospital,_Minneapolis_Health_Department.jpg"
+ },
+ {
+  "file": "img/pile.jpg",
+  "title": "132 Group of Cape fur seal sleeping together at Cape cross Photo by Giles Laurent.jpg",
+  "artist": "Giles Laurent",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:132_Group_of_Cape_fur_seal_sleeping_together_at_Cape_cross_Photo_by_Giles_Laurent.jpg"
+ }
+]
