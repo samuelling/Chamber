@@ -1,0 +1,60 @@
+{
+ "slug": "fernhill",
+ "name": "Fernhill Realty",
+ "word": "room",
+ "icon": "M-0.480 -0.384L0.192 -0.384L0.192 -0.096L0.480 -0.096L0.480 0.384L-0.096 0.384L-0.096 0.144L-0.480 0.144Z",
+ "palette": {
+  "accent": "#3E6B52",
+  "bg": "#16120F",
+  "ink": "#F0E6D6"
+ },
+ "words": [
+  "room",
+  "hall",
+  "wall",
+  "door",
+  "floor",
+  "plan",
+  "stair",
+  "closet",
+  "landing",
+  "attic"
+ ],
+ "lines": [
+  "Every home has more to give.",
+  "One more room than listed.",
+  "The extra room is always warm.",
+  "Square footage approximate, and growing.",
+  "The walls are breathing.",
+  "Don’t sit in the chair.",
+  "The stair has one more step coming down.",
+  "No buyer has ever resold.",
+  "There’s always room.",
+  "Room four of three."
+ ],
+ "captions": [
+  "Irving Street · room 4 of 3",
+  "Lenox, room 6",
+  "The fourth door",
+  "37.8°C at the wall",
+  "Found on survey"
+ ],
+ "images": [
+  "img/attic.jpg",
+  "img/empty.jpg",
+  "img/hall.jpg",
+  "img/stairs.jpg",
+  "img/living.jpg",
+  "../engine/img/hallway.jpg"
+ ],
+ "who": {
+  "name": "Owen",
+  "lines": [
+   "is this another room? it’s colder in here.",
+   "I’ve been walking to a door for a long time.",
+   "there’s one more room behind this page.",
+   "don’t sit in the chair.",
+   "can you see the front door from where you are?"
+  ]
+ }
+}

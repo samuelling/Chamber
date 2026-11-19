@@ -15,4 +15,7 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 5 | Northgate Freight | dashboard | door | live |
 | 6 | Ossian Life | saas | clock | live |
 | 7 | Kinfolk Ancestry | retail | fingerprint | live |
-| 8 | Fernhill Realty | editorial | plan | spec written, needs photos (living, hall, stairs, empty, attic) |
+| 8 | Fernhill Realty | editorial | plan | live |
+| 9 | Saltmarsh Therapeutics | clinical | fly | spec written; photos: fly, flies, vials, fruit, lab |
+| 10 | Tessellate Architects | brutal | stair | spec written; photos: spiral, concrete-stair, ribs, model |
+| 11 | Orchard Savings | warm | coin | spec written; photos: pillow, coins, piggy, branch |

@@ -68,7 +68,7 @@
   "name": "Fernhill Realty",
   "front": "Luxury real estate",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "fernhill/"
  },
  {
