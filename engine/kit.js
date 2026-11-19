@@ -25,6 +25,18 @@ var R = {
     var pill = s.pill ? "<a class=\"pill-link\" href=\"" + s.pill[0] + "\"><b>" + (s.pill[2] || "NEW") + "</b>" + s.pill[1] + " →</a>" : "";
     var text = "<div class=\"hero-text\">" + pill + (s.eyebrow ? "<span class=\"eyebrow\">" + s.eyebrow + "</span>" : "") + "<h1>" + s.h1 + "</h1><p class=\"lede\">" + s.lede + "</p><div class=\"hero-cta\">" + btns(s.cta) + "</div>" + note + "</div>";
     var art = s.img ? "<div class=\"hero-art\">" + fig(s.img, s.alt, s.ratio || (lay === "full" ? "r219" : "r45"), { focus: s.focus, seen: s.seen, swap: s.swap }) + (s.badge ? "<div class=\"badge\"><b>" + s.badge[0] + "</b>" + s.badge[1] + "</div>" : "") + "</div>" : "";
+    if (lay === "dash" && !s.kpis && !s.chart) lay = "split";
+    if (lay === "poster"){
+      var pt = "<div class=\"poster-text place-" + (s.place || "bottom") + "\">" + (s.eyebrow ? "<span class=\"eyebrow\">" + s.eyebrow + "</span>" : "") + "<h1>" + s.h1 + "</h1>" + (s.sub ? "<p class=\"poster-sub\">" + s.sub + "</p>" : "") + "<div class=\"hero-cta\">" + btns(s.cta) + "</div>" + note + "</div>";
+      return "<section class=\"hero hero-poster" + (s.dark === false ? " light" : "") + "\">" + fig(s.img, s.alt, "poster-ph", { focus: s.focus, seen: s.seen, swap: s.swap }) + pt + (s.scroll ? "<span class=\"poster-scroll\">" + s.scroll + "</span>" : "") + "</section>";
+    }
+    if (lay === "type"){
+      return "<section class=\"hero hero-type\"><div class=\"container\">" + (s.eyebrow ? "<span class=\"eyebrow\">" + s.eyebrow + "</span>" : "") + "<h1>" + s.h1 + "</h1><div class=\"type-foot\"><p class=\"lede\">" + (s.lede || "") + "</p><div class=\"hero-cta\">" + btns(s.cta) + "</div></div>" + note + "</div>" + (s.img ? "<div class=\"type-strip\">" + fig(s.img, s.alt, "r31", { focus: s.focus, seen: s.seen, swap: s.swap }) + "</div>" : "") + "</section>";
+    }
+    if (lay === "mosaic"){
+      var ims = (s.imgs || [[s.img, s.alt, s.seen]]).map(function(m, i){ return "<div class=\"m m" + i + "\">" + fig(m[0], m[1], "fill", { seen: m[2], focus: m[3] }) + "</div>"; }).join("");
+      return "<section class=\"hero hero-mosaic\"><div class=\"mosaic-grid n" + (s.imgs ? s.imgs.length : 1) + "\">" + ims + "<div class=\"mosaic-card\">" + (s.eyebrow ? "<span class=\"eyebrow\">" + s.eyebrow + "</span>" : "") + "<h1>" + s.h1 + "</h1>" + (s.lede ? "<p class=\"lede\">" + s.lede + "</p>" : "") + "<div class=\"hero-cta\">" + btns(s.cta) + "</div>" + note + "</div></div></section>";
+    }
     if (lay === "dash") art = "<div class=\"hero-art hero-dash\">" + R.kpis({ items: s.kpis || [] }, S, true) + (s.chart ? chart(s.chart) : "") + "</div>";
     if (lay === "full") return "<section class=\"hero hero-full\">" + art + "<div class=\"container\">" + text + "</div></section>";
     if (lay === "center") return "<section class=\"hero hero-center\"><div class=\"container\">" + text + art + "</div></section>";
@@ -77,6 +89,18 @@ var R = {
   exitsInner: function(s){ return (s.exits ? "<nav class=\"exits\" aria-label=\"Ways on\">" + s.exits.map(function(e){ return "<a class=\"exit\" href=\"" + e[1] + "\">" + e[0] + "</a>"; }).join("") + "</nav>" : "") + (s.up ? "<p class=\"room-up\"><a href=\"" + s.up[0] + "\">↑ " + s.up[1] + "</a></p>" : ""); },
   exits: function(s){ return "<div class=\"container\" style=\"padding-bottom:70px\">" + R.exitsInner(s) + "</div>"; },
   dive: function(s, S){ return "<section class=\"dive-sec\" aria-label=\"" + att(s.h2) + "\"><div class=\"container\"><span class=\"eyebrow\">" + S.dive.top + "</span><h2 style=\"font-size:clamp(1.7rem,3vw,2.4rem);margin-top:14px\">" + s.h2 + "</h2><p class=\"muted\" style=\"margin-top:12px;max-width:60ch\">" + s.p + "</p></div><div id=\"dive-track\"><div id=\"dive-stage\"><canvas id=\"dive\" role=\"img\" aria-label=\"" + att(s.aria) + "\"></canvas><div class=\"dive-hud\"><span id=\"dive-depth\">" + S.dive.top + "</span><button class=\"btn btn-ghost btn-sm\" id=\"dive-out\">Climb out ↑</button></div><a id=\"dive-door\" class=\"btn btn-ghost btn-sm\" href=\"#room-" + S.roomOrder[0] + "\" hidden>" + (s.door || "There’s a gap in this one") + " →</a><p id=\"dive-say\">Scroll.</p></div></div></section>"; },
+  tiles: function(s){
+    var t = s.items.map(function(x, i){ var o = x.length ? { img: x[0], alt: x[1], h: x[2], sub: x[3], cta: x[4], seen: x[5] } : x;
+      return "<a class=\"tile" + (o.light ? " light" : "") + (i === 0 && s.lead !== false ? " lead" : "") + "\" href=\"" + (o.cta ? o.cta[0] : "#home") + "\">" + fig(o.img, o.alt, "fill", { seen: o.seen, focus: o.focus }) + "<div class=\"tile-text\"><h2>" + o.h + "</h2>" + (o.sub ? "<p>" + o.sub + "</p>" : "") + (o.cta ? "<span class=\"tile-cta\">" + o.cta[1] + " ›</span>" : "") + "</div></a>"; }).join("");
+    return "<section class=\"tiles-sec\">" + (head(s) ? "<div class=\"container\">" + head(s) + "</div>" : "") + "<div class=\"tiles\">" + t + "</div></section>";
+  },
+  band: function(s){ return "<section class=\"band" + (s.tall ? " tall" : "") + "\">" + fig(s.img, s.alt, "fill", { seen: s.seen, swap: s.swap, focus: s.focus }) + "<div class=\"band-text place-" + (s.place || "bottom") + "\">" + (s.eyebrow ? "<span class=\"eyebrow\">" + s.eyebrow + "</span>" : "") + (s.h2 ? "<h2>" + s.h2 + "</h2>" : "") + (s.cap ? "<p>" + s.cap + "</p>" : "") + (s.cta ? "<div class=\"hero-cta\">" + btns([s.cta]) + "</div>" : "") + "</div></section>"; },
+  mosaic: function(s){ return "<section class=\"mosaic-sec\"><div class=\"container" + (s.wide ? " wide" : "") + "\">" + head(s) + "<div class=\"mosaic " + (s.style || "masonry") + "\">" + s.items.map(function(x, i){ return "<div class=\"mo mo" + (i % 7) + "\">" + fig(x[0], x[1], "fill", { seen: x[3], cap: x[2] }) + "</div>"; }).join("") + "</div></div></section>"; },
+  ticker: function(s){ var one = s.items.map(function(x){ var d = String(x[2] || ""); return "<span><b>" + x[0] + "</b> " + x[1] + (d ? " <em class=\"" + (d[0] === "-" || d[0] === "\u2212" ? "down" : "up") + "\">" + d + "</em>" : "") + "</span>"; }).join(""); return "<div class=\"ticker\" aria-label=\"" + att(s.label || "Live figures") + "\"><div class=\"ticker-track\">" + one + one + "</div></div>"; },
+  marquee: function(s){ var w = "<span>" + s.text + "</span>"; return "<div class=\"marquee\" aria-hidden=\"true\"><div class=\"marquee-track\">" + w + w + w + w + "</div></div>"; },
+  statement: function(s){ return "<section class=\"statement\"><div class=\"container\">" + (s.eyebrow ? "<span class=\"eyebrow\">" + s.eyebrow + "</span>" : "") + "<p class=\"statement-text\">" + s.text + "</p>" + (s.by ? "<p class=\"statement-by\">" + s.by + "</p>" : "") + (s.cta ? "<div class=\"hero-cta\">" + btns([s.cta]) + "</div>" : "") + "</div></section>"; },
+  index: function(s){ var lead = s.items[0], rest = s.items.slice(1);
+    return "<section class=\"index-sec\"><div class=\"container\">" + head(s) + "<div class=\"index-grid\"><a class=\"index-lead\" href=\"" + lead[2] + "\">" + (lead[3] ? fig(lead[3], lead[1], "r32", { seen: lead[4] }) : "") + "<span class=\"kicker\">" + lead[0] + "</span><h3>" + lead[1] + "</h3>" + (lead[5] ? "<p>" + lead[5] + "</p>" : "") + "</a><ol class=\"index-list\">" + rest.map(function(x, i){ return "<li><a href=\"" + x[2] + "\"><span class=\"num\">" + String(i + 2).padStart(2, "0") + "</span><span><span class=\"kicker\">" + x[0] + "</span><b>" + x[1] + "</b></span>" + (x[3] ? fig(x[3], x[1], "r11") : "") + "</a></li>"; }).join("") + "</ol></div></div></section>"; },
   html: function(s){ return s.html; }
 };
 
@@ -117,6 +141,7 @@ function drawCredits(){
     ul.innerHTML = (cs.length ? cs.map(function(c){ return "<li>" + esc(c.title) + " · " + esc(c.artist) + " · " + esc(c.license) + " · <a href=\"" + att(c.source) + "\" rel=\"noopener\">source</a></li>"; }).join("") : "<li class=\"muted\">Stock photographs only (Unsplash License).</li>");
   });
 }
+window.addEventListener("scroll", function(){ document.body.classList.toggle("scrolled", window.scrollY > window.innerHeight * 0.7); }, { passive: true });
 document.addEventListener("mousemove", function(e){
   var c = e.target.closest && e.target.closest(".candle"); if (!c) return;
   var b = c.getBoundingClientRect();
@@ -131,7 +156,7 @@ window.Kit = { img: img, build: function(P){
     "d3-bg": t.d3 && t.d3[0], "d3-text": t.d3 && t.d3[1], "d3-muted": t.d3 && t.d3[2], "d3-accent": t.d3 && t.d3[3], "d4-bg": t.d4 && t.d4[0], "d4-text": t.d4 && t.d4[1], "d4-muted": t.d4 && t.d4[2], "d4-accent": t.d4 && t.d4[3], "footer-bg": t.footer, "cta-bg": t.ctaBg };
   for (var k in tokens) if (tokens[k] != null) root.setProperty("--" + k, tokens[k]);
   if (t.fonts){ var l = document.createElement("link"); l.rel = "stylesheet"; l.href = "https://fonts.googleapis.com/css2?" + t.fonts.split("|").map(function(f){ return "family=" + f; }).join("&") + "&display=swap"; document.head.appendChild(l); }
-  document.body.classList.add("skin-" + (P.skin || "saas"));
+  document.body.classList.add("skin-" + (P.skin || "saas")); if (P.header) document.body.classList.add("hdr-" + P.header);
   if (P.css){ var st = document.createElement("style"); st.textContent = P.css; document.head.appendChild(st); }
   var S = { slug: P.slug, name: P.name, dive: { top: P.dive.top }, roomOrder: P.roomOrder || Object.keys(P.rooms), heroLayout: P.heroLayout };
   var pages = P.pages.map(function(pg){ return { id: pg.id, depth: pg.depth, html: pg.s.map(function(s){ var f = R[s.t]; if (!f) throw new Error("no section " + s.t); return f(s, S); }).join("") }; });
@@ -151,7 +176,7 @@ window.Kit = { img: img, build: function(P){
       trayKind: { grid: 0, brick: 1, radial: 2, spiral: 3, wave: 4, checker: 5, scatter: 6 }[M.tray || "grid"], trayStep: M.step || 0.2, trayGap: hex(M.gap), palette: [hex(M.gap)].concat(M.palette.map(hex)) },
     dive: { view: P.dive.view || "dive", top: P.dive.top, unit: P.dive.unit, chant: P.dive.chant, say: P.dive.say, voice: P.dive.voice, still: P.dive.still || "Still here." },
     counter: P.counter, cookie: P.cookie, chat: P.chat, forms: forms,
-    onRoute: function(view, st){ drawCharts(); if (view === "legal") drawCredits(); if (P.onRoute) P.onRoute(view, st); },
+    onRoute: function(view, st){ document.body.setAttribute("data-page", view); drawCharts(); if (view === "legal") drawCredits(); if (P.onRoute) P.onRoute(view, st); },
     console: P.console, atoms: P.atoms
   };
 }};

@@ -100,3 +100,106 @@
 .skin-warm .card,.skin-warm .chart-card,.skin-warm .kpi{border-radius:18px;border:0;background:color-mix(in srgb,var(--accent) 7%,var(--card))}
 .skin-warm .ph{border-radius:22px}.skin-warm .btn{border-radius:14px}.skin-warm .hero h1{font-weight:500}
 .hero-text .pill-link{display:flex;width:max-content;max-width:100%;margin-bottom:18px}
+
+/* ======== layouts after real corporate sites ======== */
+.r31{aspect-ratio:3/1}
+.ph.fill{position:absolute;inset:0;border:0;border-radius:0;height:100%}
+/* poster: one full-bleed image, a few words (Tesla, Apple, Rolex) */
+.hero-poster{padding:0;min-height:calc(100svh - 66px);display:flex;color:#fff;background:#000}
+.hero-poster .poster-ph{position:absolute;inset:0;border:0;border-radius:0;height:100%}
+.hero-poster .poster-ph::after{background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,0) 30%,rgba(0,0,0,0) 55%,rgba(0,0,0,.6))}
+.hero-poster.light{color:#111}.hero-poster.light .poster-text h1{color:#111}.hero-poster.light .poster-ph::after{background:linear-gradient(180deg,rgba(255,255,255,.4),transparent 35%)}
+.poster-text{position:relative;z-index:2;width:100%;max-width:1180px;margin:0 auto;padding:0 24px 64px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end}
+.poster-text.place-center{justify-content:center;align-items:center;text-align:center;padding-bottom:0}
+.poster-text.place-top{justify-content:flex-start;align-items:center;text-align:center;padding-top:9vh}
+.poster-text h1{font-size:clamp(2.6rem,7.5vw,6.5rem);max-width:16ch;line-height:.98;margin-top:10px;color:inherit}
+.poster-text .eyebrow{color:inherit;opacity:.85}.poster-sub{font-size:1.1rem;margin-top:14px;opacity:.88;max-width:40ch}
+.poster-text .hero-note{color:inherit;opacity:.75}
+.hero-poster .btn-ghost{color:inherit;border-color:currentColor;background:transparent}
+.poster-text.place-top .hero-cta,.poster-text.place-center .hero-cta{justify-content:center}
+.poster-scroll{position:absolute;z-index:2;left:50%;bottom:18px;transform:translateX(-50%);font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.7}
+/* type: giant words, little else (Nike, Pentagram, Stripe Sessions) */
+.hero-type{padding:70px 0 0}
+.hero-type h1{font-size:clamp(3.6rem,13vw,12.5rem);line-height:.86;letter-spacing:-0.055em;max-width:none;margin-top:18px}
+.type-foot{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-top:40px;padding-bottom:50px;border-bottom:1px solid var(--stroke)}
+.type-foot .lede{margin-top:0;max-width:44ch}
+.type-strip .ph{border-radius:0;border:0}
+/* mosaic hero: many photos, one small card (Airbnb, Patagonia, Aesop) */
+.hero-mosaic{padding:14px 0 0}
+.mosaic-grid{display:grid;gap:10px;padding:0 14px;grid-template-columns:repeat(3,1fr) minmax(300px,1.25fr);grid-auto-rows:minmax(150px,24vh)}
+.mosaic-grid .m{position:relative;overflow:hidden;border-radius:min(var(--radius,14px),22px)}
+.mosaic-grid .m0{grid-column:span 2;grid-row:span 2}.mosaic-grid .m1{grid-row:span 2}.mosaic-grid.n5 .m4{grid-column:span 2}
+.mosaic-card{grid-column:4;grid-row:1/span 2;align-self:stretch;display:flex;flex-direction:column;justify-content:flex-end;padding:26px;background:var(--card);border-radius:min(var(--radius,14px),22px);border:1px solid var(--stroke)}
+.mosaic-grid.n3 .mosaic-card,.mosaic-grid.n5 .mosaic-card{grid-column:4}
+.hero.hero-mosaic .mosaic-card h1{font-size:clamp(1.8rem,2.8vw,2.8rem);line-height:1.02;margin-top:10px;max-width:none}.mosaic-card{overflow:hidden}.mosaic-card .lede{font-size:1rem;margin-top:12px;color:var(--muted)}.mosaic-card .hero-cta{margin-top:18px}
+/* tiles: Apple's stacked product tiles */
+.tiles-sec{padding:12px 0 40px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:0 12px}
+.tile{position:relative;display:block;min-height:min(78vh,640px);overflow:hidden;color:#fff;text-decoration:none;background:#111}
+.tile.lead{grid-column:1/-1;min-height:min(86vh,720px)}
+.tile .ph::after{background:linear-gradient(180deg,rgba(0,0,0,.42),rgba(0,0,0,0) 34%)}
+.tile.light{color:#111}.tile.light .ph::after{background:linear-gradient(180deg,rgba(255,255,255,.55),transparent 36%)}
+.tile-text{position:relative;z-index:2;text-align:center;padding:44px 24px 0}
+.tile-text h2{font-size:clamp(1.9rem,4.4vw,3.4rem);color:inherit;letter-spacing:-0.02em}.tile-text p{font-size:1.15rem;margin-top:6px;opacity:.9}
+.tile-cta{display:inline-block;margin-top:14px;font-size:1.02rem;color:inherit;border-bottom:1px solid currentColor;padding-bottom:2px}
+.tile:hover .ph img{transform:scale(1.025)}.tile .ph img{transition:transform .8s ease}
+/* band: one full-bleed photograph with a caption (Rolex, Hermès) */
+.band{position:relative;min-height:62vh;display:flex;color:#fff;overflow:hidden;background:#000;margin:30px 0}
+.band.tall{min-height:92vh}
+.band .ph::after{background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.65))}
+.band-text{position:relative;z-index:2;width:100%;max-width:1180px;margin:0 auto;padding:0 24px 48px;display:flex;flex-direction:column;justify-content:flex-end}
+.band-text.place-center{justify-content:center;align-items:center;text-align:center;padding-bottom:0}
+.band-text h2{font-size:clamp(2rem,5vw,4.2rem);color:inherit;max-width:18ch}.band-text p{max-width:52ch;margin-top:12px;opacity:.88}.band-text .eyebrow{color:inherit;opacity:.8}
+.band .btn-ghost{color:#fff;border-color:#fff}
+/* mosaic section: image-heavy grid, captions only */
+.mosaic-sec{padding:50px 0}.mosaic-sec .container.wide{max-width:1500px}
+.mosaic{display:grid;gap:10px;grid-template-columns:repeat(6,1fr);grid-auto-rows:170px}
+.mosaic .mo{position:relative;overflow:hidden;border-radius:min(var(--radius,12px),22px)}
+.mosaic .mo figcaption{position:absolute;left:12px;bottom:10px;right:12px;z-index:2;color:#fff;font-size:12.5px;font-family:var(--mono)}
+.mosaic.masonry .mo0{grid-column:span 3;grid-row:span 3}.mosaic.masonry .mo1{grid-column:span 3;grid-row:span 2}.mosaic.masonry .mo2{grid-column:span 2;grid-row:span 2}.mosaic.masonry .mo3{grid-column:span 1;grid-row:span 2}
+.mosaic.masonry .mo4{grid-column:span 2;grid-row:span 2}.mosaic.masonry .mo5{grid-column:span 2;grid-row:span 2}.mosaic.masonry .mo6{grid-column:span 2;grid-row:span 2}
+.mosaic.strip{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));grid-auto-rows:420px}
+.mosaic.grid{grid-template-columns:repeat(3,1fr);grid-auto-rows:340px}
+/* ticker: Bloomberg / Reuters strip */
+.ticker{overflow:hidden;background:var(--text);color:var(--bg);font-family:var(--mono);font-size:13px;white-space:nowrap;border-bottom:1px solid var(--stroke)}
+.ticker-track{display:inline-flex;gap:38px;padding:9px 0;animation:tick 48s linear infinite}
+.ticker b{font-weight:600}.ticker em{font-style:normal}.ticker em.up{color:#3fd67a}.ticker em.down{color:#ff6a5a}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* marquee: one enormous word running past */
+.marquee{overflow:hidden;white-space:nowrap;border-top:1px solid var(--stroke);border-bottom:1px solid var(--stroke);padding:8px 0}
+.marquee-track{display:inline-flex;animation:tick 30s linear infinite}
+.marquee span{font-family:var(--display);font-size:clamp(3rem,10vw,9rem);line-height:1;letter-spacing:-0.04em;padding-right:.6em;font-weight:var(--display-weight,600)}
+@media (prefers-reduced-motion:reduce){.ticker-track,.marquee-track{animation:none}}
+/* statement: one big paragraph (Stripe, Aesop) */
+.statement{padding:110px 0}
+.statement-text{font-family:var(--display);font-size:clamp(1.8rem,3.6vw,3.1rem);line-height:1.15;letter-spacing:-0.02em;max-width:30ch;margin-top:16px}
+.statement-by{margin-top:22px;font-family:var(--mono);font-size:13px;color:var(--muted)}
+/* index: editorial lead + numbered list (McKinsey, Monocle, the Times) */
+.index-sec{padding:60px 0}
+.index-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:44px;border-top:2px solid var(--text);padding-top:26px}
+.index-lead{text-decoration:none;color:inherit;display:block}.index-lead h3{font-size:clamp(1.6rem,3vw,2.5rem);margin-top:8px;line-height:1.08}.index-lead p{color:var(--muted);margin-top:10px}
+.index-lead .ph{margin-bottom:16px;border-radius:0}
+.kicker{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink,var(--accent));display:block}
+.index-list{list-style:none;margin:0;padding:0}
+.index-list li a{display:grid;grid-template-columns:44px 1fr 84px;gap:14px;align-items:start;padding:16px 0;border-bottom:1px solid var(--stroke);text-decoration:none;color:inherit}
+.index-list .num{font-family:var(--display);font-size:1.6rem;color:var(--muted);line-height:1}
+.index-list b{display:block;font-family:var(--display);font-size:1.12rem;font-weight:500;margin-top:4px;line-height:1.2}
+.index-list .ph{border-radius:0;width:84px}
+/* header variants */
+.hdr-center .nav{flex-direction:column;height:auto;gap:8px;padding:16px 24px 12px}.hdr-center .brand{font-size:24px;letter-spacing:.06em}
+.hdr-center .nav-links{margin-left:0}
+.hdr-minimal .nav-links{display:none;position:absolute;left:0;right:0;top:66px;background:var(--bg);border-bottom:1px solid var(--stroke);flex-direction:column;align-items:flex-start;gap:4px;padding:14px 24px 20px;margin:0}
+.hdr-minimal .nav-links.open{display:flex}.hdr-minimal .menu-btn{display:block}
+.hdr-overlay header.site{position:fixed;left:0;right:0;transition:background .25s,border-color .25s}
+.hdr-overlay[data-page="home"]:not(.scrolled) header.site{background:transparent;border-bottom-color:transparent;backdrop-filter:none}
+.hdr-overlay[data-page="home"]:not(.scrolled) header.site .brand,.hdr-overlay[data-page="home"]:not(.scrolled) header.site .nav-links a,.hdr-overlay[data-page="home"]:not(.scrolled) .menu-btn{color:#fff!important;border-color:rgba(255,255,255,.6)}
+.hdr-overlay[data-page="home"]:not(.scrolled) header.site .btn-primary{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.6);color:#fff!important;backdrop-filter:blur(6px)}
+.hdr-overlay main{padding-top:66px}.hdr-overlay .hero-poster{margin-top:-66px;min-height:100svh}
+@media (max-width:900px){
+  .mosaic-grid{grid-template-columns:1fr 1fr;grid-auto-rows:150px}.mosaic-grid .m0{grid-column:1/-1}.mosaic-grid .m1{grid-row:span 1}.mosaic-card{grid-column:1/-1!important;grid-row:auto}
+  .tiles{grid-template-columns:1fr}.tile{min-height:520px}
+  .mosaic{grid-template-columns:1fr 1fr;grid-auto-rows:160px}.mosaic .mo{grid-column:span 1!important;grid-row:span 1!important}.mosaic .mo0{grid-column:1/-1!important;grid-row:span 2!important}
+  .mosaic.strip,.mosaic.grid{grid-template-columns:1fr;grid-auto-rows:320px}
+  .index-grid{grid-template-columns:1fr}
+  .hdr-center .nav{flex-direction:row;height:66px;padding:0 24px}.hdr-center .brand{font-size:18px}
+}

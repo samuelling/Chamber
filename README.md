@@ -38,3 +38,18 @@ Every member has a Network switch (footer link, or the chip that appears when so
 ## This is satire
 
 Every business here is fictional. Nothing is a real offer, the forms send nothing, and nobody is in residence. Shared stock photos in engine/img are from Unsplash under the Unsplash License. Each member's own photos (300 in all) are from Wikimedia Commons under CC0, public domain, CC BY or CC BY-SA; every one is credited by author and licence on that member's Legal page and in its credits.json. Photos were chosen to avoid identifiable people.
+
+## Home page layouts
+
+Members' front pages come in six families, each modelled on a kind of real corporate site, so the Chamber doesn't read as fifty copies of one template:
+
+| Family | After | Members |
+|---|---|---|
+| Poster (`hero layout: "poster"` + `tiles` + `band`) | Tesla, Apple, Rolex | Northwind, Atlas, Gilded, Lacquer, Halden, Seatwell, Silicate, Ascend, Driftwood, Lumen, Stride |
+| Mosaic (`"mosaic"` + `mosaic`) | Airbnb, Patagonia, Aesop, Warby Parker | Bloomfield, Harbor, Thimble, Gristmill, Kinfolk, Orchard, Hollow, Tenfold, Clearview, Aster |
+| Type (`"type"` + `marquee` + `statement`) | Nike, Pentagram, Stripe | Verity, Quillon, Lark, Tessellate, Cling, Brightside, Ironbark, Cradle, Vessel |
+| Dashboard (`ticker` + `"dash"`) | Bloomberg, Palantir, Datadog | Polaris, Cumulus, Copperline, Sable, Lodestar, Cobalt, Cuffwell, Northgate, Tally |
+| Index (`index` + `band`) | Monocle, McKinsey, GOV.UK | Wren, Fernhill, Whitmore, Ember, Under, Brightwater |
+| Classic SaaS | every B2B startup | Ossian, Saltmarsh, Driftwell |
+
+Headers vary too (`header: "overlay" | "center" | "minimal"`). `node tools/rehome.js <slug>` rebuilds a home page from its family config; run it on the spec as committed before the rehome, not twice.

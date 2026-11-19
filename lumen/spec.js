@@ -2,6 +2,7 @@
 Kit.build({
 slug: "lumen", name: "Lumen & Ledger", title: "Private wealth, held close", description: "Lumen & Ledger is a private bank and family office for families who think in generations. Discretion since 1886.",
 skin: "luxury",
+header: "overlay",
 theme: { bg: "#0F0E0C", text: "#EDE6D8", muted: "#A39A8A", accent: "#B89A5E", accentInk: "#D4B97E", onAccent: "#14110C", card: "#17150F", stroke: "rgba(237,230,216,.12)", header: "rgba(15,14,12,.86)",
   display: "\"Cormorant Garamond\",Georgia,serif", body: "\"Manrope\",system-ui,sans-serif", weight: 400, radius: "0px", voice: "#E8C9A8", chart2: "#6E6455", chart3: "#3B362D",
   d3: ["#0b0908", "#E6DCCB", "#8F8473", "#C9A46A"], d4: ["#060504", "#E2D6C2", "#7C7262", "#BF9A62"], footer: "#0B0A08", fonts: "Cormorant+Garamond:wght@300;400;500|Manrope:wght@400;500;600" },
@@ -11,22 +12,7 @@ cta: ["#introduction", "Request an introduction"],
 tag: "Private wealth, held close. Mayfair · Geneva · Boston.",
 fine: ["© 2026 Lumen & Ledger Private Bank", "Est. 1886", "Kept in perpetuity"],
 pages: [
-{ id: "home", depth: 0, s: [
-  { t: "hero", layout: "full", img: "img/aisle.jpg", seen: "img/braid.jpg", alt: "A long vault aisle lined with polished safe-deposit boxes", focus: "50% 60%", eyebrow: "Private bank & family office · Est. 1886",
-    h1: "Wealth that outlives you. Held close.", lede: "For one hundred and forty years, Lumen & Ledger has kept the fortunes of a few hundred families. We plan in generations, invest with patience, and hold what matters most where no one else can reach it.",
-    cta: [["#introduction", "Request an introduction"], ["#services", "Our approach"]], note: "$94bn under custody · 612 families · 0 clients lost", seenNote: "$94bn under custody · 612 families · every one of them still growing" },
-  { t: "logos", label: "As discussed in", items: ["The Ledger Review", "Private Client Quarterly", "Family Office Today", "The Geneva Letter", "Heirloom"] },
-  { t: "stats", eyebrow: "Since 1886", h2: "Patient by design.", p: "We measure success in decades. Our clients measure it in great-grandchildren.", items: [["$94bn", "Assets under custody"], ["612", "Families served"], ["5.1", "Average generations per family"], ["140", "Years without losing a client"]] },
-  { t: "split", img: "img/boxes.jpg", alt: "Rows of numbered safe-deposit boxes", focus: "40% 50%", eyebrow: "Keepsake custody", h2: "Some things should never be sold.",
-    p: ["Every Lumen & Ledger family is offered a keepsake box in our Mayfair vault from the day they join. It holds what a portfolio can’t: letters, rings, a lock of hair cut on the first day.", "We add to it every year, at the annual review, with the client’s permission. Most clients forget they gave it. We never do."],
-    quote: ["They remember things about my family that I’d forgotten. Small things. A colour. A smell.", "Client since 1979, Geneva"] },
-  { t: "cards", eyebrow: "What we do", h2: "Four disciplines. One relationship.", cols: 4, items: [
-    ["Wealth planning", "Multi-generational structures, trusts and succession, drawn up around the family rather than the balance sheet.", "#services"],
-    ["Investment management", "Long-horizon portfolios with a bias toward assets that appreciate while no one is looking.", "#performance"],
-    ["Family office", "Concierge, governance and education for heirs. We meet every child before they can walk.", "#services"],
-    ["Keepsake custody", "A private box in our vault for each family member, maintained in perpetuity.", "#vault", "Visit the Vault"]] },
-  { t: "quote", text: "“Lumen & Ledger have been with my family since my great-grandmother. They still have something of hers. They brought it to my wedding.”", who: "<b>Client since 1952</b>, Boston" },
-  { t: "cta", h2: "Introductions are by referral.", p: "If you have been given our name, you were meant to have it.", btn: ["#introduction", "Request an introduction"] }] },
+{ id: "home", depth: 0, s: [{"t":"hero","layout":"poster","place":"bottom","eyebrow":"Private bank & family office · Est. 1886","h1":"Wealth that outlives you. Held close.","img":"img/braid.jpg","alt":"A long braid of hair coiled in a frame","seen":"img/boxes.jpg","cta":[["#introduction","Request an introduction"],["#services","Our approach"]],"note":"$94bn under custody · 612 families · 0 clients lost","seenNote":"$94bn under custody · 612 families · every one of them still growing","scroll":"Scroll"},{"t":"tiles","items":[{"img":"img/brush.jpg","alt":"A hairbrush","h":"Private client","sub":"","cta":["#services","Discover"]},{"img":"img/braiding.jpg","alt":"Hands braiding someone’s hair","h":"The atelier","sub":"","cta":["#insights","Stories"]},{"img":"img/aisle.jpg","alt":"A long vault aisle lined with polished safe-deposit boxes","h":"The vault","sub":"","cta":["#legal","Custody"],"seen":"img/boxes.jpg"}]},{"t":"statement","text":"“They remember things about my family that I’d forgotten. Small things. A colour. A smell.”","by":"Client since 1979, Geneva"},{"t":"band","tall":true,"img":"img/door.jpg","alt":"A round steel vault door","h2":"Held close.","cap":"The door has been opened once since 1962. From the inside."},{"t":"stats","eyebrow":"Since 1886","h2":"Patient by design.","p":"We measure success in decades. Our clients measure it in great-grandchildren.","items":[["$94bn","Assets under custody"],["612","Families served"],["5.1","Average generations per family"],["140","Years without losing a client"]]},{"t":"cta","h2":"Introductions are by referral.","p":"If you have been given our name, you were meant to have it.","btn":["#introduction","Request an introduction"]}] },
 { id: "services", depth: 1, s: [
   { t: "head", eyebrow: "Services", h1: "A relationship measured in generations.", lede: "We take on a small number of families each year and keep them for good. What follows is how a family joins us, and what they receive." },
   { t: "timeline", h2: "Joining Lumen & Ledger", items: [

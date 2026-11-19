@@ -2,6 +2,7 @@
 Kit.build({
 slug: "tenfold", name: "Tenfold", title: "Socks for every toe", description: "Tenfold is the sock subscription that knits to your exact toes. A fresh pair every month, counted and fitted, toe by toe.",
 skin: "retail",
+header: "minimal",
 theme: { bg: "#FFF6E8", text: "#2B1B3A", muted: "#6E5F7A", accent: "#F2553C", accentInk: "#C93E28", card: "#FFFFFF", stroke: "rgba(43,27,58,.1)", header: "rgba(255,246,232,.9)",
   display: "\"Bricolage Grotesque\",system-ui,sans-serif", body: "\"DM Sans\",system-ui,sans-serif", radius: "28px", weight: 700, voice: "#F7B3A6", chart2: "#7A5CF0", chart3: "#FCE1C8",
   d3: ["#150E1C", "#EDE0EF", "#988AA6", "#F57A65"], d4: ["#0A060E", "#E5D6E8", "#82748F", "#EE6B55"], fonts: "Bricolage+Grotesque:wght@500;700|DM+Sans:wght@400;500;700" },
@@ -11,14 +12,7 @@ cta: ["#subscribe", "Start my socks"],
 tag: "Socks for every toe. Knitted, counted, delivered.",
 fine: ["© 2026 Tenfold Socks Co.", "Knitted in Fall River, MA", "Every toe counted"],
 pages: [
-{ id: "home", depth: 0, s: [
-  { t: "hero", layout: "split", pill: ["#fit", "Toe-by-toe fit, now in every pair", "NEW"], eyebrow: "The sock subscription", h1: "Socks that know every toe.", lede: "Tenfold knits socks to the exact shape of your feet, toe by toe, and sends a fresh pair every month. Every pair is counted before it ships. Ten toes. Always ten. Usually.",
-    cta: [["#subscribe", "Start my socks · $14/mo"], ["#fit", "How the fit works"]], img: "img/socks.jpg", alt: "Colourful socks laid out", focus: "50% 50%", seen: "img/toes.jpg", badge: ["10", "toes counted per pair, on average"], note: "640k members · 7.7m pairs shipped · every toe counted", seenNote: "640k members · 7.7m pairs · 6.5bn toes counted" },
-  { t: "products", h2: "This month’s drop", p: "Three new colourways, knitted to your count.", cols: 3, items: [["img/socks.jpg", "The Daily", "$14/mo", "Merino blend, everyday weight."], ["img/line.jpg", "The Hiker", "$19/mo", "Cushioned sole, reinforced toes."], ["img/machine.jpg", "The Eleven", "$24/mo", "Our first sock with room for one more."]] },
-  { t: "stats", eyebrow: "Fit, by the numbers", h2: "Toe-perfect.", items: [["640k", "Members"], ["7.7m", "Pairs shipped"], ["10.03", "Average toes per member"], ["98%", "Say it’s the best fit ever"]],
-    charts: [{ kind: "line", title: "Average toe count", sub: "per member, by month", data: [10, 10, 10, 10.004, 10.01, 10.02, 10.03, 10.05], labels: ["A", "M", "J", "J", "A", "S", "O", "N"], unit: "", zero: false }, { kind: "donut", title: "Members by toe count", sub: "November", data: [96, 3, 1], labels: ["Ten", "Eleven", "More"], center: "96%" }] },
-  { t: "quote", text: "“They sent socks with an extra toe pocket. I laughed. Then I put them on, and they fit.”", who: "<b>Jess, member since 2024</b>" },
-  { t: "cta", h2: "Your toes deserve better.", p: "First pair free with any subscription.", btn: ["#subscribe", "Start my socks"] }] },
+{ id: "home", depth: 0, s: [{"t":"hero","layout":"mosaic","eyebrow":"The sock subscription","h1":"Socks that know every toe.","lede":"Tenfold knits socks to the exact shape of your feet, toe by toe, and sends a fresh pair every month.","cta":[["#subscribe","Start my socks · $14/mo"],["#fit","How the fit works"]],"note":"640k members · 7.7m pairs shipped · every toe counted","seenNote":"640k members · 7.7m pairs · 6.5bn toes counted","imgs":[["img/socks.jpg","Colourful socks laid out",null],["img/toes.jpg","The Open",null],["img/line.jpg","The Hiker",null],["img/machine.jpg","The Eleven",null]]},{"t":"statement","text":"Every pair is counted before it ships. Ten toes."},{"t":"products","h2":"This month’s drop","p":"Three new colourways, knitted to your count.","cols":3,"items":[["img/socks.jpg","The Daily","$14/mo","Merino blend, everyday weight."],["img/line.jpg","The Hiker","$19/mo","Cushioned sole, reinforced toes."],["img/machine.jpg","The Eleven","$24/mo","Our first sock with room for one more."]]},{"t":"mosaic","wide":true,"style":"strip","items":[["img/machine.jpg","The Eleven","The Eleven"]]},{"t":"cta","h2":"Your toes deserve better.","p":"First pair free with any subscription.","btn":["#subscribe","Start my socks"]}] },
 { id: "shop", depth: 1, s: [
   { t: "head", eyebrow: "Shop", h1: "Every pair, made for your toes.", lede: "All socks are knitted to your count. Choose a style; we handle the toes." },
   { t: "products", cols: 4, items: [["img/socks.jpg", "The Daily", "$14", "Merino blend."], ["img/line.jpg", "The Hiker", "$19", "Cushioned."], ["img/machine.jpg", "The Eleven", "$24", "One extra toe pocket."], ["img/toes.jpg", "The Open", "$24", "Toe socks. Count included."]] }] },
