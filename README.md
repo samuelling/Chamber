@@ -37,4 +37,4 @@ Every member has a Network switch (footer link, or the chip that appears when so
 
 ## This is satire
 
-Every business here is fictional. Nothing is a real offer, the forms send nothing, and nobody is in residence. Stock photos are from Unsplash under the Unsplash License.
+Every business here is fictional. Nothing is a real offer, the forms send nothing, and nobody is in residence. Shared stock photos in engine/img are from Unsplash under the Unsplash License. Each member's own photos (300 in all) are from Wikimedia Commons under CC0, public domain, CC BY or CC BY-SA; every one is credited by author and licence on that member's Legal page and in its credits.json. Photos were chosen to avoid identifiable people.
