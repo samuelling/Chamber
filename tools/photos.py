@@ -19,14 +19,14 @@ BAD = re.compile(r"drawing|painting|illustration|anime|fantasy|cartoon|poster|nu
 import time
 def get(url, binary=False):
     for attempt in range(5):
-        time.sleep(1.2)   # be polite: Commons rate-limits bursts
+        time.sleep(2.1)   # be polite: Commons allows about one request every two seconds
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=40) as r: data = r.read()
             return data if binary else json.loads(data)
         except urllib.error.HTTPError as e:
             if e.code != 429 or attempt == 4: raise
-            time.sleep(8 * (attempt + 1))
+            time.sleep(4 + 3 * attempt)
 
 def search(q, n=12):
     want = [w.rstrip("s") for w in re.sub(r"incategory:\S+", "", q).lower().split() if len(w) > 3]
@@ -64,7 +64,7 @@ def fetch(slug, queries):
             except Exception as e: print("search failed", attempt, e); got = []
             got = [g for k, g in enumerate(got) if g["title"] not in seen and g["title"] not in [x["title"] for x in got[:k]]]
             if len(got) >= 3: break
-        for g in got[:5]:
+        for g in got[:4]:
             if len(meta) >= 20: break
             try: im = to_srgb(Image.open(io.BytesIO(get(g["thumb"].replace("/1280px-", "/330px-"), True))))
             except Exception as e: print("skip", g["title"], e); continue

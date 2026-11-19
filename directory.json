@@ -41,7 +41,7 @@
   "name": "Northgate Freight",
   "front": "Global logistics",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "northgate/"
  },
  {
@@ -50,7 +50,7 @@
   "name": "Ossian Life",
   "front": "Life insurance",
   "wave": 1,
-  "live": false,
+  "live": true,
   "path": "ossian/"
  },
  {

@@ -1,0 +1,60 @@
+{
+ "slug": "northgate",
+ "name": "Northgate Freight",
+ "word": "door",
+ "icon": "M0.230 -0.480L0.238 -0.479L0.245 -0.476L0.251 -0.472L0.255 -0.466L0.258 -0.459L0.259 -0.451L0.259 0.451L0.258 0.459L0.255 0.466L0.251 0.472L0.245 0.476L0.238 0.479L0.230 0.480L-0.230 0.480L-0.238 0.479L-0.245 0.476L-0.251 0.472L-0.255 0.466L-0.258 0.459L-0.259 0.451L-0.259 -0.451L-0.258 -0.459L-0.255 -0.466L-0.251 -0.472L-0.245 -0.476L-0.238 -0.479L-0.230 -0.480ZM0.197 0.038L0.196 0.044L0.195 0.049L0.193 0.054L0.190 0.058L0.187 0.062L0.183 0.066L0.178 0.068L0.174 0.070L0.168 0.072L0.163 0.072L0.158 0.072L0.153 0.070L0.148 0.068L0.143 0.066L0.139 0.062L0.136 0.058L0.133 0.054L0.131 0.049L0.130 0.044L0.130 0.038L0.130 0.033L0.131 0.028L0.133 0.023L0.136 0.019L0.139 0.015L0.143 0.011L0.148 0.008L0.153 0.006L0.158 0.005L0.163 0.005L0.168 0.005L0.174 0.006L0.178 0.008L0.183 0.011L0.187 0.015L0.190 0.019L0.193 0.023L0.195 0.028L0.196 0.033Z",
+ "palette": {
+  "accent": "#E8641B",
+  "bg": "#0E131C",
+  "ink": "#E8D8C4"
+ },
+ "words": [
+  "door",
+  "hinge",
+  "handle",
+  "threshold",
+  "latch",
+  "keyhole",
+  "knock",
+  "frame",
+  "doorway",
+  "lock"
+ ],
+ "lines": [
+  "Origin to door. Every time.",
+  "Every container includes one door.",
+  "Please don’t open it at the dock.",
+  "Sealed at origin. Never opened.",
+  "Knocking: 412 containers.",
+  "The door is warm.",
+  "It isn’t locked.",
+  "Total doors opened: 1.",
+  "Something is breathing behind it.",
+  "We left it open."
+ ],
+ "captions": [
+  "Door 41,208",
+  "Gate 9",
+  "Stack 14, row C",
+  "Unpacked at Rotterdam. Warm.",
+  "Berth 9, ajar"
+ ],
+ "images": [
+  "img/door-hands.jpg",
+  "img/door-wood.jpg",
+  "img/door-studs.jpg",
+  "img/door-blue.jpg",
+  "img/cranes.jpg",
+  "img/port.jpg"
+ ],
+ "who": {
+  "name": "Danny",
+  "lines": [
+   "I came through a door. was it yours?",
+   "it’s warm here too. are all the doors warm?",
+   "I can hear cranes. is this a port?",
+   "there’s a corridor behind every page.",
+   "leave it open behind you."
+  ]
+ }
+}

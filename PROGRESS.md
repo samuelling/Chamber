@@ -12,3 +12,7 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 2 | Kestrel Capital | custom site.js | egg | live |
 | 3 | Lumen & Ledger | luxury | braid | live |
 | 4 | Driftwell Cloud | tech | pill | live |
+| 5 | Northgate Freight | dashboard | door | live |
+| 6 | Ossian Life | saas | clock | live |
+| 7 | Kinfolk Ancestry | retail | fingerprint | spec written, needs photos (print, print2, gel, album, lab, swab, tubes) |
+| 8 | Fernhill Realty | editorial | plan | spec written, needs photos (living, hall, stairs, empty, attic) |

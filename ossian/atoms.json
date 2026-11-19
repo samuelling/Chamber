@@ -1,0 +1,60 @@
+{
+ "slug": "ossian",
+ "name": "Ossian Life",
+ "word": "time",
+ "icon": "M0.419 0.061L0.415 0.116L0.405 0.170L0.387 0.221L0.363 0.271L0.332 0.316L0.296 0.357L0.255 0.393L0.209 0.424L0.160 0.448L0.108 0.466L0.055 0.476L0.000 0.480L-0.055 0.476L-0.108 0.466L-0.160 0.448L-0.209 0.424L-0.255 0.393L-0.296 0.357L-0.332 0.316L-0.363 0.271L-0.387 0.221L-0.405 0.170L-0.415 0.116L-0.419 0.061L-0.415 0.006L-0.405 -0.047L-0.387 -0.099L-0.363 -0.148L-0.332 -0.194L-0.296 -0.235L-0.255 -0.271L-0.209 -0.302L-0.160 -0.326L-0.108 -0.344L-0.055 -0.354L-0.000 -0.358L0.055 -0.354L0.108 -0.344L0.160 -0.326L0.209 -0.302L0.255 -0.271L0.296 -0.235L0.332 -0.194L0.363 -0.148L0.387 -0.099L0.405 -0.047L0.415 0.006ZM0.026 -0.480L0.031 -0.479L0.035 -0.478L0.039 -0.475L0.041 -0.471L0.043 -0.467L0.044 -0.463L0.044 -0.358L0.043 -0.353L0.041 -0.349L0.039 -0.345L0.035 -0.343L0.031 -0.341L0.026 -0.340L-0.026 -0.340L-0.031 -0.341L-0.035 -0.343L-0.039 -0.345L-0.041 -0.349L-0.043 -0.353L-0.044 -0.358L-0.044 -0.463L-0.043 -0.467L-0.041 -0.471L-0.039 -0.475L-0.035 -0.478L-0.031 -0.479L-0.026 -0.480Z",
+ "palette": {
+  "accent": "#6C4CF0",
+  "bg": "#100D1E",
+  "ink": "#F3EFE4"
+ },
+ "words": [
+  "minute",
+  "time",
+  "clock",
+  "hour",
+  "second",
+  "tick",
+  "end",
+  "hourglass",
+  "moment",
+  "deadline"
+ ],
+ "lines": [
+  "Life insurance that pays you back. Now.",
+  "We take them from the end.",
+  "You won’t be there to miss it.",
+  "Minutes cannot be returned once taken.",
+  "The clock on the wall has no hands.",
+  "Clocks seem to run faster.",
+  "Held in the Reserve.",
+  "It’s nearer than you think.",
+  "Don’t sell any more.",
+  "Claim filed early."
+ ],
+ "captions": [
+  "Corridor 4-A",
+  "Seat 41",
+  "Level 2 holdings",
+  "The main movement",
+  "Stopped in 1902"
+ ],
+ "images": [
+  "img/corridor.jpg",
+  "img/gears.jpg",
+  "img/hourglass.jpg",
+  "img/watch-moss.jpg",
+  "img/hourglasses.jpg",
+  "img/watch-door.jpg"
+ ],
+ "who": {
+  "name": "Dana",
+  "lines": [
+   "what time is it here?",
+   "I sold my last minutes and came out in this page.",
+   "the clocks here are slower. thank you.",
+   "is this the chair by the window?",
+   "don’t sell any more. please."
+  ]
+ }
+}
