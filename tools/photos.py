@@ -14,7 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAND = "/home/claude/build/cand"
 UA = {"User-Agent": "ChamberSatireSites/1.0 (https://github.com/samuelling/Chamber; satire art project)"}
 OK_LIC = re.compile(r"^(CC0|Public domain|PD|CC BY(-SA)? ?\d(\.\d)?|CC BY(-SA)?)", re.I)
-BAD = re.compile(r"drawing|painting|illustration|anime|fantasy|cartoon|poster|nude|naked|nsfw|sex|penis|vagina|genital|erotic|porn|breast|nipple|corpse|dead body|autopsy|cadaver|gore|wound|injur|lynch|execution|holocaust|nazi|swastika|child|kid|baby|infant|boy|girl|portrait of|selfie", re.I)
+BAD = re.compile(r"bdsm|fetish|bondage|slave|lingerie|drawing|painting|illustration|anime|fantasy|cartoon|poster|nude|naked|nsfw|sex|penis|vagina|genital|erotic|porn|breast|nipple|corpse|dead body|autopsy|cadaver|gore|wound|injur|lynch|execution|holocaust|nazi|swastika|child|kid|baby|infant|boy|girl|portrait of|selfie", re.I)
 
 import time
 def get(url, binary=False):

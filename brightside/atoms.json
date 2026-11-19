@@ -1,0 +1,58 @@
+{
+ "slug": "brightside",
+ "name": "Bright Side Events",
+ "word": "smile",
+ "icon": "M0.480 -0.134L0.473 -0.111L0.463 -0.087L0.451 -0.064L0.437 -0.041L0.421 -0.019L0.402 0.003L0.382 0.023L0.360 0.043L0.336 0.062L0.311 0.079L0.284 0.095L0.256 0.110L0.227 0.123L0.196 0.134L0.165 0.144L0.133 0.152L0.100 0.159L0.067 0.163L0.034 0.166L-0.000 0.167L-0.034 0.166L-0.067 0.163L-0.100 0.159L-0.133 0.152L-0.165 0.144L-0.196 0.134L-0.227 0.123L-0.256 0.110L-0.284 0.095L-0.311 0.079L-0.336 0.062L-0.360 0.043L-0.382 0.023L-0.402 0.003L-0.421 -0.019L-0.437 -0.041L-0.451 -0.064L-0.463 -0.087L-0.473 -0.111L-0.480 -0.134L-0.426 -0.167L-0.410 -0.155L-0.394 -0.145L-0.376 -0.135L-0.358 -0.126L-0.340 -0.118L-0.320 -0.111L-0.300 -0.105L-0.279 -0.099L-0.258 -0.093L-0.237 -0.088L-0.214 -0.084L-0.192 -0.080L-0.169 -0.077L-0.145 -0.074L-0.122 -0.072L-0.098 -0.070L-0.073 -0.068L-0.049 -0.067L-0.024 -0.066L0.000 -0.066L0.025 -0.066L0.049 -0.067L0.073 -0.068L0.098 -0.070L0.122 -0.072L0.145 -0.074L0.169 -0.077L0.192 -0.080L0.214 -0.084L0.237 -0.088L0.258 -0.093L0.280 -0.099L0.300 -0.105L0.320 -0.111L0.340 -0.118L0.358 -0.126L0.376 -0.135L0.394 -0.145L0.410 -0.155L0.426 -0.167Z",
+ "palette": {
+  "accent": "#F5A300",
+  "bg": "#150F06",
+  "ink": "#F7E9D0"
+ },
+ "words": [
+  "smile",
+  "grin",
+  "clown",
+  "balloon",
+  "laugh",
+  "cheese",
+  "greasepaint",
+  "party",
+  "offsite",
+  "applause"
+ ],
+ "lines": [
+  "Leave them smiling.",
+  "An entertainer at every event.",
+  "He’s in every photo.",
+  "A little further back each time.",
+  "A little closer each time.",
+  "His balloons don’t deflate.",
+  "Everybody smile!",
+  "One more!",
+  "He comes anyway.",
+  "Keep smiling."
+ ],
+ "captions": [
+  "Back row, left",
+  "Row 40, seat 12",
+  "Eighty-one place cards",
+  "One of his balloons",
+  "Rising"
+ ],
+ "images": [
+  "img/clown.jpg",
+  "img/balloon.jpg",
+  "img/hall.jpg",
+  "img/venue.jpg"
+ ],
+ "who": {
+  "name": "Client",
+  "lines": [
+   "is he here too? look behind you.",
+   "I came through a group photo.",
+   "my face hurts. does yours?",
+   "say cheese. no, don’t.",
+   "he was closer just now."
+  ]
+ }
+}

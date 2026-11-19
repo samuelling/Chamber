@@ -29,3 +29,4 @@ Shared stock is described in `engine/img/README.md` (exec-1..6 are mouths, not p
 | 19 | Lark Labs | brutal (lime) | droplet | live |
 | 20 | Hollow & Hart | warm | orb (glass eye) | live |
 | 21 | Halden Steel | tech (steel) | blade | live |
+| 22 | Bright Side Events | saas (yellow) | smile | live |

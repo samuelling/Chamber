@@ -193,7 +193,7 @@
   "name": "Bright Side Events",
   "front": "Corporate events and team building",
   "wave": 2,
-  "live": false,
+  "live": true,
   "path": "brightside/",
   "n": 22
  },
