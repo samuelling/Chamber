@@ -232,7 +232,17 @@ document.getElementById("lfo-go").addEventListener("click", function(){
 });
 /* rooms */
 var hb = document.getElementById("hands");
-if (hands && hands.relay) hb.appendChild(hands.panel());
+if (hands && hands.relay){
+  hb.appendChild(hands.panel());
+  /* members opened from here join the same room */
+  hands.on("status", function(st){ try { if (st === "on" && hands.room) sessionStorage.setItem("ih-room", hands.room); if (st === "off" && !hands.room) sessionStorage.removeItem("ih-room"); } catch (e) {} });
+  try { var keep = sessionStorage.getItem("ih-room"); if (keep && hands.status !== "on" && !hands.room) hands.join(keep); } catch (e) {}
+  document.addEventListener("click", function(e){
+    var a = e.target.closest && e.target.closest("a[href]"); if (!a || !hands.room) return;
+    var h = a.getAttribute("href"); if (/^(https?:|#|mailto:)/.test(h)) return;
+    try { var u = new URL(h, location.href); u.searchParams.set("room", hands.room); a.href = u.pathname + u.search + u.hash; } catch (err) {}
+  }, true);
+}
 else hb.innerHTML = "<p class='muted'>No relay is configured yet, so internet rooms are closed. The console still drives members open in this browser.</p>";
 })();
 </script>

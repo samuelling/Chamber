@@ -53,3 +53,28 @@ Members' front pages come in six families, each modelled on a kind of real corpo
 | Classic SaaS | every B2B startup | Ossian, Saltmarsh, Driftwell |
 
 Headers vary too (`header: "overlay" | "center" | "minimal"`). `node tools/rehome.js <slug>` rebuilds a home page from its family config; run it on the spec as committed before the rehome, not twice.
+
+## Driving the Chamber from mega-cv (Invisible Hands)
+
+Every member site, the front door and MouthBreeder speak Invisible Hands protocol 1 (see samuelling/InvisibleHands, SPEC.md) through the relay at `wss://invisible-hands.samuelling.workers.dev`.
+
+**Getting sites into a room.** Open any member with `?room=<code>` (e.g. `…/Chamber/vessel/?room=moss-kiln-opal-fern-42`), or use the Network chip → Rooms → Start. Once a tab is in a room it stays in it as you move from member to member; members opened from the front door join its room too.
+
+**What each site exposes** (app slug `chamber-<slug>`, name = the company name). All values 0–1:
+
+| Control | Kind | What it does |
+|---|---|---|
+| `source` | cont | Which member bleeds in: the 50 members in directory order, (index + 0.5) / 50 |
+| `bleed` | cont | How much of the source's words, captions and photos leak into this page |
+| `motif` | cont | Above 0.5, the source's motif takes over this site's dive and patterns |
+| `rot` | cont | Images decay toward their hidden "seen" versions |
+| `palette` | cont | Shifts the page toward the source's colours |
+| `depth` | cont | Pulls the page toward its dark levels (0–4) |
+| `pulse` | trig | Fires a flinch through the page on each rising edge |
+| `visitor` | toggle | Lets a figure from the source show up in the page |
+
+Outputs, published as `state`: `depth` (how deep the reader is), `dwell` (time on the page, 2 min = 1), `dive` (scroll speed in the dive), `flinch` (scrolling back up in a hurry), `count` (the live counter).
+
+**Sending.** All members share the same control ids, so one message with no `to` moves every open site at once; `to: "app:chamber-vessel"` moves only Vessel. Use `mod`/`set` at 20–30 Hz for LFOs and a `ramp` for envelopes. Each connection may send about 120 messages a second, so broadcast where you can rather than looping over sites.
+
+**Limits worth knowing.** 16 connections per room, counting mega-cv, the front door, and every open site tab. Sites go back to their own slow LFOs 20 s after the last remote message, and anyone can switch remote control off from the Network chip.

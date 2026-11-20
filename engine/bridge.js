@@ -194,8 +194,9 @@ setInterval(function(){
 /* ---------- linked: an Invisible Hands room ---------- */
 var hands = null;
 if (window.InvisibleHands){
+  var LABEL = { source: "Source site (which member bleeds in)", bleed: "Bleed (how much leaks in)", motif: "Motif swap", rot: "Rot (images decay)", palette: "Palette shift", depth: "Depth (pull toward the dark)", pulse: "Pulse (trigger)", visitor: "Visitor (toggle)" };
   var params = Object.keys(P).map(function(k){
-    return { id: k, label: k, kind: k === "pulse" ? "trig" : k === "visitor" ? "toggle" : "cont", get: function(){ return P[k]; }, set: function(v){ setP(k, v, true); } };
+    return { id: k, label: LABEL[k] || k, kind: k === "pulse" ? "trig" : k === "visitor" ? "toggle" : "cont", get: function(){ return P[k]; }, set: function(v){ setP(k, v, true); } };
   });
   hands = window.InvisibleHands.create({
     app: "chamber-" + ME, name: S.name, params: params,
@@ -203,6 +204,9 @@ if (window.InvisibleHands){
     allow: allow
   });
   hands.on("status", drawPanel); hands.on("peers", drawPanel);
+  /* a room follows you from member to member in this tab, until you leave it */
+  hands.on("status", function(st){ try { if (st === "on" && hands.room) sessionStorage.setItem("ih-room", hands.room); if (st === "off" && !hands.room) sessionStorage.removeItem("ih-room"); } catch (e) {} });
+  setTimeout(function(){ try { var keep = sessionStorage.getItem("ih-room"); if (keep && !hands.room && hands.status !== "on" && allow) hands.join(keep); } catch (e) {} }, 0);
 }
 
 /* ---------- the chip, the panel and the switch ---------- */
