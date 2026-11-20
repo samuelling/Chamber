@@ -64,14 +64,14 @@ Every member site, the front door and MouthBreeder speak Invisible Hands protoco
 
 | Control | Kind | What it does |
 |---|---|---|
-| `source` | cont | Which member bleeds in: the 50 members in directory order, (index + 0.5) / 50 |
-| `bleed` | cont | How much of the source's words, captions and photos leak into this page |
-| `motif` | cont | Above 0.5, the source's motif takes over this site's dive and patterns |
-| `rot` | cont | Images decay toward their hidden "seen" versions |
-| `palette` | cont | Shifts the page toward the source's colours |
-| `depth` | cont | Pulls the page toward its dark levels (0–4) |
-| `pulse` | trig | Fires a flinch through the page on each rising edge |
-| `visitor` | toggle | Lets a figure from the source show up in the page |
+| `source` | cont | Which member bleeds in: the 50 members in directory order, (index + 0.5) / 50 (a site never picks itself; it takes the nearest neighbour) |
+| `bleed` | cont | How much of the source leaks in: words from 0, whole sentences from 0.2, photographs from 0.35 |
+| `motif` | toggle-ish | Above 0.5, the source's motif replaces this site's shapes in the dive and the hidden specks |
+| `rot` | cont | Words all over the page quietly turn into the source's words (up to ~40, rising with the square) |
+| `palette` | cont | Washes the page in the source's colours |
+| `depth` | cont | Forces the page toward its dark levels (0 = surface, 1 = deepest) |
+| `pulse` | trig | Each rising edge flashes a source photograph and line across the page for a split second |
+| `visitor` | toggle | The source's trapped character starts whispering lines into the page |
 
 Outputs, published as `state`: `depth` (how deep the reader is), `dwell` (time on the page, 2 min = 1), `dive` (scroll speed in the dive), `flinch` (scrolling back up in a hurry), `count` (the live counter).
 

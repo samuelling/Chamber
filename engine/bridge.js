@@ -194,7 +194,7 @@ setInterval(function(){
 /* ---------- linked: an Invisible Hands room ---------- */
 var hands = null;
 if (window.InvisibleHands){
-  var LABEL = { source: "Source site (which member bleeds in)", bleed: "Bleed (how much leaks in)", motif: "Motif swap", rot: "Rot (images decay)", palette: "Palette shift", depth: "Depth (pull toward the dark)", pulse: "Pulse (trigger)", visitor: "Visitor (toggle)" };
+  var LABEL = { source: "Source site (which member bleeds in)", bleed: "Bleed (how much leaks in)", motif: "Motif swap", rot: "Rot (words turn)", palette: "Palette shift", depth: "Depth (force the dark)", pulse: "Pulse (flash, trigger)", visitor: "Visitor (whispers, toggle)" };
   var params = Object.keys(P).map(function(k){
     return { id: k, label: LABEL[k] || k, kind: k === "pulse" ? "trig" : k === "visitor" ? "toggle" : "cont", get: function(){ return P[k]; }, set: function(v){ setP(k, v, true); } };
   });
