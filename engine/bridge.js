@@ -193,6 +193,7 @@ setInterval(function(){
 
 /* ---------- linked: an Invisible Hands room ---------- */
 var hands = null;
+var tagOf = {}, chipMark = null;
 if (window.InvisibleHands){
   var LABEL = { source: "Source site (which member bleeds in)", bleed: "Bleed (how much leaks in)", motif: "Motif swap", rot: "Rot (words turn)", palette: "Palette shift", depth: "Depth (force the dark)", pulse: "Pulse (flash, trigger)", visitor: "Visitor (whispers, toggle)" };
   var params = Object.keys(P).map(function(k){
@@ -204,6 +205,9 @@ if (window.InvisibleHands){
     allow: allow
   });
   hands.on("status", drawPanel); hands.on("peers", drawPanel);
+  /* the mark: beside every control the room can move, and on the chip (its pointer follows bleed) */
+  Object.keys(P).forEach(function(k){ tagOf[k] = hands.tag(k, { title: "Others can move " + (LABEL[k] || k).split(" (")[0].toLowerCase() + ", over Invisible Hands" }); });
+  chipMark = hands.tag("bleed", { title: "Others can move this page, over Invisible Hands" });
   /* a room follows you from member to member in this tab, until you leave it */
   hands.on("status", function(st){ try { if (st === "on" && hands.room) sessionStorage.setItem("ih-room", hands.room); if (st === "off" && !hands.room) sessionStorage.removeItem("ih-room"); } catch (e) {} });
   setTimeout(function(){ try { var keep = sessionStorage.getItem("ih-room"); if (keep && !hands.room && hands.status !== "on" && allow) hands.join(keep); } catch (e) {} }, 0);
@@ -223,16 +227,24 @@ function drawPanel(force){
   var moving = allow && (P.bleed > 0.01 || P.rot > 0.01 || P.depth > 0.01 || P.visitor > 0.5 || P.motif > 0.5);
   chip.hidden = !(linked || local || moving || !allow || panel.classList.contains("on"));
   chip.setAttribute("data-live", linked || moving ? "1" : "0");
-  chip.textContent = !allow ? "Network off" : linked ? "Linked · " + hands.room : local ? "Network · " + Object.keys(tabs).length + " nearby" : "Network";
+  chip.textContent = "";
+  if (chipMark){ chip.classList.add("has-mark"); chip.appendChild(chipMark); }
+  chip.appendChild(document.createTextNode(!allow ? "Network off" : linked ? "Linked · " + hands.room : local ? "Network · " + Object.keys(tabs).length + " nearby" : "Network"));
   if (!panel.classList.contains("on") && force !== true) return;
   var src = sourceSlug(P.source), e = src && entry(src);
-  var bars = ["bleed", "rot", "motif", "palette", "depth"].map(function(k){ return "<div class='row'><span>" + k + "</span><span class='bar'><i style='width:" + Math.round(P[k] * 100) + "%'></i></span></div>"; }).join("");
+  var NAME = { source: "Source", bleed: "Bleed", rot: "Rot", motif: "Motif", palette: "Palette", depth: "Depth", pulse: "Pulse", visitor: "Visitor" };
+  var bars = ["source", "bleed", "rot", "motif", "palette", "depth", "pulse", "visitor"].map(function(k){
+    var val = k === "source" ? "<span class='mono'>" + (e ? esc(e.name) : "—") + "</span>"
+      : k === "pulse" || k === "visitor" ? "<span class='mono'>" + (P[k] > 0.5 ? "on" : "off") + "</span>"
+      : "<span class='bar'><i style='width:" + Math.round(P[k] * 100) + "%'></i></span>";
+    return "<div class='row'><span class='ctl' data-k='" + k + "'>" + NAME[k] + "</span>" + val + "</div>"; }).join("");
   panel.innerHTML = "<h4>The Chamber network</h4>" +
     "<p style='margin:0 0 10px'>" + esc(S.name) + " is a member of the <a href='" + ROOT + "'>Chamber</a>. Other members can lean on this page while it is open. Only numbers travel between sites.</p>" +
     "<div class='row'><span>Remote control</span><button class='btn btn-sm " + (allow ? "btn-primary" : "btn-ghost") + "' id='net-allow'>" + (allow ? "On, tap to stop" : "Off, tap to allow") + "</button></div>" +
     "<div class='row'><span>Leaning in</span><span class='mono'>" + (e && allow && (P.bleed > 0.01 || P.rot > 0.01) ? esc(e.name) : "nobody") + "</span></div>" + bars +
     "<div class='row'><span>Open nearby</span><span class='mono'>" + (Object.keys(tabs).map(function(s){ return esc(tabs[s].name || s); }).join(", ") || "none") + "</span></div>" +
     "<h4 style='margin-top:14px'>Rooms</h4><div id='net-hands'></div>";
+  $$(".ctl", panel).forEach(function(el){ var t = tagOf[el.getAttribute("data-k")]; if (t) el.appendChild(t); });
   $("#net-allow", panel).addEventListener("click", function(){
     allow = !allow; try { localStorage.setItem(KEY, allow ? "on" : "off"); } catch (er) {}
     if (hands) hands.allow = allow;
